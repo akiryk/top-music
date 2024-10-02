@@ -11,15 +11,18 @@
     "scrape": "tsx src/libs/music-scraper/scraper.ts"
   },
   "dependencies": {
+    "he": "^1.2.0",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
     "sanitize-html": "^2.13.0"
   },
   "devDependencies": {
+    "@types/he": "^1.2.3",
     "@types/node": "^20.16.10",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/sanitize-html": "^2.13.0",
     "axios": "1.7.7",
     "cheerio": "^1.0.0",
     "eslint": "^8",

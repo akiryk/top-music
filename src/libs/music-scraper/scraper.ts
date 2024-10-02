@@ -3,12 +3,13 @@ import * as cheerio from "cheerio";
 import sanitizeHtml from "sanitize-html";
 import path from "path";
 import fs from "fs";
+import he from "he";
 
 const NEW_MUSIC_FILENAME = "new-music";
 
 type Album = {
   artist: string;
-  album: string;
+  title: string;
 };
 
 type AlbumList = Album[];
@@ -66,15 +67,14 @@ async function scrapeAlbumDetails(url: string): Promise<AlbumList> {
         );
 
         return {
-          artist: safeArtistName,
-          album: safeAlbumTitle,
+          artist: he.decode(safeArtistName),
+          title: he.decode(safeAlbumTitle),
         };
       });
 
     if (!Array.isArray(cleanAlbums)) {
       return [];
     }
-    console.log(cleanAlbums);
     return cleanAlbums;
   } catch (error) {
     console.error("Error scraping NPR Music:", error);
@@ -88,15 +88,11 @@ async function scrapeMainPage() {
       "https://www.npr.org/sections/allsongs/606254804/new-music-friday";
     const { data } = await axios.get(mainPageUrl);
     const $ = cheerio.load(data);
-    let i;
     const links: string[] = [];
     $("h2.title").each((i, element) => {
       const titleText = $(element).text().trim(); // Get the title text
       const link = $(element).find("a").attr("href"); // Find the link within the h2
 
-      // titles.push(titleText); // Store the title for logging
-
-      // Log the title and the link (if available)
       if (link) {
         links.push(link);
       } else {
@@ -111,8 +107,6 @@ async function scrapeMainPage() {
       const albumDetails = await scrapeAlbumDetails(link);
       allAlbums.push(...albumDetails); // Collect all albums
     }
-
-    console.log(allAlbums);
 
     const assetsPath = process.env.ASSETS_PATH || "src/assets";
     const savePath = path.join(
