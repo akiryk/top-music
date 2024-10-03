@@ -4,6 +4,15 @@
   flex-wrap: wrap;
 }
 
+.albumWrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.sampleWrapper {
+  width: 300px;
+}
+
 .details {
   display: flex;
   width: 100%;

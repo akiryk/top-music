@@ -9,16 +9,19 @@
     "start": "next start",
     "lint": "next lint",
     "scrape": "tsx src/libs/music-scraper/scraper.ts",
-    "seed": "tsx src/libs/music-scraper/seed-database.ts"
+    "seed": "tsx src/libs/music-scraper/seed-database.ts",
+    "spotify": "tsx src/libs/spotify/getPreviewURL.ts"
   },
   "dependencies": {
+    "@types/spotify-web-api-node": "^5.0.11",
     "@vercel/postgres": "^0.10.0",
     "dotenv": "^16.4.5",
     "he": "^1.2.0",
     "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
-    "sanitize-html": "^2.13.0"
+    "sanitize-html": "^2.13.0",
+    "spotify-web-api-node": "^5.0.2"
   },
   "devDependencies": {
     "@types/he": "^1.2.3",
