@@ -8,9 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "tsx src/libs/music-scraper/scraper.ts"
+    "scrape": "tsx src/libs/music-scraper/scraper.ts",
+    "seed": "tsx src/libs/music-scraper/seed-database.ts"
   },
   "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^16.4.5",
     "he": "^1.2.0",
     "next": "14.2.13",
     "react": "^18",
