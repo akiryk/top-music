@@ -1,4 +1,10 @@
-import { createAlbum } from "@/db/index";
+import {
+  createAlbum,
+  createImage,
+  createTrack,
+  createListing,
+  associateAlbumWithListing,
+} from "@/db/index"; // Import necessary DB functions
 import fs from "fs";
 import { fileURLToPath } from "url";
 import path from "path";
@@ -20,9 +26,33 @@ async function seedDatabase() {
 
     // insert each album into the db
     for (const album of albums) {
-      const { artist, title } = album;
-      const albumId = await createAlbum(artist, title);
-      console.log(`Inserted album ${title} by ${artist}, ID: ${albumId}`);
+      const { artist, albumTitle, postDate, url, image, releaseDate, tracks } =
+        album;
+
+      // 1. Insert image
+      const imageId = await createImage(image.url);
+      console.log(`Inserted image, ID: ${imageId}`);
+
+      // 2. Insert album with imageId
+      const albumId = await createAlbum(
+        artist,
+        albumTitle,
+        releaseDate,
+        imageId
+      );
+      console.log(`Inserted album ${albumTitle} by ${artist}, ID: ${albumId}`);
+
+      // 3. Insert listing (blog post) and associate album with listing
+      const listingId = await createListing(postDate, url);
+      await associateAlbumWithListing(listingId, albumId);
+      console.log(`Inserted listing for album ${albumTitle}, ID: ${listingId}`);
+
+      // 4. Insert tracks for the album
+      for (const track of tracks) {
+        const { name, preview_url } = track;
+        const trackId = await createTrack(name, preview_url, albumId);
+        console.log(`Inserted track ${name}, ID: ${trackId}`);
+      }
     }
     console.log("Database seeding complete!");
   } catch (error) {

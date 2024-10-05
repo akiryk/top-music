@@ -1,0 +1,54 @@
+.topAlbumLayout {
+  max-width: 650px;
+}
+
+.albumDetails {
+  font-size: 1rem;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 750px) {
+  .albumWrapper {
+    display: flex;
+    gap: 2rem;
+  }
+  .albumDetails {
+    /* display: flex; */
+    width: 33.33%;
+    font-size: 1rem;
+  }
+}
+
+.sampleWrapper {
+  width: 100%;
+}
+
+.trackDetails {
+  margin: 1rem 0;
+}
+
+.tracksWrapper {
+  width: 66.66%;
+}
+
+.trackList {
+  list-style: none;
+}
+
+.trackItem {
+  margin: 1rem 0;
+}
+
+.artistName,
+.albumName {
+  margin: 1rem 0 0;
+}
+
+.albumName {
+  margin-top: 0;
+  color: #888;
+}
+
+.link {
+  color: rgb(0, 89, 184);
+}

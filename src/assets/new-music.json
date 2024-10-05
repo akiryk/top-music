@@ -1,286 +1,4808 @@
 [
   {
+    "artist": "The Smile",
+    "albumTitle": "Cutouts",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2736613d3127feee7ee948412f9",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "1wOiuWSlK5pQdpQP8VgH6F",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1wOiuWSlK5pQdpQP8VgH6F",
+    "tracks": [
+      {
+        "name": "Foreign Spies",
+        "preview_url": "https://p.scdn.co/mp3-preview/0b6db942404097d90aa9aa6b2e3605f24e0438ea?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Instant Psalm",
+        "preview_url": "https://p.scdn.co/mp3-preview/626fc55ff5fca788faa840f27635f3a063bc7e4c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Zero Sum",
+        "preview_url": "https://p.scdn.co/mp3-preview/33386ca1d88a13c1c1e2f96118e4372d78a721e0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Colours Fly",
+        "preview_url": "https://p.scdn.co/mp3-preview/da4cdd86b1dd7a0729bdeec9aa22f5f97864142c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Eyes & Mouth",
+        "preview_url": "https://p.scdn.co/mp3-preview/e3e360c4207b74fae5090ef12ea94415585e80d7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Don't Get Me Started",
+        "preview_url": "https://p.scdn.co/mp3-preview/26f3b938b97f64a32cdcfa6c8e1d1658c58c3703?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tiptoe",
+        "preview_url": "https://p.scdn.co/mp3-preview/ab87f55263ba9017a0df19338d99160ce703cfa7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Slip",
+        "preview_url": "https://p.scdn.co/mp3-preview/68aa28a1967f9f22ceaa8aebbf683a75ffd3891f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "No Words",
+        "preview_url": "https://p.scdn.co/mp3-preview/d169e78ce92442c44dd5ae636548bf9cd34df4a6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bodies Laughing",
+        "preview_url": "https://p.scdn.co/mp3-preview/59f94ee341f8884462ceed0dd0afb299ed795521?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
+    "artist": "Blood Incantation",
+    "albumTitle": "Absolute Elsewhere",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273bcc52d700126fc4ec9c3c073",
+      "width": 640
+    },
+    "totalTracks": 6,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "7hriIeLMviZKpNfcXgpsd8",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7hriIeLMviZKpNfcXgpsd8",
+    "tracks": [
+      {
+        "name": "The Stargate [Tablet I]",
+        "preview_url": "https://p.scdn.co/mp3-preview/6ebe3aa18df7b0bcfd8e439f97ed525f79c23401?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Stargate [Tablet II]",
+        "preview_url": "https://p.scdn.co/mp3-preview/7016bea6f7a0961bc04fab3686483acc730556dc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Stargate [Tablet III]",
+        "preview_url": "https://p.scdn.co/mp3-preview/027aff7d72fa6b39b846a9ef9542923a84d429fb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Message [Tablet I]",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ba90db0f017b30867a51f0c3f831eece97ce71c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Message [Tablet II]",
+        "preview_url": "https://p.scdn.co/mp3-preview/d5cdb0e3151136bd36807c9cd6825b8805ecb108?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Message [Tablet III]",
+        "preview_url": "https://p.scdn.co/mp3-preview/88ad338a2f29d46d6a4939d0c1064b4f3cdde771?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
+    "artist": "Half Waif",
+    "albumTitle": "See You At The Maypole",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b6ab5ff5b8fd79ce4853d4c3",
+      "width": 640
+    },
+    "totalTracks": 17,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "42IiJqXh1ICEPJjwqG5D1B",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/42IiJqXh1ICEPJjwqG5D1B",
+    "tracks": [
+      {
+        "name": "Fog Winter Balsam Jade",
+        "preview_url": "https://p.scdn.co/mp3-preview/2e0cab120b6a727c7a9d317e5bc3e1be3057c510?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Collect Color",
+        "preview_url": "https://p.scdn.co/mp3-preview/21bc553e871b8fee6343f33c3277b425bef57e5e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I-90",
+        "preview_url": "https://p.scdn.co/mp3-preview/1dbf45c3e5e499415b19f15cf03d71d2741e91fb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Figurine",
+        "preview_url": "https://p.scdn.co/mp3-preview/282f4aca6d50de806e64ef04baa0d6aa542eda45?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Heartwood",
+        "preview_url": "https://p.scdn.co/mp3-preview/d567c863aac1d0def6898707e5f03b44e5765c35?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Big Dipper",
+        "preview_url": "https://p.scdn.co/mp3-preview/219a42f03515a562db0eadf59e749eaa66542e95?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Shirtsleeves",
+        "preview_url": "https://p.scdn.co/mp3-preview/c446b5c48746eb18f1db6d41b35d02a251089007?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sunset Hunting",
+        "preview_url": "https://p.scdn.co/mp3-preview/b613690293c97036f0d741833804e326c6b46ea9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dust",
+        "preview_url": "https://p.scdn.co/mp3-preview/8b5598297ad71ab9ba6a35db6c5de0bcacb3f9a4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Slow Music",
+        "preview_url": "https://p.scdn.co/mp3-preview/82fc1f10dbbcab06162da38a5931bb29f448c12f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ephemeral Being",
+        "preview_url": "https://p.scdn.co/mp3-preview/3be836f6abbf37fde36fcdeff19b6d050cd7f645?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Violetlight",
+        "preview_url": "https://p.scdn.co/mp3-preview/ec1dbed6f59eb44a8574b602a43d7d35b5a7dc4a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Velvet Coil",
+        "preview_url": "https://p.scdn.co/mp3-preview/e4709f72280b3b95683fc80f18809084a90854df?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Museum",
+        "preview_url": "https://p.scdn.co/mp3-preview/1a403fc6b77ff745211a3f795fcbc81e4b8ac421?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "King of Tides",
+        "preview_url": "https://p.scdn.co/mp3-preview/34078027526e5c52574bee389483536a6c7307ce?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mother Tongue",
+        "preview_url": "https://p.scdn.co/mp3-preview/c4f9110831e83f3dc9dea729ef930a8404275955?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "March Grass",
+        "preview_url": "https://p.scdn.co/mp3-preview/125f1f097367e451f1df97e93ff9004a88e281a8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
+    "artist": "Darius Jones",
+    "albumTitle": "Legend of e'Boi (The Hypervigilant Eye)",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273338fafd3c72108639741f4d1",
+      "width": 640
+    },
+    "totalTracks": 6,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "2fWR2M8izdIHpX3YwYG2Dy",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2fWR2M8izdIHpX3YwYG2Dy",
+    "tracks": [
+      {
+        "name": "Affirmation Needed",
+        "preview_url": "https://p.scdn.co/mp3-preview/13b3ad9612b8b9927eb4c51514b0de530aa6667c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Another Kind of Forever",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9d5b198a9249d1821fe556a994c0e6bef2eb214?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "No More My Lord",
+        "preview_url": "https://p.scdn.co/mp3-preview/86f8c36aa18dfc48f8cad862177fb9b46dd6a46b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "We Outside",
+        "preview_url": "https://p.scdn.co/mp3-preview/3fcf35783fab6dbf34e281fdcaf429d1cd6cf0a4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "We Inside Now",
+        "preview_url": "https://p.scdn.co/mp3-preview/a6a2568abc68d2af3c7d4537d6a26ee28bd3888a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Motherfuckin Roosevelt",
+        "preview_url": "https://p.scdn.co/mp3-preview/71c3f418a9713a4194b66b1ad1b7cc5e1379c9bd?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
+    "artist": "Yasmin Williams",
+    "albumTitle": "Acadia",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2733e8aa3b391fbac59b54c15bc",
+      "width": 640
+    },
+    "totalTracks": 9,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "7FYQpTiE5X0G3tXhagmv39",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7FYQpTiE5X0G3tXhagmv39",
+    "tracks": [
+      {
+        "name": "Cliffwalk (feat. Dom Flemons)",
+        "preview_url": "https://p.scdn.co/mp3-preview/66adabb8f3da6a22502bba1eeb85cdb26aa785f9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Harvest (feat. Kaki King & Darian Donovan Thomas)",
+        "preview_url": "https://p.scdn.co/mp3-preview/511112915dd5e478ad00e323afbdd7fcd13990b5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hummingbird (feat. Allison de Groot & Tatiana Hargreaves)",
+        "preview_url": "https://p.scdn.co/mp3-preview/348152cd3ffc2df09067e13ab4fd13b3ea8b2387?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Virga (feat. Darlingside)",
+        "preview_url": "https://p.scdn.co/mp3-preview/a19055dccd3a577ba21cf843bc128358e2e1b115?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sisters",
+        "preview_url": "https://p.scdn.co/mp3-preview/5c1726487141dab4d98ae60abeaf08c3009f9b01?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dawning (feat. Aoife O'Donovan)",
+        "preview_url": "https://p.scdn.co/mp3-preview/c5d5e4cd340384c7ee20e4058a8ba79a95228548?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dream Lake (feat. Malick Koly)",
+        "preview_url": "https://p.scdn.co/mp3-preview/3d53ef4c2f86e57ae5ca7bd2fdf44fe8d8738f9c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nectar (feat. Magro)",
+        "preview_url": "https://p.scdn.co/mp3-preview/1d429c1cc4c10a068c34a23cde9c8581fc2063c9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Malamu (feat. Marcus Gilmore & Immanuel Wilkins)",
+        "preview_url": "https://p.scdn.co/mp3-preview/c337792a277dc08b6d3fc4b70ee5bb54ca6cc0a8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
+    "artist": "Godspeed You! Black Emperor",
+    "albumTitle": "NO TITLE AS OF 13 FEBRUARY 2024 28,340 DEAD",
+    "postDate": "2024-10-04",
+    "url": "https://www.npr.org/2024/10/04/1203595450/new-music-friday-october-4-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273a2f349fdb4ad68258a974af1",
+      "width": 640
+    },
+    "totalTracks": 6,
+    "releaseDate": "2024-10-04",
+    "spotifyAlbumId": "1qG30zCAZ30hsmA5wAlaQ3",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1qG30zCAZ30hsmA5wAlaQ3",
+    "tracks": [
+      {
+        "name": "SUN IS A HOLE SUN IS VAPORS",
+        "preview_url": "https://p.scdn.co/mp3-preview/e19300be65e48a2c6fa387b804743e35ef7ab49c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BABYS IN A THUNDERCLOUD",
+        "preview_url": "https://p.scdn.co/mp3-preview/eb071a5d11038a03b7bc8f8640d8c73809ac079f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "RAINDROPS CAST IN LEAD",
+        "preview_url": "https://p.scdn.co/mp3-preview/49022049ef411909c02eebcad74c42ba2ba55662?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BROKEN SPIRES AT DEAD KAPITAL",
+        "preview_url": "https://p.scdn.co/mp3-preview/838567565bd2d0cd8c8400a0fe1297fd50d020bf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "PALE SPECTATOR TAKES PHOTOGRAPHS",
+        "preview_url": "https://p.scdn.co/mp3-preview/1debba9263431fc2d1aeea9035c4857f239cc786?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "GREY RUBBLE – GREEN SHOOTS",
+        "preview_url": "https://p.scdn.co/mp3-preview/0a560344092117559364a87cd012f8e974a382df?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
+  },
+  {
     "artist": "SOPHIE",
-    "title": "SOPHIE"
+    "albumTitle": "SOPHIE",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2732922e8a02c21701389ba00d4",
+      "width": 640
+    },
+    "totalTracks": 16,
+    "releaseDate": "2024-09-25",
+    "spotifyAlbumId": "2kX3enxQiHLTtuNwIXZMXU",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2kX3enxQiHLTtuNwIXZMXU",
+    "tracks": [
+      {
+        "name": "Intro (The Full Horror)",
+        "preview_url": "https://p.scdn.co/mp3-preview/8c9be6eb4643ce14a0938ab7b43d7210b0518b01?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "RAWWWWWW (featuring. Jozzy)",
+        "preview_url": "https://p.scdn.co/mp3-preview/e860a202edb562952deee9008ec6e0eb78bea1f1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Plunging Asymptote (feat. Juliana Huxtable)",
+        "preview_url": "https://p.scdn.co/mp3-preview/29864636c467cb1ac6e9f4f5cc2335db9d7e66f0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Dome's Protection (feat. Nina Kraviz)",
+        "preview_url": "https://p.scdn.co/mp3-preview/0f7ec732737f64fb719785d68d7962b037957c78?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Reason Why (feat. Kim Petras and BC Kingdom)",
+        "preview_url": "https://p.scdn.co/mp3-preview/edd8f3039ecadbb35d535efb156ea7d1ed5cf3e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Live In My Truth (feat. BC Kingdom and LIZ)",
+        "preview_url": "https://p.scdn.co/mp3-preview/2c1a90cfcae5f9e26b38d7d56fbb7bf2813d47c4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Why Lies (feat. BC Kingdom and LIZ)",
+        "preview_url": "https://p.scdn.co/mp3-preview/49d326a285c7ffde6b1701aa7034b6c0cb8061fb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Do You Wanna Be Alive (feat. BIG SISTER)",
+        "preview_url": "https://p.scdn.co/mp3-preview/820e21cefb3b58dca603c9a82664b3d824ebe829?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Elegance (feat. Popstar)",
+        "preview_url": "https://p.scdn.co/mp3-preview/863a8a8054732be3cbd2526deb91fed85a01a0de?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Berlin Nightmare (feat. Evita Manji)",
+        "preview_url": "https://p.scdn.co/mp3-preview/cd55dd70632a0393bbadba98f9d8a186ef969280?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gallop (feat. Evita Manji)",
+        "preview_url": "https://p.scdn.co/mp3-preview/b25149ce53f6902c441ea4b72d721be66e352f60?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "One More Time (feat. Popstar)",
+        "preview_url": "https://p.scdn.co/mp3-preview/3818090347e6cf66854b432313de1b6fca35ebb4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Exhilarate (feat. Bibi Bourelly)",
+        "preview_url": "https://p.scdn.co/mp3-preview/8db17237225d2de3531d82f16d2ece3868eca3a3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Always and Forever (feat. Hannah Diamond)",
+        "preview_url": "https://p.scdn.co/mp3-preview/908a8411314a6e6218c24a5bb652136284017be6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "My Forever (feat. Cecile Believe)",
+        "preview_url": "https://p.scdn.co/mp3-preview/32a3828688f0b8c35aea3418e3b030b15e7e2402?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love Me Off Earth (feat. Doss)",
+        "preview_url": "https://p.scdn.co/mp3-preview/47c57e08e8568359d1b7a272c0ff42cd19026bde?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Mustafa",
-    "title": "Dunya"
+    "albumTitle": "Dunya",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2730c8efa3124aa06e011dd7f39",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-09-27",
+    "spotifyAlbumId": "16sGrLUTzqz0Z43j9qMn8S",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/16sGrLUTzqz0Z43j9qMn8S",
+    "tracks": [
+      {
+        "name": "Name of God",
+        "preview_url": "https://p.scdn.co/mp3-preview/271da06856d966b228b2614e69e25adf1912e299?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "What Happened, Mohamed?",
+        "preview_url": "https://p.scdn.co/mp3-preview/b38190723fea9d536df7b8f4a596253a601a1e0b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Imaan",
+        "preview_url": "https://p.scdn.co/mp3-preview/5ebcefa640292a356a0c66d68b41ab189be7e0d8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "What good is a heart?",
+        "preview_url": "https://p.scdn.co/mp3-preview/796de308a5100855f32c88d0c53428e8bad6bc1a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SNL",
+        "preview_url": "https://p.scdn.co/mp3-preview/45ecf3c8a03e428e0602688764d2f7a00b506e4f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I’ll Go Anywhere",
+        "preview_url": "https://p.scdn.co/mp3-preview/a5f94cbae0a50b2529a89048168ff3017395495e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Beauty, end",
+        "preview_url": "https://p.scdn.co/mp3-preview/1e85bc11c94b775f393915ad40c69d615b960d62?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Old Life",
+        "preview_url": "https://p.scdn.co/mp3-preview/3ef95ab4f904c0262e3f7a8b4bceb2c8d749acc0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gaza is Calling",
+        "preview_url": "https://p.scdn.co/mp3-preview/7a066bb6edc3afdf10a1a426b3493be75277d7cb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Leaving Toronto",
+        "preview_url": "https://p.scdn.co/mp3-preview/a7861d6c8b1ffdf805719e4691dc8158bee70c96?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hope is a knife",
+        "preview_url": "https://p.scdn.co/mp3-preview/7d1e36321d58aab4fabfc0a46cadbda10379baad?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nouri",
+        "preview_url": "https://p.scdn.co/mp3-preview/b394a05f6da3baed7ae3c2f7beb080544f426f9f?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Alan Sparhawk",
-    "title": "White Roses, My God"
+    "albumTitle": "White Roses, My God",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273dc97a7eadfda8683d306e22c",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-09-27",
+    "spotifyAlbumId": "4pjNKpE6QDipmeJnqIS5kt",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4pjNKpE6QDipmeJnqIS5kt",
+    "tracks": [
+      {
+        "name": "Get Still",
+        "preview_url": "https://p.scdn.co/mp3-preview/ab0689d80715c87b389dd99800e8642d1527b1bc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Made This Beat",
+        "preview_url": "https://p.scdn.co/mp3-preview/05e1d8fdf4d5d0a55bd73362cee6c97bec8079cd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Not the 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/73ac0571ca37d742e1b3231128f24d6c3e354a7e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Can U Hear",
+        "preview_url": "https://p.scdn.co/mp3-preview/e15505e1bad624c7471dd67809bed5d3f027be46?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Heaven",
+        "preview_url": "https://p.scdn.co/mp3-preview/7e2400345ce1bffb27c112074bfbdf5598d89cbe?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Brother",
+        "preview_url": "https://p.scdn.co/mp3-preview/f969cdb29dac242ce6ce16811772a2352d3bf992?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Black Water",
+        "preview_url": "https://p.scdn.co/mp3-preview/55d23c6cab90b5a37bfc05ee20101321e17571d2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Feel Something",
+        "preview_url": "https://p.scdn.co/mp3-preview/e7c46f591ee865469593f9a69c6700e7fd6245af?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Station",
+        "preview_url": "https://p.scdn.co/mp3-preview/51ea3ec37893a4aa00f6c986684b0cea713166b5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Somebody Else's Room",
+        "preview_url": "https://p.scdn.co/mp3-preview/3c1f2ae658d2ec7a147a02ae7fce55b20637792a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Project 4 Ever",
+        "preview_url": "https://p.scdn.co/mp3-preview/465b74bf313da7944a46820da6e131b36e71075c?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Billy Strings",
-    "title": "Highway Prayers"
+    "albumTitle": "Highway Prayers",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2730483773240c11877177e48f1",
+      "width": 640
+    },
+    "totalTracks": 20,
+    "releaseDate": "2024-09-27",
+    "spotifyAlbumId": "6ARzD9YEt9vx2rz7X3NDlo",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/6ARzD9YEt9vx2rz7X3NDlo",
+    "tracks": [
+      {
+        "name": "Leaning on a Travelin' Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/1facd372ada487a4655bc96b1f439be0d0101b9e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "In the Clear",
+        "preview_url": "https://p.scdn.co/mp3-preview/fdab1df0916904cb8e78a859b2a11973d4b9b06c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Escanaba",
+        "preview_url": "https://p.scdn.co/mp3-preview/2cced29842dca8b5bea9c560c293ebfdbd8fbebf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gild the Lily",
+        "preview_url": "https://p.scdn.co/mp3-preview/06a9de99fc28166fe35ff6973e6d5ebd1eb634bd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Seven Weeks In County",
+        "preview_url": "https://p.scdn.co/mp3-preview/5084a2ec5a0feba33b5334aac700816ca01c8cff?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Stratosphere Blues / I Believe in You",
+        "preview_url": "https://p.scdn.co/mp3-preview/78d85acd31f054384ccc6cbb3a29f8ddb05b66de?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cabin Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/dd68e19a84cdb1d9e5894d13d0c6f4f9eb0e86cc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Don't Be Calling Me (at 4AM)",
+        "preview_url": "https://p.scdn.co/mp3-preview/1c23e92408a8d32be0665178f123c9c5ab4f1f21?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Malfunction Junction",
+        "preview_url": "https://p.scdn.co/mp3-preview/30f66fd1dbfe815e108742b36624df54db70b43f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Catch and Release",
+        "preview_url": "https://p.scdn.co/mp3-preview/484b4e6a157dcf9e7a7f7704642b01de242e57af?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Be Your Man",
+        "preview_url": "https://p.scdn.co/mp3-preview/3e7b10bb54eb27a7ae1d88920db314fc36ff8262?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gone a Long Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/1584f47400552409759e2fa1eacc0623512f53ea?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "It Ain't Before",
+        "preview_url": "https://p.scdn.co/mp3-preview/8736e421a2300135201fe5448dbb4a0219e98fd8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "My Alice",
+        "preview_url": "https://p.scdn.co/mp3-preview/ba16a24c00064cee84caaa1c9b1c635b6039a661?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Seney Stretch",
+        "preview_url": "https://p.scdn.co/mp3-preview/c0dda1cbe1afdb4cdf5ba07dccfb7eced7c41bf0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "MORBUD4ME",
+        "preview_url": "https://p.scdn.co/mp3-preview/347b7c11bb67d34dcab6f294a9803d10121dd7bf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Leadfoot",
+        "preview_url": "https://p.scdn.co/mp3-preview/ee24b64617a2cdedcc6917c2dc9ab83464b7d72b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Happy Hollow",
+        "preview_url": "https://p.scdn.co/mp3-preview/fc6cca0ed4b79526755d04963da4937b82263da1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Beginning of the End",
+        "preview_url": "https://p.scdn.co/mp3-preview/d81bb525030e970c5410c5e9648dcb920495715e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Richard Petty",
+        "preview_url": "https://p.scdn.co/mp3-preview/256d0eee67784aaf38e0a99adceedd766e6eab2b?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Bilal",
-    "title": "Adjust Brightness"
+    "albumTitle": "Adjust Brightness",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2735a37934a2ca4a88769a89dfc",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-09-27",
+    "spotifyAlbumId": "3ASLBiqcxSDBZA64JpXTVe",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/3ASLBiqcxSDBZA64JpXTVe",
+    "tracks": [
+      {
+        "name": "Adjust Brightness",
+        "preview_url": "https://p.scdn.co/mp3-preview/8459beb5c7280a620fc3f856494f7cbe85a8e0e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sunshine",
+        "preview_url": "https://p.scdn.co/mp3-preview/af909fa8947bdd8120528952c5af0aefc5f20e94?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Evr Chngin Nrml",
+        "preview_url": "https://p.scdn.co/mp3-preview/7fbac1090eeddee4792b55ef29d100b55ccc73f3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Story",
+        "preview_url": "https://p.scdn.co/mp3-preview/af5fef54f1a611817aec2a5536c2c4aa17c20117?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tell Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/9422baeb6586863bc94978c7c52fec540c2c7cd2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "A2Z",
+        "preview_url": "https://p.scdn.co/mp3-preview/7201d2d9b8ffc462dae3836dece96219bab2cf4c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lay Around",
+        "preview_url": "https://p.scdn.co/mp3-preview/15e286f5a4ee7b4a8546e9e22a8f4bd6ccb08bd8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Who We R Now",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9f27940ed652f436c6de2e7446737602eed74a3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Quantum Universe",
+        "preview_url": "https://p.scdn.co/mp3-preview/c06aa4303fb792636ef3ffbbc4ff5d583905b0ff?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Conditional",
+        "preview_url": "https://p.scdn.co/mp3-preview/acb271ad5390108cb25ef99adb70685fc6185db0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Micro Macro",
+        "preview_url": "https://p.scdn.co/mp3-preview/95f8b8193a1b4401c2fa032625e96fb92e12d1e8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Broadcast",
-    "title": "Distant Call: Collected Demos 2000 - 2006 (out Sept. 28)"
+    "albumTitle": "Distant Call: Collected Demos 2000 - 2006 (out Sept. 28)",
+    "postDate": "2024-09-27",
+    "url": "https://www.npr.org/2024/09/27/1202000775/new-music-friday-september-27-sophie-alan-sparhawk",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273eab029f7c06a8091186ca5c4",
+      "width": 640
+    },
+    "totalTracks": 19,
+    "releaseDate": "1971-10-01",
+    "spotifyAlbumId": "0zoquAfzZquEJIos24KUJr",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0zoquAfzZquEJIos24KUJr",
+    "tracks": [
+      {
+        "name": "What a Life I've Led - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/1b0ed7671304273158a4691b8b2a9c9e21931ffd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Look What We've Got - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/c9361727c715d436e4d5a335a83e57894546175b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hold On - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/f549176b5a259de1b922c2f4a6cd184ef3e04ebc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Pull Down the Blind - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/194c0057b5a13e697be049c229a51973043a75f0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "To Do With Love - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/2a44c57e2b51a310daf32586915da1029d3fc3a8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Promised Land - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/7ee08c191c0f7c697bc39b9ce2e09ab3fb174d37?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Long Cool Woman (In a Black Dress) - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/718bebe2fac6d26d559b6babee20cbbdd66d5390?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "You Know the Score - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/cf604f180eccb04aabc24f36d801ff65e1f99b9b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cable Car - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/0e1861980ecca9c09c7f687fbe1574c744bfff84?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "A Little Thing Like Love - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/870af5d68b8ca612450bae976f0723486a597be1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Long Dark Road - 1999 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/79313e6f0138a5f8d0c467a5edb2bda7060ba9b9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Can't Tell the Bottom From the Top (+ Studio Conversation) - 1998 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/15bb6f63f555b949b829f1c79ace65b09a1a029e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mad Professor Blyth - 1998 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/3a70cc69505c05aa5326fa82751371992ba6dcad?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gasoline Alley Bred - 1998 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/b27986330da0555346f65823049b95b157d51031?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dandelion Wine - 1998 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/a4324731afc360100eae6499e1c4e23a4524c761?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hey Willy - 1998 Remaster",
+        "preview_url": "https://p.scdn.co/mp3-preview/d193412da650154ba0bd5e17ff2ca741c00802ac?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Row the Boat Together",
+        "preview_url": "https://p.scdn.co/mp3-preview/bd3bb4732472202caacdae588ec734ab1c1b8d80?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cable Car",
+        "preview_url": "https://p.scdn.co/mp3-preview/3fdd4bfb8942815820f3c0104712a60cd596a5ea?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Can't Tell the Bottom From the Top - Mono",
+        "preview_url": "https://p.scdn.co/mp3-preview/568791f4c233e1fb57b44e20cf84bf942046f21a?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Jamie xx",
-    "title": "In Waves"
+    "albumTitle": "In Waves",
+    "postDate": "2024-09-20",
+    "url": "https://www.npr.org/2024/09/20/1200551197/new-music-friday-september-20-jamie-xx",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2733126a95bb7ed4146a80c7fc6",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-09-20",
+    "spotifyAlbumId": "57MSBg5pBQZH5bfLVDmeuP",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/57MSBg5pBQZH5bfLVDmeuP",
+    "tracks": [
+      {
+        "name": "Wanna",
+        "preview_url": "https://p.scdn.co/mp3-preview/fc112f83fe770b09e4c1bd586e5b9c144e384bd7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Treat Each Other Right",
+        "preview_url": "https://p.scdn.co/mp3-preview/a518fdb34284daa9a2298fd5491d6cede24a3e01?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Waited All Night",
+        "preview_url": "https://p.scdn.co/mp3-preview/b7820ac10349ca374242240f69887c073a4980f2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Baddy On The Floor",
+        "preview_url": "https://p.scdn.co/mp3-preview/c260664dd5adc2290fce52cb51aa8667e39c2118?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dafodil",
+        "preview_url": "https://p.scdn.co/mp3-preview/173fad98e5e51a6cfb02b3cb394ab46c70d44303?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Still Summer",
+        "preview_url": "https://p.scdn.co/mp3-preview/e959ae6394e9d19e00cd474ed2b76bb43b6063d9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Life",
+        "preview_url": "https://p.scdn.co/mp3-preview/261bc3bd3192ef4158b1ca42e95262113241a326?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Feeling I Get From You",
+        "preview_url": "https://p.scdn.co/mp3-preview/da24fadc4bca20394435e53f5d61e8f6c36f9614?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Breather",
+        "preview_url": "https://p.scdn.co/mp3-preview/dc7cd612c205968f5d6cb32696305656ae7ad888?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "All You Children",
+        "preview_url": "https://p.scdn.co/mp3-preview/ff3fc064f340e47347d4677332daf6da8155ae38?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Every Single Weekend - Interlude",
+        "preview_url": "https://p.scdn.co/mp3-preview/2c46e4cea66da846807b70c7974d19b7837eba52?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Falling Together",
+        "preview_url": "https://p.scdn.co/mp3-preview/2fa5fc5e733495719170f672a07b172bf678a89f?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Nubya Garcia",
-    "title": "Odyssey"
+    "albumTitle": "Odyssey",
+    "postDate": "2024-09-20",
+    "url": "https://www.npr.org/2024/09/20/1200551197/new-music-friday-september-20-jamie-xx",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273817e40fcecdbdc6ca4273daa",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-09-20",
+    "spotifyAlbumId": "1ZoZu4AeEVIKybGiGgOYdd",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1ZoZu4AeEVIKybGiGgOYdd",
+    "tracks": [
+      {
+        "name": "Dawn [ft. esperanza spalding]"
+      },
+      {
+        "name": "Odyssey"
+      },
+      {
+        "name": "Solstice"
+      },
+      {
+        "name": "Set It Free"
+      },
+      {
+        "name": "The Seer"
+      },
+      {
+        "name": "Odyssey - Outerlude"
+      },
+      {
+        "name": "We Walk In Gold [ft. Georgia Anne Muldrow]"
+      },
+      {
+        "name": "Water's Path"
+      },
+      {
+        "name": "Clarity"
+      },
+      {
+        "name": "In Other Words, Living"
+      },
+      {
+        "name": "Clarity - Outerlude"
+      },
+      {
+        "name": "Triumphance"
+      }
+    ]
   },
   {
     "artist": "BLACKSTARKIDS",
-    "title": "Saturn Dayz"
+    "albumTitle": "Saturn Dayz",
+    "postDate": "2024-09-20",
+    "url": "https://www.npr.org/2024/09/20/1200551197/new-music-friday-september-20-jamie-xx",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b58a1b07e9f8aeb8a5c81eba",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-09-20",
+    "spotifyAlbumId": "4jIAe4a91uSoRZu1P6FXNa",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4jIAe4a91uSoRZu1P6FXNa",
+    "tracks": [
+      {
+        "name": "WISH",
+        "preview_url": "https://p.scdn.co/mp3-preview/4eeb5bf671daa362c59a7250315f62856e00a7fd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "KILLJOY",
+        "preview_url": "https://p.scdn.co/mp3-preview/aa4f6c0fd4a54f51933f3385dd8ca1634a6c525e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "EMANCIPATION OF STEVIE WONDER",
+        "preview_url": "https://p.scdn.co/mp3-preview/828e290147588001866a2c1da6f5e9fefd89d5c5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SOULMATEZ!",
+        "preview_url": "https://p.scdn.co/mp3-preview/51b304974ae1b13283d18f318e09356bf722ac1a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "MODERN HAPPINESS",
+        "preview_url": "https://p.scdn.co/mp3-preview/f48d5c55fa742ed0a9329fb26b74a0bb31a9c2d9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SATURN DAYZ",
+        "preview_url": "https://p.scdn.co/mp3-preview/a06c5f7c8165515b4c3fea4742c110d83868b9c6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BLACK CHILDREN",
+        "preview_url": "https://p.scdn.co/mp3-preview/589cefcfd39f73dce947f95c272816bc54e057ab?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "LOVE IS A MOSHPIT",
+        "preview_url": "https://p.scdn.co/mp3-preview/e6f85db02e29285ae2053a47bcebb605a3c828bb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BOYZ GO 2 JUPITER",
+        "preview_url": "https://p.scdn.co/mp3-preview/15eaeac70dd020eff2d7f36c062cd75ef87b8769?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "UFO",
+        "preview_url": "https://p.scdn.co/mp3-preview/a2cf980fa6c05f98a350ff573b465a6ae51c9db8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "STEREOTYPE",
+        "preview_url": "https://p.scdn.co/mp3-preview/e49bccd9002fe8ae0f2e530cfeaa01a618cd8519?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "MOTHA URF",
+        "preview_url": "https://p.scdn.co/mp3-preview/94fe7827f546c473c88464071499ae6f4862c32f?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Bob Dylan and The Band",
-    "title": "The 1974 Live Recordings"
+    "albumTitle": "The 1974 Live Recordings",
+    "postDate": "2024-09-20",
+    "url": "https://www.npr.org/2024/09/20/1200551197/new-music-friday-september-20-jamie-xx",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273ade1f3c9f6338d412045f65a",
+      "width": 640
+    },
+    "totalTracks": 20,
+    "releaseDate": "2024-09-20",
+    "spotifyAlbumId": "5x6WnUtS1wQU9MRHQWzPQa",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5x6WnUtS1wQU9MRHQWzPQa",
+    "tracks": [
+      {
+        "name": "Most Likely You Go Your Way (And I'll Go Mine) - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/dfa6c71880d963271083862b37db092022f95430?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Just Like Tom Thumb's Blues - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/a72d817229aec8379d3156be0e6e9a604fe01c80?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mr. Tambourine Man - Live at The Forum, Inglewood, CA - February 14, 1974 (Evening)",
+        "preview_url": "https://p.scdn.co/mp3-preview/259608785b564525afaab8701101d40f25bc30cd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Something There Is About You - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/d06c69a421557719e50a1cc8f691b2ed52f006a3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love Minus Zero / No Limit - Live at The Forum, Inglewood, CA - February 13, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/85140c4ff05a7c419939e899d9f3f3cc340f1d99?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "She Belongs to Me - Live at Alameda County Coliseum, Oakland, CA - February 11, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/2648379393069d73602ed0f0edf7a0208a3ef3dc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Wedding Song - Live at Seattle Center Coliseum, Seattle, WA - February 9, 1974 (Evening)",
+        "preview_url": "https://p.scdn.co/mp3-preview/f44db27723def4f7d28367bcdb824672a6760f91?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nobody 'Cept You - Live at Chicago Stadium, Chicago, IL - January 3, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/9eb39161505086c0a5b8d0a332703e49a461fc30?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "It Ain't Me, Babe - Live at The Forum, Inglewood, CA - February 13, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/1d3d42d03c57ce6805173b8e7e97eae7280ab945?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ballad of Hollis Brown - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/59141d7370e1bfe7a313e90cd6b8594dc1aad9b4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Lonesome Death of Hattie Carroll - Live at Seattle Center Coliseum, Seattle, WA - February 9, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/af028ad2da588d64f8553c6b70479bdaac419280?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Times They Are A-Changin' - Live at The Forum, Inglewood, CA - February 14, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/7dacdc8fb45868ef33cbda43910a6fc4b29518fa?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gates of Eden - Live at Madison Square Garden, New York City, NY - January 31, 1974 (Evening)",
+        "preview_url": "https://p.scdn.co/mp3-preview/6b4510a57cb22b4c98530ba7c006d56a73533d3d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "It's All Over Now, Baby Blue - Live at The Forum, Inglewood, CA - February 14, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/4b7ce02496e7426a2e51172e988b072309414502?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Maggie's Farm - Live at The Forum, Inglewood, CA - February 14, 1974 (Evening)",
+        "preview_url": "https://p.scdn.co/mp3-preview/cc1ee2b324e70ec22aeadc9b74e6d8f515536a49?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "All Along the Watchtower - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/3c5f3a84cea7c24f0eda8269edc65d72e523c156?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Highway 61 Revisited - Live at Madison Square Garden, New York City, NY - January 31, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/8aeb4d4d18677c3cd6d89183688b659632aa7f14?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Like a Rolling Stone - Live at Alameda County Coliseum, Oakland, CA - February 11, 1974 (Afternoon) [Incomplete]",
+        "preview_url": "https://p.scdn.co/mp3-preview/299f2523ec2182bfb7f26c11062f5139e47a5e1e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Forever Young - Live at Seattle Center Coliseum, Seattle, WA - February 9, 1974 (Afternoon)",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ff5536537579f682aeade48c6f3c5fa59fa167c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Blowin' in the Wind - Live at Madison Square Garden, New York City, NY - January 30, 1974",
+        "preview_url": "https://p.scdn.co/mp3-preview/a5c44fb5be84329c9294c6e4eb585720c0315562?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Galaxie 500",
-    "title": "Uncollected Noise New York '88-'90"
+    "albumTitle": "Uncollected Noise New York '88-'90",
+    "postDate": "2024-09-20",
+    "url": "https://www.npr.org/2024/09/20/1200551197/new-music-friday-september-20-jamie-xx",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27364dbbb0c95476d8af6074f1a",
+      "width": 640
+    },
+    "totalTracks": 24,
+    "releaseDate": "2024-09-20",
+    "spotifyAlbumId": "0PlFxE1VMawp932qcDjCXT",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0PlFxE1VMawp932qcDjCXT",
+    "tracks": [
+      {
+        "name": "Shout You Down",
+        "preview_url": "https://p.scdn.co/mp3-preview/e6e33a352d4630b10f7e4c65793e499df7d26be7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "See Through Glasses",
+        "preview_url": "https://p.scdn.co/mp3-preview/d66531e2293872c577615b4d77a0b02838b9a207?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "On the Floor (Noise NY version)",
+        "preview_url": "https://p.scdn.co/mp3-preview/c1ad2dd9ce47bc36d4f07bbd526ba468c4680e11?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Can't Believe It's Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/43fe91a7644d22fe41190865015d00c5c4990a9f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Oblivious",
+        "preview_url": "https://p.scdn.co/mp3-preview/9e1513b540425b4752cc15ddec70aff2acbe63d1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "King of Spain",
+        "preview_url": "https://p.scdn.co/mp3-preview/9189c27f70ee63d195ba2989867cfadb28492846?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Jerome",
+        "preview_url": "https://p.scdn.co/mp3-preview/45b979043b684dd9ac76d51662222e05410f1820?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Song in 3",
+        "preview_url": "https://p.scdn.co/mp3-preview/07e17b6b33e92ca88327fced6a233adc0aa4c560?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Crazy",
+        "preview_url": "https://p.scdn.co/mp3-preview/15ba6ae4f95a969fba794d44c3737ba07c244c9c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Wanna Live",
+        "preview_url": "https://p.scdn.co/mp3-preview/735234b47fe0134296911c96e465d18b0a7b12a3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Will Walk",
+        "preview_url": "https://p.scdn.co/mp3-preview/64f99df6de4e90bb2197d3ea08ea3c4ee92f8e4c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cold Night",
+        "preview_url": "https://p.scdn.co/mp3-preview/4e7a686baa620cfd5da87547bbac1da1aa5fd419?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ceremony",
+        "preview_url": "https://p.scdn.co/mp3-preview/7c7c37f92b85fd906a870d9f7128eed67fd0b1e1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Never Get to Heaven",
+        "preview_url": "https://p.scdn.co/mp3-preview/d8535f8bbb338480ce444154c6974e38e312507a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Maracas Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/f0bc097ac0f6827e1c0a996281b26fb2b81ccf1b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Victory Garden",
+        "preview_url": "https://p.scdn.co/mp3-preview/678a31120d7cc76b83c8313ea29daceae0e6885d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Blue Thunder (w/sax)",
+        "preview_url": "https://p.scdn.co/mp3-preview/898c3ce666ffc3c6a4d7bec4b0df68edc2c81c19?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cheese and Onions",
+        "preview_url": "https://p.scdn.co/mp3-preview/12c4a6b343d4cbeeb12da163cae22c6fc32a585f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Fourth of July (video mix)",
+        "preview_url": "https://p.scdn.co/mp3-preview/39a14c3560894e90af618185d78f306e94bb6971?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cactus",
+        "preview_url": "https://p.scdn.co/mp3-preview/34d5ffdcef93d83488c41df3d265bba8a5e80d28?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Miranda Lambert",
-    "title": "Postcards from Texas"
+    "albumTitle": "Postcards from Texas",
+    "postDate": "2024-09-13",
+    "url": "https://www.npr.org/2024/09/13/1199208491/new-music-friday-september-13-miranda-lambert",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b7010f2e7e715bf4c8422f3f",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-09-13",
+    "spotifyAlbumId": "2c12Spm8XcLAT2xYtQdgGK",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2c12Spm8XcLAT2xYtQdgGK",
+    "tracks": [
+      {
+        "name": "Armadillo"
+      },
+      {
+        "name": "Dammit Randy"
+      },
+      {
+        "name": "Looking Back On Luckenbach"
+      },
+      {
+        "name": "Santa Fe"
+      },
+      {
+        "name": "January Heart"
+      },
+      {
+        "name": "Wranglers - Extended"
+      },
+      {
+        "name": "Run"
+      },
+      {
+        "name": "Alimony"
+      },
+      {
+        "name": "I Hate Love Songs"
+      },
+      {
+        "name": "No Man's Land"
+      },
+      {
+        "name": "Bitch On The Sauce (Just Drunk)"
+      },
+      {
+        "name": "Way Too Good At Breaking My Heart"
+      },
+      {
+        "name": "Wildfire"
+      },
+      {
+        "name": "Living On The Run"
+      }
+    ]
   },
   {
     "artist": "Nilüfer Yanya",
-    "title": "My Method Actor"
+    "albumTitle": "My Method Actor",
+    "postDate": "2024-09-13",
+    "url": "https://www.npr.org/2024/09/13/1199208491/new-music-friday-september-13-miranda-lambert",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2730f6593413aecfac96093b32b",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-09-13",
+    "spotifyAlbumId": "4BBVZgRsWeNVgGmub6LY3p",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4BBVZgRsWeNVgGmub6LY3p",
+    "tracks": [
+      {
+        "name": "Keep On Dancing",
+        "preview_url": "https://p.scdn.co/mp3-preview/5d84bc2d78660620137fbeb8e45a2b80345569e3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Like I Say (I runaway)",
+        "preview_url": "https://p.scdn.co/mp3-preview/d5aac2dcc101175a58fa5b4dddcdca736ac00929?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Method Actor",
+        "preview_url": "https://p.scdn.co/mp3-preview/428c061502169b395eec7e8331d680adce369b5a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Binding",
+        "preview_url": "https://p.scdn.co/mp3-preview/36c075ef0b25c747917bcf25fa92d82cf844f294?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mutations",
+        "preview_url": "https://p.scdn.co/mp3-preview/6fc1267f0549d72dbfcd13b65d43096b83fa3d22?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ready for Sun (touch)",
+        "preview_url": "https://p.scdn.co/mp3-preview/668a246cdf76bff0b7b43ec2038c3ed372586eda?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Call It Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/6064a949ea117c44525a33a9fda1afda0930807d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Faith’s Late",
+        "preview_url": "https://p.scdn.co/mp3-preview/14e1aa437b1ea63130d1968bb6d3be2abd1e1a1a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Made Out Of Memory",
+        "preview_url": "https://p.scdn.co/mp3-preview/860c95492ed9ac28874ef089a9cbfbd8e9b30259?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Just A Western",
+        "preview_url": "https://p.scdn.co/mp3-preview/35d5a81a78f5822fe2e869d4e5971b281125fd53?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Wingspan",
+        "preview_url": "https://p.scdn.co/mp3-preview/6b94e1a0d6e9708725b9fd873ee8b50689a4afde?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Foxing",
-    "title": "Foxing"
+    "albumTitle": "Foxing",
+    "postDate": "2024-09-13",
+    "url": "https://www.npr.org/2024/09/13/1199208491/new-music-friday-september-13-miranda-lambert",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273d4aaaf054de918df0522e957",
+      "width": 640
+    },
+    "totalTracks": 13,
+    "releaseDate": "2024-09-13",
+    "spotifyAlbumId": "7wtRnGjfT3JMeseYGVzDy3",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7wtRnGjfT3JMeseYGVzDy3",
+    "tracks": [
+      {
+        "name": "Secret History",
+        "preview_url": "https://p.scdn.co/mp3-preview/a141f07796f7f41ca649f62e928c70a3280f3832?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hell 99",
+        "preview_url": "https://p.scdn.co/mp3-preview/0dd41c533f63083b442a09e1a004c46ffb6a7c8a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Spit",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ebcfdaaf2f388c02f0355b9a9fe4f5bb2b0384b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Greyhound",
+        "preview_url": "https://p.scdn.co/mp3-preview/fa81509ea17c3a56c8eaf0dee619ea9169a491ba?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cleaning",
+        "preview_url": "https://p.scdn.co/mp3-preview/519c1858f244d31c9958509913759443ecde7b9a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Barking",
+        "preview_url": "https://p.scdn.co/mp3-preview/070201a3e5aef985eb1c8fda834a7aeb8dcb4ab5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Kentucky McDonald's",
+        "preview_url": "https://p.scdn.co/mp3-preview/90f92d51ae8eafe91464760ed79cccb9e4e13a22?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Looks Like Nothing",
+        "preview_url": "https://p.scdn.co/mp3-preview/4a8fceff81db4828d3d1d96d9b56880a24fabe72?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gratitude",
+        "preview_url": "https://p.scdn.co/mp3-preview/5261934244a3099c76e258d1e9a597a002282689?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dead Cat",
+        "preview_url": "https://p.scdn.co/mp3-preview/0d47abb2839149b05edfc85463a3b03c66eea0b5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dead Internet",
+        "preview_url": "https://p.scdn.co/mp3-preview/26a3ce25676dba0a80e520cfe264c170c65027c3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hall of Frozen Heads",
+        "preview_url": "https://p.scdn.co/mp3-preview/cd72de2a4708bbef5826759834bc5b65ba3a0126?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cry Baby",
+        "preview_url": "https://p.scdn.co/mp3-preview/325c33fa34736a30350ef9354445341d9a0d52ca?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Robyn Hitchcock",
-    "title": "1967: Vacations in the Past"
+    "albumTitle": "1967: Vacations in the Past",
+    "postDate": "2024-09-13",
+    "url": "https://www.npr.org/2024/09/13/1199208491/new-music-friday-september-13-miranda-lambert",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27393b67c0a7df3c7b4334fc649",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-09-13",
+    "spotifyAlbumId": "0n3maCALuoLebTDiw0LrrF",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0n3maCALuoLebTDiw0LrrF",
+    "tracks": [
+      {
+        "name": "A Whiter Shade Of Pale",
+        "preview_url": "https://p.scdn.co/mp3-preview/ec5c47f9d6e2beb1afc50e9c5e5b9fe20b93b3ca?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Itchycoo Park",
+        "preview_url": "https://p.scdn.co/mp3-preview/203e3c95bcae3a43dffeff9b729ef076147dd664?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Burning Of The Midnight Lamp",
+        "preview_url": "https://p.scdn.co/mp3-preview/3e725b4e3e28537f8f57d30cb22af9cbfce0ecb3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Can Hear The Grass Grow",
+        "preview_url": "https://p.scdn.co/mp3-preview/b5b45e69597b45b0d14496fdc82908cd5d4a5018?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+        "preview_url": "https://p.scdn.co/mp3-preview/117bfa180a2f502d53ecb2a2167a1ffd77f4df01?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Waterloo Sunset",
+        "preview_url": "https://p.scdn.co/mp3-preview/0c47e5203acf06cd0f9d233ac92599ea743ec7db?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "See Emily Play",
+        "preview_url": "https://p.scdn.co/mp3-preview/aacad25ceebaf007d3be1010b6eab8d5efc3dc5b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "My White Bicycle",
+        "preview_url": "https://p.scdn.co/mp3-preview/728b03267a992aa3def0cf9da3ed9b8ba68ccc62?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "No Face, No Name, No Number",
+        "preview_url": "https://p.scdn.co/mp3-preview/1293a8d082da5b3a6e702c5b17a1f038667d39d5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Way Back In The 1960s",
+        "preview_url": "https://p.scdn.co/mp3-preview/025d90be42eb851d5505b9ae480144edd2d9fccd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Vacations In The Past",
+        "preview_url": "https://p.scdn.co/mp3-preview/8f3d5967d1a8c88cf63db79ff5488c5eaa3dfa80?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "A Day In The Life",
+        "preview_url": "https://p.scdn.co/mp3-preview/3673d8802c6948d27f6c5045aa5eb596b7eea38e?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "My Brightest Diamond",
-    "title": "Fight the Real Terror"
+    "albumTitle": "Fight the Real Terror",
+    "postDate": "2024-09-13",
+    "url": "https://www.npr.org/2024/09/13/1199208491/new-music-friday-september-13-miranda-lambert",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273c14f421cca67e2b09e2e06a6",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-09-13",
+    "spotifyAlbumId": "5uwvAdqZOZs6ubvo3GuOSW",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5uwvAdqZOZs6ubvo3GuOSW",
+    "tracks": [
+      {
+        "name": "Fight the Real Terror",
+        "preview_url": "https://p.scdn.co/mp3-preview/b929da37022768fccd9c042c3de20f59db5c7c78?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rocket In My Pocket",
+        "preview_url": "https://p.scdn.co/mp3-preview/1f92e1e468f4899fe2f581fbb0a96167f09092b1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Even Warriors",
+        "preview_url": "https://p.scdn.co/mp3-preview/8e38beb1661d94e303530d586628b43cf140807c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Imaginary Lover",
+        "preview_url": "https://p.scdn.co/mp3-preview/490af0d525da3891deadb1d3b59d0b24a27c60b7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rule Breaker",
+        "preview_url": "https://p.scdn.co/mp3-preview/f0ad98d50f974fcdbfea8724a512ed3c06287734?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Safe House",
+        "preview_url": "https://p.scdn.co/mp3-preview/de37fb88974d57084d06473f121a8ec8be846bf8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Have You Ever Seen An Angel",
+        "preview_url": "https://p.scdn.co/mp3-preview/e942bc0acf6c0f0a4c874e85be41c0f2d7837db6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sublime",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ad101899b327c15f5960a08bcf0506dbbfaa8da?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "There's No Place I'd Rather Be",
+        "preview_url": "https://p.scdn.co/mp3-preview/75edc5456d20505d874b7f65fbddbb070697c667?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Saw A Glimpse",
+        "preview_url": "https://p.scdn.co/mp3-preview/413bde728d5e6f7dfd480b95b2d32d68bbf70e5c?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "LL Cool J",
-    "title": "The FORCE"
+    "albumTitle": "The FORCE",
+    "postDate": "2024-09-06",
+    "url": "https://www.npr.org/2024/09/06/1197963852/new-music-friday-september-6-2024-ll-cool-j-mj-lenderman",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273c23198c887c04a3045e9ee92",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-09-06",
+    "spotifyAlbumId": "1Q7mpQ7mDOK2snlbb0g5Q2",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1Q7mpQ7mDOK2snlbb0g5Q2",
+    "tracks": [
+      {
+        "name": "Spirit of Cyrus (feat. Snoop Dogg)"
+      },
+      {
+        "name": "The FORCE"
+      },
+      {
+        "name": "Saturday Night Special (feat. Rick Ross & Fat Joe)"
+      },
+      {
+        "name": "Black Code Suite (feat. Sona Jobarteh)"
+      },
+      {
+        "name": "Passion"
+      },
+      {
+        "name": "Proclivities (feat. Saweetie)"
+      },
+      {
+        "name": "Post Modern"
+      },
+      {
+        "name": "30 Decembers"
+      },
+      {
+        "name": "Runnit Back"
+      },
+      {
+        "name": "Huey In The Chair (feat. Busta Rhymes)"
+      },
+      {
+        "name": "Basquiat Energy"
+      },
+      {
+        "name": "Praise Him (feat. Nas)"
+      },
+      {
+        "name": "Murdergram Deux (feat. Eminem)"
+      },
+      {
+        "name": "The Vow (feat. Mad Squablz, J-S.A.N.D. & Don Pablito)"
+      }
+    ]
   },
   {
     "artist": "MJ Lenderman",
-    "title": "Manning Fireworks"
+    "albumTitle": "Manning Fireworks",
+    "postDate": "2024-09-06",
+    "url": "https://www.npr.org/2024/09/06/1197963852/new-music-friday-september-6-2024-ll-cool-j-mj-lenderman",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27329344b4d83b6f0ac27562c2d",
+      "width": 640
+    },
+    "totalTracks": 9,
+    "releaseDate": "2024-09-06",
+    "spotifyAlbumId": "1bKiiYGt1fzm9YMlTnUqpN",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1bKiiYGt1fzm9YMlTnUqpN",
+    "tracks": [
+      {
+        "name": "Manning Fireworks",
+        "preview_url": "https://p.scdn.co/mp3-preview/14588cb248be811c686b8bc92cec3c04d808821f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Joker Lips",
+        "preview_url": "https://p.scdn.co/mp3-preview/9b46b92424c66a79262d639d26c72d58a959d04d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rudolph",
+        "preview_url": "https://p.scdn.co/mp3-preview/9efb1934d50ceae439a2653280368721312b6600?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Wristwatch",
+        "preview_url": "https://p.scdn.co/mp3-preview/807b643a0074b3e238d745c3ccb45896b0e90a0a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "She's Leaving You",
+        "preview_url": "https://p.scdn.co/mp3-preview/5ca09473d799868091d2cb300d2331ea47914266?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rip Torn",
+        "preview_url": "https://p.scdn.co/mp3-preview/ea09f5e6a0972ec6249c7f06c3c23d12ad968946?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "You Don't Know The Shape I'm In",
+        "preview_url": "https://p.scdn.co/mp3-preview/3082e20f140ac8b9eb9c87d392859e549c85f0b9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "On My Knees",
+        "preview_url": "https://p.scdn.co/mp3-preview/04c3cd8d1717404b503e0a95d1a03c50799be588?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bark At The Moon",
+        "preview_url": "https://p.scdn.co/mp3-preview/3f7652d84ba8db8a78c001154f38b59a5b44ed39?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Nala Sinephro",
-    "title": "Endlessness"
+    "albumTitle": "Endlessness",
+    "postDate": "2024-09-06",
+    "url": "https://www.npr.org/2024/09/06/1197963852/new-music-friday-september-6-2024-ll-cool-j-mj-lenderman",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273e6d52246a013b10185e0f55b",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-09-06",
+    "spotifyAlbumId": "51CQQ3tQLRZlZJZ5jcpoGE",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/51CQQ3tQLRZlZJZ5jcpoGE",
+    "tracks": [
+      {
+        "name": "Continuum 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/90cf429d667951e27fec9e3aa596dd2149dbd5fc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/cf5a29c41456e1f0db992c3d8ffbeeea1c4f26ba?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 3",
+        "preview_url": "https://p.scdn.co/mp3-preview/35eb3d7eb38e4ce1375599e0a32254dd4b534e76?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 4",
+        "preview_url": "https://p.scdn.co/mp3-preview/6edfbe0e4d3eb8a4eb4624c56bea95d44df36ddb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 5",
+        "preview_url": "https://p.scdn.co/mp3-preview/3a7ad2740bf03130f1cbac6b525801bf118d9ddd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 6",
+        "preview_url": "https://p.scdn.co/mp3-preview/d1cafcf44866c31c676c3e2adb4b887bd0f1ba6b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 7",
+        "preview_url": "https://p.scdn.co/mp3-preview/d64b68b85c451604f591a21b426094f0bf9d0e72?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 8",
+        "preview_url": "https://p.scdn.co/mp3-preview/00505c941764aea985459c1b6fa704a890a23ecc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 9",
+        "preview_url": "https://p.scdn.co/mp3-preview/21619aad10c2e8e584ed2738f297773e1435adce?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Continuum 10",
+        "preview_url": "https://p.scdn.co/mp3-preview/4b34305f2c273c1f4cad094866a26661c5c87fdc?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "The Dare",
-    "title": "What's Wrong with New York?"
+    "albumTitle": "What's Wrong with New York?",
+    "postDate": "2024-09-06",
+    "url": "https://www.npr.org/2024/09/06/1197963852/new-music-friday-september-6-2024-ll-cool-j-mj-lenderman",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27343e5e2115fc7dc1fe74cf029",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-09-06",
+    "spotifyAlbumId": "7ETvH1PHtaY35WhmpTTt7s",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7ETvH1PHtaY35WhmpTTt7s",
+    "tracks": [
+      {
+        "name": "Open Up"
+      },
+      {
+        "name": "Good Time"
+      },
+      {
+        "name": "Perfume"
+      },
+      {
+        "name": "Girls"
+      },
+      {
+        "name": "I Destroyed Disco"
+      },
+      {
+        "name": "You're Invited"
+      },
+      {
+        "name": "All Night"
+      },
+      {
+        "name": "Elevation"
+      },
+      {
+        "name": "Movement"
+      },
+      {
+        "name": "You Can Never Go Home"
+      }
+    ]
   },
   {
     "artist": "Toro Y Moi",
-    "title": "Hole Erth"
+    "albumTitle": "Hole Erth",
+    "postDate": "2024-09-06",
+    "url": "https://www.npr.org/2024/09/06/1197963852/new-music-friday-september-6-2024-ll-cool-j-mj-lenderman",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273f0eecf54182a0d00b343f2a6",
+      "width": 640
+    },
+    "totalTracks": 13,
+    "releaseDate": "2024-09-06",
+    "spotifyAlbumId": "0rGj6027LrBwC5filFlrVe",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0rGj6027LrBwC5filFlrVe",
+    "tracks": [
+      {
+        "name": "Walking In The Rain",
+        "preview_url": "https://p.scdn.co/mp3-preview/dd731ae1d8e9915f33dae01f933019e78ebedb8a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "CD-R",
+        "preview_url": "https://p.scdn.co/mp3-preview/13f68b91098889f937b18f092c11a078567cb19f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "HOV",
+        "preview_url": "https://p.scdn.co/mp3-preview/364576c784b05be20e5d9180bb61339018fda44a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tuesday",
+        "preview_url": "https://p.scdn.co/mp3-preview/463ab86a9b3152e79213a16be82dde824bbc229c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hollywood",
+        "preview_url": "https://p.scdn.co/mp3-preview/8496d73c3bfceedd71d59f027439acaf98d3e232?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Reseda",
+        "preview_url": "https://p.scdn.co/mp3-preview/1e396d58f57a3a2e873a989b7f95e55145ccd253?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Babydaddy",
+        "preview_url": "https://p.scdn.co/mp3-preview/96af5ad4dd0e03b83c7374162e566343854bb674?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Madonna",
+        "preview_url": "https://p.scdn.co/mp3-preview/ef143d98f0a7295de32d6337c11462ec94c44db3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Undercurrent",
+        "preview_url": "https://p.scdn.co/mp3-preview/f18a3db112b7d7e679db955ad7e6fb94b7241f01?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Off Road",
+        "preview_url": "https://p.scdn.co/mp3-preview/ed84da1ebe53116eca9eea8ac897db58cec25560?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Smoke",
+        "preview_url": "https://p.scdn.co/mp3-preview/513a250081dee6e5b8f762e3af6b69efb1447f83?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Heaven",
+        "preview_url": "https://p.scdn.co/mp3-preview/29af332540906639e2169129fa9da23907d16186?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Starlink",
+        "preview_url": "https://p.scdn.co/mp3-preview/4e61b70865c81b056f0359a8b4abbeb97cb85d50?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Nick Cave & The Bad Seeds",
-    "title": "Wild God"
+    "albumTitle": "Wild God",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273af517c4f70e8479d61165cca",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "0TRr4JGEPJ4eAb5QKRaunf",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0TRr4JGEPJ4eAb5QKRaunf",
+    "tracks": [
+      {
+        "name": "Song Of The Lake",
+        "preview_url": "https://p.scdn.co/mp3-preview/00354f34f281b8b1ef49e29b7b5c08b0116e40e3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Wild God",
+        "preview_url": "https://p.scdn.co/mp3-preview/0acb5e049bd5b5cc44ced0735a9875fafb6f8d63?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Frogs",
+        "preview_url": "https://p.scdn.co/mp3-preview/50ae5ebd1aa2e657edaf4a39b57cb47f680ef1f6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Joy",
+        "preview_url": "https://p.scdn.co/mp3-preview/c8a4b0736b54ee126f8a6238af3889c88fc7ef96?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Final Rescue Attempt",
+        "preview_url": "https://p.scdn.co/mp3-preview/f61939ad3963720f58d81a5711aadfc5efcd9c2f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Conversion",
+        "preview_url": "https://p.scdn.co/mp3-preview/56f56c1ed66aea8fc6edb634df7c5301bac8efc5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Cinnamon Horses",
+        "preview_url": "https://p.scdn.co/mp3-preview/ae1a7d65a2d3a6a5190a5ea64b7f185a5ad3b584?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Long Dark Night",
+        "preview_url": "https://p.scdn.co/mp3-preview/f697ad09d23c332f0ade0d24a196b627bcb7fbd5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "O Wow O Wow (How Wonderful She Is)",
+        "preview_url": "https://p.scdn.co/mp3-preview/e3e23bac466cdbee2d8313bbdcc65ca32fba4167?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "As The Waters Cover The Sea",
+        "preview_url": "https://p.scdn.co/mp3-preview/27bf376ff2579a92dc7d858594e0b8682d495259?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Doechii",
-    "title": "Alligator Bites Never Heal"
+    "albumTitle": "Alligator Bites Never Heal",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b245099fe26319344ddf6054",
+      "width": 640
+    },
+    "totalTracks": 19,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "60UzB8mOCMpc7xkuJE6Bwc",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/60UzB8mOCMpc7xkuJE6Bwc",
+    "tracks": [
+      {
+        "name": "STANKA POOH"
+      },
+      {
+        "name": "BULLFROG"
+      },
+      {
+        "name": "BOILED PEANUTS"
+      },
+      {
+        "name": "DENIAL IS A RIVER"
+      },
+      {
+        "name": "CATFISH"
+      },
+      {
+        "name": "SKIPP"
+      },
+      {
+        "name": "HIDE N SEEK"
+      },
+      {
+        "name": "BLOOM"
+      },
+      {
+        "name": "WAIT"
+      },
+      {
+        "name": "DEATH ROLL"
+      },
+      {
+        "name": "PROFIT"
+      },
+      {
+        "name": "BOOM BAP"
+      },
+      {
+        "name": "NISSAN ALTIMA"
+      },
+      {
+        "name": "GTFO"
+      },
+      {
+        "name": "HUH!"
+      },
+      {
+        "name": "SLIDE"
+      },
+      {
+        "name": "FIREFLIES"
+      },
+      {
+        "name": "BEVERLY HILLS"
+      },
+      {
+        "name": "ALLIGATOR BITES NEVER HEAL"
+      }
+    ]
   },
   {
     "artist": "Enumclaw",
-    "title": "Home In Another Life"
+    "albumTitle": "Home In Another Life",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27344bc53bdf4f371d6f6b16a9d",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "0cOCKVlitrRLrgsOP2f3DY",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0cOCKVlitrRLrgsOP2f3DY",
+    "tracks": [
+      {
+        "name": "I'm Scared I'll End Up All Alone",
+        "preview_url": "https://p.scdn.co/mp3-preview/492eeb371247de10cabae6782a1b9c0dfe40a753?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Not Just Yet",
+        "preview_url": "https://p.scdn.co/mp3-preview/7431e987b3cdc811d8a92be905033d73e04f59e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sink",
+        "preview_url": "https://p.scdn.co/mp3-preview/c947cd245acbae209fe640f1d201644f4d53dca2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Spots",
+        "preview_url": "https://p.scdn.co/mp3-preview/caa3e29d0a125b72cf5f697d34784ac6f52f8fb7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Still Feel Bad About Masturbation",
+        "preview_url": "https://p.scdn.co/mp3-preview/82699ee872d2d40e23239c000fbf37853eeb405c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Haven't Seen The Family In A While, I'm Sorry",
+        "preview_url": "https://p.scdn.co/mp3-preview/fee8459d55ce9663ba832abc08051ea597eca1f6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Grocery Store",
+        "preview_url": "https://p.scdn.co/mp3-preview/18ccb11c5547ed961a9db4b2c53fda25a5c8d8e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Change",
+        "preview_url": "https://p.scdn.co/mp3-preview/9136c5ff53d2b4483bc3d275583947bb9e85f109?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Fall Came Too Soon And Now I Wanna Throw Up",
+        "preview_url": "https://p.scdn.co/mp3-preview/aadf03fe2474c2da6b8f5175d13ced22ff34bc6d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "This Light Of Mine",
+        "preview_url": "https://p.scdn.co/mp3-preview/43db384401879ad601ee07fcde6aa6a95a2bfe99?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Want Somethings For Myself",
+        "preview_url": "https://p.scdn.co/mp3-preview/15315c4726e76cdc6da47b9ad49ed68ee246dbc8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Ellen Reid",
-    "title": "Big Majestic"
+    "albumTitle": "Big Majestic",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273d5a63f604e9736c437a59d10",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "54PPhxM0V8V87txFsNVWgb",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/54PPhxM0V8V87txFsNVWgb",
+    "tracks": [
+      {
+        "name": "Big Majestic",
+        "preview_url": "https://p.scdn.co/mp3-preview/2847aae3ff95b6afabcdccf0dfada3e40ee9814b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Spiritual Sun",
+        "preview_url": "https://p.scdn.co/mp3-preview/01d729a075dcafcdca6571f32b66fee295e41316?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Interlude",
+        "preview_url": "https://p.scdn.co/mp3-preview/6494d410996630e5a417ad8fcabb103f536ff534?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Pavilion in the Trees Pt. 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/42ee87db84d674640c8e690a6da79392387a0fcb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Strawberry Hill Ascent",
+        "preview_url": "https://p.scdn.co/mp3-preview/fbaee825a521562735d93a05fc0b722e4b602b19?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sunrise in Central Park",
+        "preview_url": "https://p.scdn.co/mp3-preview/b384bf152088e0f7764620d5da0f705850e86162?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Alone on Mulholland",
+        "preview_url": "https://p.scdn.co/mp3-preview/4cf37f434b2d80ef5cba3f7229dcd180086a9e99?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "West Coast Sky Forever",
+        "preview_url": "https://p.scdn.co/mp3-preview/9fa085c3a2ccb1ccc9994cf653bde8d244aa3c12?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Primrose Hill",
+        "preview_url": "https://p.scdn.co/mp3-preview/53eacdfad4591cd35c38e327693eca17cc7caf8e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Strawberry Hill Descent",
+        "preview_url": "https://p.scdn.co/mp3-preview/a26004d90a84a696bcc57e91136b373da6fa4e4b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sunset in Ueno Park",
+        "preview_url": "https://p.scdn.co/mp3-preview/53bded4e755243fbdeb20152b564a36f93d908a4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Blue Sky | Mirrored Glass",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d22312780164e95ffe623aa2ee59198b7802716?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Pavilion in the Trees Pt. 2",
+        "preview_url": "https://p.scdn.co/mp3-preview/3ae9d7c0189683d19c03777f38c2f56cbf3dac1d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mt. Lee + Step Lightly Now",
+        "preview_url": "https://p.scdn.co/mp3-preview/9170c85e0162cdeffb0c692b4226d2efa1007cc1?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Laurie Anderson",
-    "title": "Amelia"
+    "albumTitle": "Amelia",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273aa0a0ad05bc6ac1d0ec108a6",
+      "width": 640
+    },
+    "totalTracks": 22,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "2bYjJAzGSeeKyQKRZzMCHH",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2bYjJAzGSeeKyQKRZzMCHH",
+    "tracks": [
+      {
+        "name": "To Circle the World",
+        "preview_url": "https://p.scdn.co/mp3-preview/8f853e0f9c7b117daaf72179430fd83621e3dab0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I See Something Shining (feat. ANOHNI)",
+        "preview_url": "https://p.scdn.co/mp3-preview/6bd322ce824169f7a2178671c79f606ff7199b4b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Take-off",
+        "preview_url": "https://p.scdn.co/mp3-preview/2455f5b57cc865a10d412a9001624b3684d82b4a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Aloft (feat. ANOHNI)",
+        "preview_url": "https://p.scdn.co/mp3-preview/7002d721ccb6c7de3ed90a467d52a2cf1309d48a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "San Juan",
+        "preview_url": "https://p.scdn.co/mp3-preview/ac4f8fa1c61820c912e6b7746cdc38859c5edd1f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Brazil",
+        "preview_url": "https://p.scdn.co/mp3-preview/7fe57e153c1263f8d5c3bc7384fd8a24f3d73dae?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Crossing the Equator (feat. ANOHNI)",
+        "preview_url": "https://p.scdn.co/mp3-preview/5932415113bd095ae1905298379742c4b0194a90?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Badlands",
+        "preview_url": "https://p.scdn.co/mp3-preview/e47e421226cbc76b4979d452672b64fbc5c3833f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Waves of Sand",
+        "preview_url": "https://p.scdn.co/mp3-preview/151ca2c8818bbc60e2bc890c47fc60343cfa4f03?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Letter",
+        "preview_url": "https://p.scdn.co/mp3-preview/e7e891ad46a10c6c8af52e0757ef7ea17b061920?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "India And On Down to Australia (feat. ANOHNI)",
+        "preview_url": "https://p.scdn.co/mp3-preview/58dc4dc2ae3daedb456a8df35cdb88ac6d252692?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "This Modern World",
+        "preview_url": "https://p.scdn.co/mp3-preview/8b344e3cc153d26109ed54bdd44e43567d13f700?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Flying at Night",
+        "preview_url": "https://p.scdn.co/mp3-preview/371282e7d67c685768b08095c6bbcd4711312d11?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Word for Woman Here",
+        "preview_url": "https://p.scdn.co/mp3-preview/40b435b53bcf477c94a4aa3f89fb91d7fe3bb3d9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Road to Mandalay",
+        "preview_url": "https://p.scdn.co/mp3-preview/a93f06a293e64338c2aafdda19d03804ddaacf7b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Broken Chronometers",
+        "preview_url": "https://p.scdn.co/mp3-preview/71d00148fcc6ce8410cda318520caec79b4e4a55?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nothing But Silt",
+        "preview_url": "https://p.scdn.co/mp3-preview/bc302a7ae52f22b0eca428759063961824cd6009?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Wrong Way (feat. ANOHNI)",
+        "preview_url": "https://p.scdn.co/mp3-preview/106b9b1df8113943b19e0df7aeb90e7925f7e911?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Fly Into the Sun",
+        "preview_url": "https://p.scdn.co/mp3-preview/f9af2b0a1070a60f8e4da62b9e58e060674ed053?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Howland Island",
+        "preview_url": "https://p.scdn.co/mp3-preview/230d905e487b75b7d92ca212a85e82a161aeadaf?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Jon Hopkins",
-    "title": "Ritual"
+    "albumTitle": "Ritual",
+    "postDate": "2024-08-30",
+    "url": "https://www.npr.org/2024/08/30/1197963711/new-music-friday-august-30-nick-cave-doechii",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273c3cce05cbbf36bf9e0afc9af",
+      "width": 640
+    },
+    "totalTracks": 8,
+    "releaseDate": "2024-08-30",
+    "spotifyAlbumId": "40hWUhttLF6j8feHjbF0g7",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/40hWUhttLF6j8feHjbF0g7",
+    "tracks": [
+      {
+        "name": "part i - altar",
+        "preview_url": "https://p.scdn.co/mp3-preview/f1cd4a3e7e684388e6ffc50c212d3a891e93d4b7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part ii - palace / illusion",
+        "preview_url": "https://p.scdn.co/mp3-preview/1a0ee434b0660c199590c0a1962b72dca8d8fe75?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part iii - transcend / lament",
+        "preview_url": "https://p.scdn.co/mp3-preview/c72f7fe372417c06bbb2e1f25ec11da0dd7d5d42?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part iv - the veil",
+        "preview_url": "https://p.scdn.co/mp3-preview/bf49f920fa5be4a1b0ed72801c8bef1216ec0074?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part v - evocation",
+        "preview_url": "https://p.scdn.co/mp3-preview/14391f209f8e1365372a45a7a7ea7d703d29f9bd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part vi - solar goddess return",
+        "preview_url": "https://p.scdn.co/mp3-preview/ede1833d85d2752554bf14cbc454a96f56e76144?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part vii - dissolution",
+        "preview_url": "https://p.scdn.co/mp3-preview/d90d7d8acd25cf0a9b3e8a29f39c3fa73a69cf35?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "part viii - nothing is lost",
+        "preview_url": "https://p.scdn.co/mp3-preview/5ee01171861519c139f229a236ff37d566a88e05?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Ravyn Lenae",
-    "title": "Bird's Eye"
+    "albumTitle": "Bird's Eye",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273ef985ba96e76a9574cc68a30",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "1uE3dRPe3SrGdNhd1nWlSa",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1uE3dRPe3SrGdNhd1nWlSa",
+    "tracks": [
+      {
+        "name": "Genius",
+        "preview_url": "https://p.scdn.co/mp3-preview/2d6423f7fb7ac54db29f8f14234b95cc1ac66a0f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bad Idea",
+        "preview_url": "https://p.scdn.co/mp3-preview/50408cc03f2cc73ed3dbc4601b6a572a320a0661?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "One Wish (feat. Childish Gambino)",
+        "preview_url": "https://p.scdn.co/mp3-preview/02092905516c74ed00512fa2c9c35eb94eca1031?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dream Girl",
+        "preview_url": "https://p.scdn.co/mp3-preview/a1ad17f389519603e2b40bbb5012dba01ffc8a77?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Candy",
+        "preview_url": "https://p.scdn.co/mp3-preview/ba8224d0efaad549250ef2cdeda0132ca289e593?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love Is Blind",
+        "preview_url": "https://p.scdn.co/mp3-preview/009afc1551a055299baa7222bc6fe05cce8cb968?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love Me Not",
+        "preview_url": "https://p.scdn.co/mp3-preview/b78746b83ae613f5eb46d7807740520091cbc050?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "From Scratch",
+        "preview_url": "https://p.scdn.co/mp3-preview/225d3dfcbb0ab9ac2f843f96667a95e124879e2e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "1 of 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/321f54c7b307f82fa91674cf56c25cc419c20678?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Pilot",
+        "preview_url": "https://p.scdn.co/mp3-preview/8fa4c861b1882bd0f09e7201650a14f3c69dde45?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Days",
+        "preview_url": "https://p.scdn.co/mp3-preview/382c71a38bcedf428003419b5c8a84b6222f1cd7?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Beabadoobee",
-    "title": "This Is How Tomorrow Moves"
+    "albumTitle": "This Is How Tomorrow Moves",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2737d9a2e7835a178df7b0153aa",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "5oT7xqbRbQCevZ0XC5aBFu",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5oT7xqbRbQCevZ0XC5aBFu",
+    "tracks": [
+      {
+        "name": "Take A Bite",
+        "preview_url": "https://p.scdn.co/mp3-preview/989e871da85c8cb973969a0c55eff1cfea6607c7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "California",
+        "preview_url": "https://p.scdn.co/mp3-preview/37256a311211e85520509cb6d1bfe66e0641ca2b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "One Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/6883d61f3502aa0966e36f342a202f8e0566ba83?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Real Man",
+        "preview_url": "https://p.scdn.co/mp3-preview/e584f98fd1d542b3d1b5a2c0210f02cc1b48105c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tie My Shoes",
+        "preview_url": "https://p.scdn.co/mp3-preview/3276915f4f82454441b013bcfb08635a6d909cf3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Girl Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/4841a0e1655fa0cbe0a0f1f85ee1e5cb4f3f8924?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Coming Home",
+        "preview_url": "https://p.scdn.co/mp3-preview/c59c4739b3db530844b624221ebd57f1a53fcde8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ever Seen",
+        "preview_url": "https://p.scdn.co/mp3-preview/8f6d1db5207f58015eb35e1083a66a66b5dfa183?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "A Cruel Affair",
+        "preview_url": "https://p.scdn.co/mp3-preview/9511e4f8f7a63d30e3aea2f5002eeda13b2f408f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Post",
+        "preview_url": "https://p.scdn.co/mp3-preview/56469ee0c18b35467cb7bf17e464e273853d4ab1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Beaches",
+        "preview_url": "https://p.scdn.co/mp3-preview/0aa144bf01c21e7c5f6a336cd11b779dacf838b3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Everything I Want",
+        "preview_url": "https://p.scdn.co/mp3-preview/e1d88db8973344225036f60f5842435b57066a9e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Man Who Left Too Soon",
+        "preview_url": "https://p.scdn.co/mp3-preview/1714eda874ec327de4426ee97095412509c548dc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "This Is How It Went",
+        "preview_url": "https://p.scdn.co/mp3-preview/943920514bee647da57190d8576832d092ca320c?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "King Gizzard and the Lizard Wizard",
-    "title": "Flight b741"
+    "albumTitle": "Flight b741",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273d52933529bebbc2a73d78fb7",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "1hyEbrjx4XtesBvKDR3ez2",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1hyEbrjx4XtesBvKDR3ez2",
+    "tracks": [
+      {
+        "name": "Mirage City"
+      },
+      {
+        "name": "Antarctica"
+      },
+      {
+        "name": "Raw Feel"
+      },
+      {
+        "name": "Field of Vision"
+      },
+      {
+        "name": "Hog Calling Contest"
+      },
+      {
+        "name": "Le Risque"
+      },
+      {
+        "name": "Flight b741"
+      },
+      {
+        "name": "Sad Pilot"
+      },
+      {
+        "name": "Rats In The Sky"
+      },
+      {
+        "name": "Daily Blues"
+      }
+    ]
   },
   {
     "artist": "Latto",
-    "title": "Sugar Honey Iced Tea"
+    "albumTitle": "Sugar Honey Iced Tea",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27358726b4f55decb5fb2684cf6",
+      "width": 640
+    },
+    "totalTracks": 21,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "1S9LGRodo5jsXGsMeVaYNp",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1S9LGRodo5jsXGsMeVaYNp",
+    "tracks": [
+      {
+        "name": "Georgia Peach",
+        "preview_url": "https://p.scdn.co/mp3-preview/6abf90e7a3f7f506945db68e2651bfd43634d081?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Big Mama",
+        "preview_url": "https://p.scdn.co/mp3-preview/dba9b94c25f59af5cfe6061dcfa714b3080abc0f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Blick Sum",
+        "preview_url": "https://p.scdn.co/mp3-preview/a6d14845861e1199e83b5c82af300e9d40f371d1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Settle Down",
+        "preview_url": "https://p.scdn.co/mp3-preview/25bfb1622f6be9132e8cc9eaeba928b79bedcb16?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Shrimp & Grits (feat. Young Nudy)",
+        "preview_url": "https://p.scdn.co/mp3-preview/879d15ae3397d66b34116e92cf8f77a418386eb3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "There She Go",
+        "preview_url": "https://p.scdn.co/mp3-preview/979a3e448764f0e4c509b78fb36944186440c176?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Brokey",
+        "preview_url": "https://p.scdn.co/mp3-preview/b43a26b24f9f8bf934ff7ff63497f709ee42f7a4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mimi Interlude",
+        "preview_url": "https://p.scdn.co/mp3-preview/13f24d6942132ca31d3c6aa8b7746239c5869947?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "H&M",
+        "preview_url": "https://p.scdn.co/mp3-preview/7094c7ca592c5a6f2713532f9b78c9dd22fad8c9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Copper Cove (feat. Hunxho)",
+        "preview_url": "https://p.scdn.co/mp3-preview/4e58504f7c7d5e69ab9e23bfcd2cc55ee5f094c4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ear Candy (feat. Coco Jones)",
+        "preview_url": "https://p.scdn.co/mp3-preview/b0dc22de5afec0f12e44e6235c9e2310b6023611?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Liquor",
+        "preview_url": "https://p.scdn.co/mp3-preview/156fc8db867f69efe054475566d7a87af7118f8c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Squeeze (feat. Megan Thee Stallion)",
+        "preview_url": "https://p.scdn.co/mp3-preview/ce7cf5262e536acd86eb396315ebcee3a79f8c39?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Good 2 You (feat. Ciara)",
+        "preview_url": "https://p.scdn.co/mp3-preview/bb77c3fb096291b94f7f81e8b11382fdc93680ac?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Look What You Did (feat. Mariah the Scientist)",
+        "preview_url": "https://p.scdn.co/mp3-preview/9dfe3389ae95ac9cbc7305c16db4d8c0735975c3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Prized Possession (feat. Teezo Touchdown)",
+        "preview_url": "https://p.scdn.co/mp3-preview/33fec8bc2d2d805b881aa3618fe4d2238346e3c4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "S/O to Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/1b244c203b304ebc641faa3e6ba0bbce4a5a8ce0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Put It On Da Floor",
+        "preview_url": "https://p.scdn.co/mp3-preview/15e676b6d3ae10782129098e3fc230623b8cb0f7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Put It On Da Floor Again (feat. Cardi B)",
+        "preview_url": "https://p.scdn.co/mp3-preview/71cbccbb7d97f5fea5f2cc9927b6942dc1e3ddc3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sunday Service",
+        "preview_url": "https://p.scdn.co/mp3-preview/a17a492829f0d293e485b210866e3301e9c01b9b?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Ryuichi Sakamoto",
-    "title": "Opus"
+    "albumTitle": "Opus",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27374080dfd4a1960538efc8976",
+      "width": 640
+    },
+    "totalTracks": 20,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "7CZm15HrGX4juBQYf0xsUX",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7CZm15HrGX4juBQYf0xsUX",
+    "tracks": [
+      {
+        "name": "Lack of Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/fbe3fb293b67c0341535e6a25cb12c03098559a4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BB",
+        "preview_url": "https://p.scdn.co/mp3-preview/ad037fd03df3029e6034dec978d511a7ea93194e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Andata",
+        "preview_url": "https://p.scdn.co/mp3-preview/89ed3fa7fbc9c9c40eaef9ffde923bd87fa85cd1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Solitude",
+        "preview_url": "https://p.scdn.co/mp3-preview/1ac524ed2bda79df023e5cabb59cd2242bdcf6d4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "for Jóhann",
+        "preview_url": "https://p.scdn.co/mp3-preview/2327b62b71ab1dfc735c5b7e9aaa227570527e0f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Aubade 2020",
+        "preview_url": "https://p.scdn.co/mp3-preview/cf627d6abd94005357400dd6e77c1e9d5f31938a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ichimei - small happiness",
+        "preview_url": "https://p.scdn.co/mp3-preview/b9ced09192b5748d971a00c4da3d5fe8883236b6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mizu no Naka no Bagatelle",
+        "preview_url": "https://p.scdn.co/mp3-preview/17840f49eb01c68b514988bebcad0822fbb84696?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bibo no Aozora",
+        "preview_url": "https://p.scdn.co/mp3-preview/2acfef2e81053c10c8f4eb8b791a4513b1bd6247?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Aqua",
+        "preview_url": "https://p.scdn.co/mp3-preview/b9e562d40a3463caccb44b05e394790cd4ad7026?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tong Poo (from “Opus\")",
+        "preview_url": "https://p.scdn.co/mp3-preview/854771f0ffbec80d5a386e84bd9cefac8e6c413a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Wuthering Heights",
+        "preview_url": "https://p.scdn.co/mp3-preview/a620ccb080a58fea9b1e19d3211b68fcd49e1132?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "20220302 - sarabande",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d426a8f71a4fa8bc3b591580f04fad6644ed15b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Sheltering Sky",
+        "preview_url": "https://p.scdn.co/mp3-preview/578540d0f5ab3ba9089d0aa7a85d1effd50feb16?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "20180219 (w/ prepared piano)",
+        "preview_url": "https://p.scdn.co/mp3-preview/888767b03c989830756f40ad4988ced0110fded9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Last Emperor",
+        "preview_url": "https://p.scdn.co/mp3-preview/f052407f9f2dc1af82868f2a07973fc129ddae6c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Trioon",
+        "preview_url": "https://p.scdn.co/mp3-preview/9500da6ddc1db972f6d388ed38b2a91983e3b081?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Happy End",
+        "preview_url": "https://p.scdn.co/mp3-preview/497e0b289d160467c342ae74decbbcba7c492008?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Merry Christmas Mr. Lawrence",
+        "preview_url": "https://p.scdn.co/mp3-preview/5b30ce89583d41c3d455e2db47cda91eb9baf8be?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Opus - ending",
+        "preview_url": "https://p.scdn.co/mp3-preview/30ebf318bfd647dd04aaa0b37d651588f491be8e?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Oso Oso",
-    "title": "Life Till Bones"
+    "albumTitle": "Life Till Bones",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27338041aeea1ef903acc6dd582",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "3vT9PayicuM9sEo0tONUmS",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/3vT9PayicuM9sEo0tONUmS",
+    "tracks": [
+      {
+        "name": "many ways",
+        "preview_url": "https://p.scdn.co/mp3-preview/a6bd6d3d48a0bca8ae80a3a01e1fc6a5a916ffb8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "the country club",
+        "preview_url": "https://p.scdn.co/mp3-preview/ddd54fee96fa2f6e3dc395a469374c0af54d7493?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "all of my love",
+        "preview_url": "https://p.scdn.co/mp3-preview/a8b93ad3c222a4bafcb155a41f6c7f82db2461f3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "that's what time does",
+        "preview_url": "https://p.scdn.co/mp3-preview/1f4b2872ff6dc2077a4c36ec20ff244ba63cbc5c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "stoke",
+        "preview_url": "https://p.scdn.co/mp3-preview/6413928d77a4b5e8e6593c2bd3ea8c8a2d10a72c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "dog without its bark",
+        "preview_url": "https://p.scdn.co/mp3-preview/e564c7eee79dac04d984deba980226dd9fb789f6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "seesaw",
+        "preview_url": "https://p.scdn.co/mp3-preview/093fff4eabce4e2e80a19b1bdc507d8cdd8c24cb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "application",
+        "preview_url": "https://p.scdn.co/mp3-preview/f162a1faca3c16a5140d324477387b5bcbc73042?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "skippy",
+        "preview_url": "https://p.scdn.co/mp3-preview/15b984949a67b7a1ec9aba87c6c1108700f5c464?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "other people's stories",
+        "preview_url": "https://p.scdn.co/mp3-preview/9b20a6e5c3cb1d3ffdb1c9f60a361ad6ef9316e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Thee Marloes",
-    "title": "Perak"
+    "albumTitle": "Perak",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2732e16a3fc974d4771c82599de",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "5FdHePoYyJiUsjG0ownNbb",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5FdHePoYyJiUsjG0ownNbb",
+    "tracks": [
+      {
+        "name": "I Know",
+        "preview_url": "https://p.scdn.co/mp3-preview/0feed081af2fd51876ce694aecc62ca9bd927d6c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Logika",
+        "preview_url": "https://p.scdn.co/mp3-preview/10b2773fd728ed0ebf11781e255c1bf303b01fab?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Summer",
+        "preview_url": "https://p.scdn.co/mp3-preview/67c9bec603b37861d7514b1e3656b59f7ef060c6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Midnight Hotline",
+        "preview_url": "https://p.scdn.co/mp3-preview/6d5c53f1c17d22bdf25ce61ff05f25a3fae31dfe?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Beri Cinta Waktu",
+        "preview_url": "https://p.scdn.co/mp3-preview/5e3240188c922f1476711961d54a848ffe55fe00?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "True Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/e22fbf5cf63c2274fa0c087b4475be7ac7d3f251?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Mungkin Saja",
+        "preview_url": "https://p.scdn.co/mp3-preview/36968753f69a0b84498497d13a6ce391a508d262?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Not Today",
+        "preview_url": "https://p.scdn.co/mp3-preview/c9ee44c123c35a60787c68726022a2727a274a10?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Over",
+        "preview_url": "https://p.scdn.co/mp3-preview/14bc0a31dd0d7db69dc7149e58e59838997c27de?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "No One Else",
+        "preview_url": "https://p.scdn.co/mp3-preview/3ab4dd75f16e12d57549db8aeb876a8dc8cf0f48?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nona",
+        "preview_url": "https://p.scdn.co/mp3-preview/27e96945a5799ce58f7704aa9918f74925078b86?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Thank You",
+        "preview_url": "https://p.scdn.co/mp3-preview/cd0090315fbbf826e9647eeff6a9248430379901?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Milton Nascimento & esperanza spalding",
-    "title": "Milton + esperanza"
+    "albumTitle": "Milton + esperanza",
+    "postDate": "2024-08-09",
+    "url": "https://www.npr.org/2024/08/09/1197963458/new-music-friday-august-9-king-gizzard-esperanza-spalding-milton-nascimento",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27379825dda8c48d7aa9438b400",
+      "width": 640
+    },
+    "totalTracks": 16,
+    "releaseDate": "2024-08-09",
+    "spotifyAlbumId": "6lVRgFz4vQ3qoNT2nJfsar",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/6lVRgFz4vQ3qoNT2nJfsar",
+    "tracks": [
+      {
+        "name": "the music was there"
+      },
+      {
+        "name": "Cais"
+      },
+      {
+        "name": "Late September"
+      },
+      {
+        "name": "Outubro"
+      },
+      {
+        "name": "A Day in the Life"
+      },
+      {
+        "name": "Interlude for Saci"
+      },
+      {
+        "name": "Saci"
+      },
+      {
+        "name": "Wings for the Thought Bird"
+      },
+      {
+        "name": "The Way You Are"
+      },
+      {
+        "name": "Earth Song"
+      },
+      {
+        "name": "Morro Velho"
+      },
+      {
+        "name": "Saudade Dos Aviões Da Panair (Conversando No Bar)"
+      },
+      {
+        "name": "Um Vento Passou (para Paul Simon)"
+      },
+      {
+        "name": "Get It By Now"
+      },
+      {
+        "name": "outro planeta"
+      },
+      {
+        "name": "When You Dream"
+      }
+    ]
   },
   {
     "artist": "Meshell Ndegeocello",
-    "title": "No More Water: The Gospel of James Baldwin"
+    "albumTitle": "No More Water: The Gospel of James Baldwin",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2731badc1716df747813ba26e19",
+      "width": 640
+    },
+    "totalTracks": 17,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "2ba5r7icQRIInoWJYUrsSJ",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2ba5r7icQRIInoWJYUrsSJ",
+    "tracks": [
+      {
+        "name": "Travel"
+      },
+      {
+        "name": "On The Mountain"
+      },
+      {
+        "name": "Baldwin Manifesto I"
+      },
+      {
+        "name": "Raise The Roof"
+      },
+      {
+        "name": "The Price Of The Ticket"
+      },
+      {
+        "name": "What Did I Do?"
+      },
+      {
+        "name": "Pride I"
+      },
+      {
+        "name": "Pride II"
+      },
+      {
+        "name": "Eyes"
+      },
+      {
+        "name": "Trouble"
+      },
+      {
+        "name": "Thus Sayeth The Lorde"
+      },
+      {
+        "name": "Love"
+      },
+      {
+        "name": "Hatred"
+      },
+      {
+        "name": "Tsunami Rising"
+      },
+      {
+        "name": "Another Country"
+      },
+      {
+        "name": "Baldwin Manifesto II"
+      },
+      {
+        "name": "Down At The Cross"
+      }
+    ]
   },
   {
     "artist": "Khalid",
-    "title": "Sincere"
+    "albumTitle": "Sincere",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2731fd2a067f5b985ce49f70c81",
+      "width": 640
+    },
+    "totalTracks": 16,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "0Tu7Vpu49X7oduL2AVbKZq",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0Tu7Vpu49X7oduL2AVbKZq",
+    "tracks": [
+      {
+        "name": "Adore U",
+        "preview_url": "https://p.scdn.co/mp3-preview/4a99c4ad8d061ecb53211af670dd04d7ec019c27?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Everything We See",
+        "preview_url": "https://p.scdn.co/mp3-preview/b242ac86bc61ed4fa40cc173280601446999d576?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Altitude",
+        "preview_url": "https://p.scdn.co/mp3-preview/690b109df6293cc2ec5fc03fed83c0eaa8375daa?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "It's All Good",
+        "preview_url": "https://p.scdn.co/mp3-preview/26075d813d0f260e2c9606c5a3262083eb9a3ac6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Broken",
+        "preview_url": "https://p.scdn.co/mp3-preview/6eda5e701b8470927630e8d0df399d852657eac7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dose",
+        "preview_url": "https://p.scdn.co/mp3-preview/e1e6fc27a49e0820f15390e4ebc063759d6fd845?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Please Don't Fall In Love With Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/d3d1bf22a55e33f7ef500da586b4ec4cd056540a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Breathe",
+        "preview_url": "https://p.scdn.co/mp3-preview/5cbf1ce88c8b586345990e1204f1c888abf478ef?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ground",
+        "preview_url": "https://p.scdn.co/mp3-preview/019c755caa9d181f3531ee0f00851485496ae825?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Who's There To Pick Me Up",
+        "preview_url": "https://p.scdn.co/mp3-preview/a2e25327238e69e32c95f4140cecccd2661ac56f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tainted",
+        "preview_url": "https://p.scdn.co/mp3-preview/f2cdb99e2addb62c66129da1e66ce48a77ae3894?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Long Way Home",
+        "preview_url": "https://p.scdn.co/mp3-preview/e05037d57a22867f59ddba7c5ff4c680302677a2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Heatstroke",
+        "preview_url": "https://p.scdn.co/mp3-preview/f6a0047be7b960d82b17355695a9423d372c3862?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sincere",
+        "preview_url": "https://p.scdn.co/mp3-preview/2600b2a5b3df22bf84d931d2946b87b3357e30c6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Owe To You",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ff33424fe1051550e396e88b0541c21b675e26c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Decline",
+        "preview_url": "https://p.scdn.co/mp3-preview/364da8fd4d5f1e1309154e5d1529733a3b4f50c7?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Orville Peck",
-    "title": "Stampede"
+    "albumTitle": "Stampede",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2737326862e3f3fc40f10b358d9",
+      "width": 640
+    },
+    "totalTracks": 15,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "3vi7hLbbjQBJypfAA2gafE",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/3vi7hLbbjQBJypfAA2gafE",
+    "tracks": [
+      {
+        "name": "Cowboys Are Frequently Secretly Fond Of Each Other",
+        "preview_url": "https://p.scdn.co/mp3-preview/45f57d0767f813bb40c273010dc25964e7f5476a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Hurtin' Kind",
+        "preview_url": "https://p.scdn.co/mp3-preview/fbafaa7a7e4ab79036dbc6b801b6ea0e9b82b27d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Saturday Night's Alright (For Fighting)",
+        "preview_url": "https://p.scdn.co/mp3-preview/6cfe250939def81847807c1722e0e40d91243e63?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Back At Your Door",
+        "preview_url": "https://p.scdn.co/mp3-preview/0aa0691132c53512201293652ecbac04fc27f3ed?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Chemical Sunset",
+        "preview_url": "https://p.scdn.co/mp3-preview/01b3f7b9ed63eb8c7cdf1ffc45c6db020be17b09?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Death Valley High",
+        "preview_url": "https://p.scdn.co/mp3-preview/e50da2e9d3a119bbab347fe6d2bb0e4135f5a35a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "How Far Will We Take It?",
+        "preview_url": "https://p.scdn.co/mp3-preview/5f96265b67bb05b52b71f81e7da2dfdb1bcaf9ac?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Miénteme",
+        "preview_url": "https://p.scdn.co/mp3-preview/b934816e614d266cfba561d5df0bbe22b9d3c9fd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Papa Was a Rodeo",
+        "preview_url": "https://p.scdn.co/mp3-preview/358cfe284aa5a274ba1b53ada0d4f9b65907167b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Midnight Ride",
+        "preview_url": "https://p.scdn.co/mp3-preview/ac78a53f60c6fbe8fcc7c83d29e41ec34c2197c8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ever You're Gone",
+        "preview_url": "https://p.scdn.co/mp3-preview/26b37ccaa66482c49ddde3480c86f8a99299681c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "You're an Asshole, I Can't Stand You (and I Want a Divorce)",
+        "preview_url": "https://p.scdn.co/mp3-preview/e3fff0e2b43065499a9bf59416b374a3b9a2e251?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Where Are We Now?",
+        "preview_url": "https://p.scdn.co/mp3-preview/8cf12c3cbb8ebe07413a1d97a344bb334e02424a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Conquer The Heart",
+        "preview_url": "https://p.scdn.co/mp3-preview/0a55b50b67fa240b8fbb10f72d827c2f820045a0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rhinestone Cowboy",
+        "preview_url": "https://p.scdn.co/mp3-preview/ff91fc5ccddd005c07c48fa6787f345217449f85?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Moses Sumney",
-    "title": "Sophcore"
+    "albumTitle": "Sophcore",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273bef72908e333cef7bdbdf995",
+      "width": 640
+    },
+    "totalTracks": 6,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "72ocR4sSbkz2XT5eIA5c1h",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/72ocR4sSbkz2XT5eIA5c1h",
+    "tracks": [
+      {
+        "name": "I'm Better (I'm Bad)",
+        "preview_url": "https://p.scdn.co/mp3-preview/a3b572cb872c9686999f683523432e6fbd422121?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Vintage",
+        "preview_url": "https://p.scdn.co/mp3-preview/2025e26a4f1b0e4156af1d41ec9b50e73d64ea85?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Whippedlashed",
+        "preview_url": "https://p.scdn.co/mp3-preview/221e9d36c42052cbf32ff4db0248517a4f16f6cc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Gold Coast",
+        "preview_url": "https://p.scdn.co/mp3-preview/ccaf052515e38beea5350637b21c4a0c031c46c8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hey Girl",
+        "preview_url": "https://p.scdn.co/mp3-preview/70cb88d1dedc6bb1b7f0545a0c6c0c36b0280b2d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love's Refrain",
+        "preview_url": "https://p.scdn.co/mp3-preview/11e8c3b702e64d8353d2713b93ebf4b92f4db0e3?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Maren Morris",
-    "title": "Intermission"
+    "albumTitle": "Intermission",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2736481155b3d9c0fec6f781c7c",
+      "width": 640
+    },
+    "totalTracks": 5,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "4AArez9tyeiLb4TZuf8Y5c",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4AArez9tyeiLb4TZuf8Y5c",
+    "tracks": [
+      {
+        "name": "cut! (feat. Julia Michaels)",
+        "preview_url": "https://p.scdn.co/mp3-preview/e4983275704edf0663b3fd8af529af911fdeb609?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "i hope i never fall in love",
+        "preview_url": "https://p.scdn.co/mp3-preview/ef42a9a1bb95a3f7c26a80d61d62fb957220b008?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "push me over",
+        "preview_url": "https://p.scdn.co/mp3-preview/ce70d3a1ff5147b6e441c5f8fdcf425487a66624?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "because, of course",
+        "preview_url": "https://p.scdn.co/mp3-preview/2bb66811b5d2136bdd6f7c70a712f0b77ab7ecf9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "this is how a woman leaves",
+        "preview_url": "https://p.scdn.co/mp3-preview/fb0d0ef7978f11b6acce9ff96432df01407dea82?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Killer Mike",
-    "title": "Songs for Saints and SinnersOther notable albums out August 2:"
+    "albumTitle": "Songs for Saints and SinnersOther notable albums out August 2:",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273a634e77d847b79e8cec2dac1",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "4uusjgOWMeitjvIrSA1HXO",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4uusjgOWMeitjvIrSA1HXO",
+    "tracks": [
+      {
+        "name": "BUSSIN BRICKS INTRO"
+      },
+      {
+        "name": "NOBODY KNOWS"
+      },
+      {
+        "name": "HUMBLE ME"
+      },
+      {
+        "name": "HIGHER LEVEL"
+      },
+      {
+        "name": "EXIT 9 (SCENIC ROUTE)"
+      },
+      {
+        "name": "LORD PREPARE ME"
+      },
+      {
+        "name": "SLUMMER 4 JUNKIES"
+      },
+      {
+        "name": "HAD TO GET IT"
+      },
+      {
+        "name": "’97 3-6 FREESTYLE"
+      },
+      {
+        "name": "STILL TALK’N THAT SHIT"
+      }
+    ]
   },
   {
     "artist": "Smashing Pumpkins",
-    "title": "Aghori Mhori Mei"
+    "albumTitle": "Aghori Mhori Mei",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273abab5c9e42696b45d237ff64",
+      "width": 640
+    },
+    "totalTracks": 90,
+    "releaseDate": "2013-01-01",
+    "spotifyAlbumId": "5y5Qnze6BJUbON6FxndO9c",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5y5Qnze6BJUbON6FxndO9c",
+    "tracks": [
+      {
+        "name": "Bullet With Butterfly Wings"
+      },
+      {
+        "name": "...Said Sadly"
+      },
+      {
+        "name": "You're All I've Got Tonight"
+      },
+      {
+        "name": "Clones (We're All)"
+      },
+      {
+        "name": "A Night Like This"
+      },
+      {
+        "name": "Destination Unknown"
+      },
+      {
+        "name": "Dreaming"
+      },
+      {
+        "name": "Movers And Shakirs - Gravity Demo"
+      },
+      {
+        "name": "Germans In Leather Pants - Gravity Demo"
+      },
+      {
+        "name": "Millieu - Gravity Demo"
+      },
+      {
+        "name": "Jackboot - Gravity Demo"
+      },
+      {
+        "name": "A/Ab/E/B/F# - Gravity Demo"
+      },
+      {
+        "name": "Rings - Gravity Demo"
+      },
+      {
+        "name": "Ugly - Gravity Demo"
+      },
+      {
+        "name": "Blaster Caster - Gravity Demo"
+      },
+      {
+        "name": "Little Ditty - Gravity Demo"
+      },
+      {
+        "name": "Verily I Say - Gravity Demo"
+      },
+      {
+        "name": "New Waver - Gravity Demo"
+      },
+      {
+        "name": "The Groover - Gravity Demo"
+      },
+      {
+        "name": "Ravi Revi Roo - Gravity Demo"
+      }
+    ]
   },
   {
     "artist": "Chrystabelle and David Lynch",
-    "title": "Cellophane Memories"
+    "albumTitle": "Cellophane Memories",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273709604dd31a1e60dd6b1ff4f",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "2x9vdwXwVNngV69L3hmG9C",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2x9vdwXwVNngV69L3hmG9C",
+    "tracks": [
+      {
+        "name": "She Knew",
+        "preview_url": "https://p.scdn.co/mp3-preview/80a7dc2f6308d063233314883271246171902dc6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Sky Falls",
+        "preview_url": "https://p.scdn.co/mp3-preview/17882c5debc14419027329cc53669c9ccb57e899?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "You Know The Rest",
+        "preview_url": "https://p.scdn.co/mp3-preview/112d8f253416b155568cc528d357ffaff7f263f9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "So Much Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/85c099e970b94b85c7aa1d8a5149684bca6050e9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Two Lovers Kiss",
+        "preview_url": "https://p.scdn.co/mp3-preview/4fd95b29bb79317519c8700ab0ce02990bc68ed4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Answers to The Questions",
+        "preview_url": "https://p.scdn.co/mp3-preview/9bc35a668b9b9c652e2866f7ef8bd97fcbdefa48?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "With Small Animals",
+        "preview_url": "https://p.scdn.co/mp3-preview/354823b9e22a7882c5470886f84fdf8b95d922e1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Reflections in a Blade",
+        "preview_url": "https://p.scdn.co/mp3-preview/80d0e1caed9fc3ea0d6a0be9e36abcf58fa87489?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dance of Light",
+        "preview_url": "https://p.scdn.co/mp3-preview/42c40e11acfbb3a22359ff50ebdc94be9e3c1761?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sublime Eternal Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/f6a9d2cebeac8853de3c61c428572be0acf84abc?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "JPEGMAFIA",
-    "title": "I Lay Down My Life For You"
+    "albumTitle": "I Lay Down My Life For You",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273393fb413d09de1443185da1e",
+      "width": 640
+    },
+    "totalTracks": 28,
+    "releaseDate": "2002-07-16",
+    "spotifyAlbumId": "1SVEph4VG00L3vsmMeeBcC",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1SVEph4VG00L3vsmMeeBcC",
+    "tracks": [
+      {
+        "name": "Still Ridin' Clean",
+        "preview_url": "https://p.scdn.co/mp3-preview/3150c224a3ff6b951661550d197cbf32e6841d66?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Porch 3",
+        "preview_url": "https://p.scdn.co/mp3-preview/c271e8d249372d5be39082d15d1d8d0523ce6654?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Fight",
+        "preview_url": "https://p.scdn.co/mp3-preview/e41865e71a30f1569b3e924b46c08ba031f45026?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Weak Niggaz",
+        "preview_url": "https://p.scdn.co/mp3-preview/7fe3025e1dde814be48a644e29d7546de1f33f94?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Make Dat Azz Clap (Back Clap) (feat. Juvenile) - Explicit Album Version",
+        "preview_url": "https://p.scdn.co/mp3-preview/690ad42a947494e6402b6a7d6148e3e7e74b491d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Choose U",
+        "preview_url": "https://p.scdn.co/mp3-preview/5b2c8b1f581b0728abf6bb67057b86696ceed511?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Smokin' Out",
+        "preview_url": "https://p.scdn.co/mp3-preview/cd2e444ad42151a493948b7cd59e69cab4965d3d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Show Dem Golds",
+        "preview_url": "https://p.scdn.co/mp3-preview/5a8abfd5d2cc2e70f7917bf852b6f90d80787a4c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "This Pimp",
+        "preview_url": "https://p.scdn.co/mp3-preview/ad7ff0a1b593ee06c4311ebafc0f64bef6d6c77b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "On Nigga",
+        "preview_url": "https://p.scdn.co/mp3-preview/632c9c1286320712154435699d49d3246e7316e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "That Drank",
+        "preview_url": "https://p.scdn.co/mp3-preview/ec86c91d34c20cfba601c242314af284d2e6eb3d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "MC Flyjo",
+        "preview_url": "https://p.scdn.co/mp3-preview/793747e840ca87111f2edb2b9dceb1bfb7ef1d10?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Posse Song",
+        "preview_url": "https://p.scdn.co/mp3-preview/4969f58255a563cf9dbd9541d9c9fd99b59dc4f5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "90 Days",
+        "preview_url": "https://p.scdn.co/mp3-preview/44344b57d175c810fee8d3327765293dc481e651?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Shut Ya Mouth, Bitch",
+        "preview_url": "https://p.scdn.co/mp3-preview/bf24ad975263268e575a479670074e58b2c8339f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Take Da Charge",
+        "preview_url": "https://p.scdn.co/mp3-preview/0dc597141dc731f51ad69e6240560c79e6830008?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Smoke & Get High",
+        "preview_url": "https://p.scdn.co/mp3-preview/f76af7f60cd1c29959389a8268db206e2d052c3b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "County Jail",
+        "preview_url": "https://p.scdn.co/mp3-preview/520a208779f7c58fdae7d5d9d0661df1f6d7d654?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I'm MO",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9a74e2f91fa105138f8dc565c1310f67034afc7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Outro - Explicit - Spoken Word",
+        "preview_url": "https://p.scdn.co/mp3-preview/11e4d8f37aa40da939a6fce8dccbfdb4552e6fea?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Brigitte Calls Me Baby",
-    "title": "The Future Is Our Way Out"
+    "albumTitle": "The Future Is Our Way Out",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27395e2e82b7fa4c6d5e1f289a5",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "2BOwAv2hKNPJW06P3RHScT",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2BOwAv2hKNPJW06P3RHScT",
+    "tracks": [
+      {
+        "name": "The Future is Our Way Out"
+      },
+      {
+        "name": "Pink Palace"
+      },
+      {
+        "name": "Eddie My Love"
+      },
+      {
+        "name": "Fine Dining"
+      },
+      {
+        "name": "I Wanna Die In The Suburbs"
+      },
+      {
+        "name": "Too Easy"
+      },
+      {
+        "name": "Palm of Your Hand"
+      },
+      {
+        "name": "Impressively Average"
+      },
+      {
+        "name": "We Were Never Alive"
+      },
+      {
+        "name": "You Are Only Made Of Dreams"
+      },
+      {
+        "name": "Always Be Fine"
+      }
+    ]
   },
   {
     "artist": "Los Lonely Boys",
-    "title": "Resurrection"
+    "albumTitle": "Resurrection",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273a2280c5d8e2745884bb2967f",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "3a9xrY1A9DkKauXZW17KQ8",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/3a9xrY1A9DkKauXZW17KQ8",
+    "tracks": [
+      {
+        "name": "Wish You Would",
+        "preview_url": "https://p.scdn.co/mp3-preview/302208cd12f11c5609495460c5b74346a3ab0bfb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Let You Think That You Do",
+        "preview_url": "https://p.scdn.co/mp3-preview/e78e013409d18c8a5949dda70859b8ae67bf7a87?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dance With Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/1b8555a546cee92713d85b1c62a9b566e54970cd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Send More Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/c753764b8d4fc479a2967253ca98bd2884134a06?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Natural Thing",
+        "preview_url": "https://p.scdn.co/mp3-preview/81453cf5b1ed9f24feea505dc7c3ec2be5963646?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Can't Get No Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/5390b05c50e47015bc6a4da424f752ac9c10c223?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "See Your Face",
+        "preview_url": "https://p.scdn.co/mp3-preview/3b40fe1675a6a6e5bfaad56fdee574f573972f86?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Painted Memories",
+        "preview_url": "https://p.scdn.co/mp3-preview/c4d3dfe6b2df294244606da58f88872a42a0c791?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Hooked On You",
+        "preview_url": "https://p.scdn.co/mp3-preview/ef68f1e285cf6e0f129c6188d45423d7c3686f12?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bloodwater",
+        "preview_url": "https://p.scdn.co/mp3-preview/6f11872a87cb0dd8515f0085ebd3507e4a001f0e?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Tones and I",
-    "title": "Beautifully Ordinary"
+    "albumTitle": "Beautifully Ordinary",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27326a19e283aaf431caaa216fb",
+      "width": 640
+    },
+    "totalTracks": 16,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "2TLyLOzYh6qo5N0blioQn8",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2TLyLOzYh6qo5N0blioQn8",
+    "tracks": [
+      {
+        "name": "To Be Loved",
+        "preview_url": "https://p.scdn.co/mp3-preview/19993017a563398e342526354fb4e6988b9f01fd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lose Someone Like Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/3288eac171c2c2256b6e2a702d64828d0de16b0b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "I Get High",
+        "preview_url": "https://p.scdn.co/mp3-preview/045f02872afda03e1f3cf6c12d9c133c8cdb34de?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "We'll See Stars",
+        "preview_url": "https://p.scdn.co/mp3-preview/04dc533b5280f5cac51e258428f93cd103279ab5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dance With Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/f5f9dd3e2b83d3e49be775730467ab12a95ede0c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Figure It Out",
+        "preview_url": "https://p.scdn.co/mp3-preview/018cdfd3d9a2247fe8f4ae51c678756594455f6c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Wonderful",
+        "preview_url": "https://p.scdn.co/mp3-preview/da9aee0968f986a4b847dedf8986db501132e7e9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Raise Me Up",
+        "preview_url": "https://p.scdn.co/mp3-preview/f82414d11c21f530bfb12dfe6152fb95b86e217a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dreaming",
+        "preview_url": "https://p.scdn.co/mp3-preview/9787542464a5e7250dd11a48f8bbce63289d5c36?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "You Don't Know Me Like That",
+        "preview_url": "https://p.scdn.co/mp3-preview/d2aba26107af5a5e824805d00c52fabe20786edd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "John Doe",
+        "preview_url": "https://p.scdn.co/mp3-preview/f454615490a4cd45ca1da60b4e68ea7ebc3cfc3a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sorrento",
+        "preview_url": "https://p.scdn.co/mp3-preview/321f7684395f0d7667d9e501f7d3611aa9d532ea?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Need You To Love Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/4ad052fc3eb2d4627aa4f6310740d473a9cfd10b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Only One",
+        "preview_url": "https://p.scdn.co/mp3-preview/7e217f4b270a219f201d5112b64a0cb883e54633?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Live Without Your Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/443f7373e2fe713bc17b3c21f47294933e9c02bb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Call My Name",
+        "preview_url": "https://p.scdn.co/mp3-preview/89ead66ca252ce703df79246a95210c0373405f6?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "X",
-    "title": "Smoke & Fiction"
+    "albumTitle": "Smoke & Fiction",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273b27cc26dd68641e2001b4ba6",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "2flrGhu7n9y0IMlfmqRQ1F",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2flrGhu7n9y0IMlfmqRQ1F",
+    "tracks": [
+      {
+        "name": "Ruby Church",
+        "preview_url": "https://p.scdn.co/mp3-preview/cf462f94d254aaf6e554394416a11897f5a0f266?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sweet Til The Bitter End",
+        "preview_url": "https://p.scdn.co/mp3-preview/bb523bf8aa835092f7a831770c81065b680b59fa?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Way It Is",
+        "preview_url": "https://p.scdn.co/mp3-preview/a9dc595bc99652f151dbfe4e07300a8d5bc4457b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Flipside",
+        "preview_url": "https://p.scdn.co/mp3-preview/6f102c052c29f4125ed0db70d919b0fe17a95cbf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Big Black X",
+        "preview_url": "https://p.scdn.co/mp3-preview/379aef2ac0209946155ee771c04b4293c8b210f6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Smoke & Fiction",
+        "preview_url": "https://p.scdn.co/mp3-preview/2d004a30b4214f3c7488fa033eb91903e2e886b1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Struggle",
+        "preview_url": "https://p.scdn.co/mp3-preview/54e4b3f62fba9d346f976e1635f6e567fc5519a8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Winding Up the Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/1f223b49dbb773548e18189db766547d4094f222?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Face in the Moon",
+        "preview_url": "https://p.scdn.co/mp3-preview/a3927df879c7cd51d8d7df2a502bfb5ff576bd09?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Baby & All",
+        "preview_url": "https://p.scdn.co/mp3-preview/cb5f2f68a0187e9c49d8177173a6a7cb6348df0c?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "WHY?",
-    "title": "The Well I Fell Into"
+    "albumTitle": "The Well I Fell Into",
+    "postDate": "2024-08-02",
+    "url": "https://www.npr.org/2024/08/02/1197963293/new-music-friday-august-2-meshell-ndegeocello",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2739f9e81fc8aff6b5ce0b409b5",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-08-02",
+    "spotifyAlbumId": "6s2rZ96eQJvjsN5j9eIv1Y",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/6s2rZ96eQJvjsN5j9eIv1Y",
+    "tracks": [
+      {
+        "name": "Lauderdale Detour",
+        "preview_url": "https://p.scdn.co/mp3-preview/ff22ee7e7b8fbbfe35d495c861e0a4e71713dd86?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Marigold",
+        "preview_url": "https://p.scdn.co/mp3-preview/e3350f3983c87703bd7692161ad5d4268e4e9596?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Brand New",
+        "preview_url": "https://p.scdn.co/mp3-preview/c04acff19374d37e0e186a81e917e0b48c574c81?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "G-dzillah G’dolah",
+        "preview_url": "https://p.scdn.co/mp3-preview/5ff8af3f48bb84d9d0563a3c01684e9942e94fb9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "When We Do The Dance",
+        "preview_url": "https://p.scdn.co/mp3-preview/01a5bc9c82fee57d4a95dd4dec385c6b25cc4199?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Jump",
+        "preview_url": "https://p.scdn.co/mp3-preview/ed36171fd6cea7a94f188763de2b5a2ffa899a33?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Later at The Loon",
+        "preview_url": "https://p.scdn.co/mp3-preview/aef8722fe85d2a23825e13bfd3b3c0a093eafa50?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nis(s)an Dreams, Pt. 1",
+        "preview_url": "https://p.scdn.co/mp3-preview/120e626f08c9e94121a979db7d692118668d8955?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Letters, Etc.",
+        "preview_url": "https://p.scdn.co/mp3-preview/823ac39ffaee4bb068d99826f56843ed8f404034?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "What's Me?",
+        "preview_url": "https://p.scdn.co/mp3-preview/187c6cd9fceb80e3e59902956ca77e1b7a86f553?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sin Imperial",
+        "preview_url": "https://p.scdn.co/mp3-preview/a2584e2f4976f7880c05da66617139f829fa0b1c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Atreyu",
+        "preview_url": "https://p.scdn.co/mp3-preview/55b1bdfaac82ce6f17411bbc949223c30776ca6c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Versa Go!",
+        "preview_url": "https://p.scdn.co/mp3-preview/015ad755252c3ec2cff049f25fc2fdc8468b59a9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sending Out a Pamphlet",
+        "preview_url": "https://p.scdn.co/mp3-preview/ef30c6a593f584f3efd62f2f334e1dafb549b617?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Peso Pluma",
-    "title": "Éxodo"
+    "albumTitle": "Éxodo",
+    "postDate": "2024-06-21",
+    "url": "https://www.npr.org/2024/06/21/1197962261/new-music-friday-june-21-peso-pluma",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2732690127e1d6cd0aa35cc353b",
+      "width": 640
+    },
+    "totalTracks": 24,
+    "releaseDate": "2024-06-20",
+    "spotifyAlbumId": "5kvw1bAOvzJdNi4hdgfaNf",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5kvw1bAOvzJdNi4hdgfaNf",
+    "tracks": [
+      {
+        "name": "LA DURANGO",
+        "preview_url": "https://p.scdn.co/mp3-preview/131b15e7a72ca3e205c82ec3c4ddc4df74074c91?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "ME ACTIVO",
+        "preview_url": "https://p.scdn.co/mp3-preview/5758c718b7693f6dce1bc9aefbb2a7d9d38d4093?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "LA PATRULLA",
+        "preview_url": "https://p.scdn.co/mp3-preview/3a490b1336290577f0bf5a3b5a68f73e70b17e68?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "LA PEOPLE II",
+        "preview_url": "https://p.scdn.co/mp3-preview/b92c17c1198b62d3d2c7debfc23f353493c9f540?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SR. SMITH",
+        "preview_url": "https://p.scdn.co/mp3-preview/6da6cee6d97832f523e2109d785161dce8907b2a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "ROMPE LA DOMPE",
+        "preview_url": "https://p.scdn.co/mp3-preview/ab27a4f5a00d524386db16338101666b95cbefc5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "MAMI",
+        "preview_url": "https://p.scdn.co/mp3-preview/7f7fc6042ee03ebd3ca508c9de8b7cf1a5f47c50?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BELANOVA",
+        "preview_url": "https://p.scdn.co/mp3-preview/0131ff6bfc4acd8be8a1fc75ab11bb66e7cab007?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "BRUCE WAYNE",
+        "preview_url": "https://p.scdn.co/mp3-preview/ecac4dca60c655c07fa82d64271a3ec68da237d3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "HOLLYWOOD",
+        "preview_url": "https://p.scdn.co/mp3-preview/705963b281ed4bb188b3034da800c2d3df05441c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "RELOJ",
+        "preview_url": "https://p.scdn.co/mp3-preview/f11451c051ee1403012b7a2fb8f938605eb28fbc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "ICE",
+        "preview_url": "https://p.scdn.co/mp3-preview/33d5f9c26b6633aea8cfbb4829c6def9efc6a2ec?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SOLICITADO",
+        "preview_url": "https://p.scdn.co/mp3-preview/945d8d48a116b9c90141abdce2c66c694c64f69e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "SANTAL 33",
+        "preview_url": "https://p.scdn.co/mp3-preview/3748ab0fb543363b6476f872593cc4cb8a754b89?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "VINO TINTO",
+        "preview_url": "https://p.scdn.co/mp3-preview/71b03d38259e689176809244952de1fee5cefee0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "14 - 14",
+        "preview_url": "https://p.scdn.co/mp3-preview/3a8757ae10424145e534a6a0942eb81d39e8ea59?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "GIMME A SECOND",
+        "preview_url": "https://p.scdn.co/mp3-preview/5451a2a560b45d0ca274eb7a2d6bc5318802acc1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "PUT EM IN THE FRIDGE",
+        "preview_url": "https://p.scdn.co/mp3-preview/de12b27c93b6fe43af90b365c2fd16e5f671548f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "PA NO PENSAR",
+        "preview_url": "https://p.scdn.co/mp3-preview/e96c5eec3a231aed114641a682b186d794fcdefc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "PESO COMPLETO",
+        "preview_url": "https://p.scdn.co/mp3-preview/93345ffdb8bfc279a4063414b8a86e657c660b40?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Kehlani",
-    "title": "Crash"
+    "albumTitle": "Crash",
+    "postDate": "2024-06-21",
+    "url": "https://www.npr.org/2024/06/21/1197962261/new-music-friday-june-21-peso-pluma",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2730e87230f0267261a4c0d9f7a",
+      "width": 640
+    },
+    "totalTracks": 13,
+    "releaseDate": "2024-06-21",
+    "spotifyAlbumId": "6GF5uzX2s0GsS4eGlM4h3m",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/6GF5uzX2s0GsS4eGlM4h3m",
+    "tracks": [
+      {
+        "name": "GrooveTheory",
+        "preview_url": "https://p.scdn.co/mp3-preview/c22a570dbed13521d3b8fc248f96789c417b401e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Next 2 U",
+        "preview_url": "https://p.scdn.co/mp3-preview/cae2b47dd99b351037cf15fa486e73c726c976a8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "After Hours",
+        "preview_url": "https://p.scdn.co/mp3-preview/a4d3bec37d4a67c9161853a02922261e128284aa?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "What I Want",
+        "preview_url": "https://p.scdn.co/mp3-preview/fa8be2051caeb9499195fc95a844bb01115f9807?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Crash",
+        "preview_url": "https://p.scdn.co/mp3-preview/31dc85de1a9cf6de175d82fad5c114daacf63127?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "8",
+        "preview_url": "https://p.scdn.co/mp3-preview/343885b328a17f8fdb5537d53968984300f190e7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Sucia (feat. Jill Scott & Young Miko)",
+        "preview_url": "https://p.scdn.co/mp3-preview/31a9fecbbb94a556c00c6436c598a51445c71f50?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Better Not",
+        "preview_url": "https://p.scdn.co/mp3-preview/b663f3db559269ebfef902e454be07a5c4223819?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Tears (feat. Omah Lay)",
+        "preview_url": "https://p.scdn.co/mp3-preview/ed853f473a0a6b527f12d2d25047be0c628f32f2?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Vegas",
+        "preview_url": "https://p.scdn.co/mp3-preview/23d40ad7902c29af4e398b88ec76f477c90f032d?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Deep",
+        "preview_url": "https://p.scdn.co/mp3-preview/cdec4b8df8c23aa718cf24dea4689adf61509c65?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Chapel",
+        "preview_url": "https://p.scdn.co/mp3-preview/2ddc9c912d847f9a4e66719c1847e21031385447?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lose My Wife",
+        "preview_url": "https://p.scdn.co/mp3-preview/d07ac0766c1630885a6494581f485a972f625fbf?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Emiliana Torrini",
-    "title": "Miss Flower"
+    "albumTitle": "Miss Flower",
+    "postDate": "2024-06-21",
+    "url": "https://www.npr.org/2024/06/21/1197962261/new-music-friday-june-21-peso-pluma",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27334347d1a82892067f5cee63c",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-06-21",
+    "spotifyAlbumId": "10AV3dj0kZUPYrqQA2RrEF",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/10AV3dj0kZUPYrqQA2RrEF",
+    "tracks": [
+      {
+        "name": "Black Water",
+        "preview_url": "https://p.scdn.co/mp3-preview/474f7021be10c3034ab0f8025af088710e38007e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lady K",
+        "preview_url": "https://p.scdn.co/mp3-preview/61cad00c1e0fd006ab761560b1e4c32439b36ac5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Waterhole",
+        "preview_url": "https://p.scdn.co/mp3-preview/3605ba8090ca9622246f889466c4da4c51b039f8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dreamers",
+        "preview_url": "https://p.scdn.co/mp3-preview/67c596492272375655c7f1a2280285972c413938?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Miss Flower",
+        "preview_url": "https://p.scdn.co/mp3-preview/b7e100062f7c452c7549fee86e58e8a3628b8639?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Black Lion Lane",
+        "preview_url": "https://p.scdn.co/mp3-preview/909475595a9f14495f981ce8a742732e86529e62?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Let's Keep Dancing",
+        "preview_url": "https://p.scdn.co/mp3-preview/79c818bac19f0cd7dd90c274b231442e08c99a49?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Love Poem",
+        "preview_url": "https://p.scdn.co/mp3-preview/6da4c2fc3f1b254fb8d53b68c3c41ba3d099aecb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Golden Thread",
+        "preview_url": "https://p.scdn.co/mp3-preview/daa304dd222e31e346a96d653052c1458a4dd8c1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "A Dream Through The Floorboards",
+        "preview_url": "https://p.scdn.co/mp3-preview/1642152f28095c2cf07c9ce0fea66b483c51aba8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Luke Combs",
-    "title": "Fathers & Sons"
+    "albumTitle": "Fathers & Sons",
+    "postDate": "2024-06-14",
+    "url": "https://www.npr.org/2024/06/14/1197962203/new-music-friday-june-14-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27317b23f31a918e6566a947f44",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-06-14",
+    "spotifyAlbumId": "02GDaShX8vOw5tcak3OXow",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/02GDaShX8vOw5tcak3OXow",
+    "tracks": [
+      {
+        "name": "Front Door Famous",
+        "preview_url": "https://p.scdn.co/mp3-preview/f028597dbe6df4169225023199f7c49dc65a57a6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "In Case I Ain't Around",
+        "preview_url": "https://p.scdn.co/mp3-preview/3db979977de87769704f3c9ba734fe2eab7ae2c5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Huntin' By Yourself",
+        "preview_url": "https://p.scdn.co/mp3-preview/b0f45d851642f4e1c81babc7920301b9775e413a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Little Country Boys",
+        "preview_url": "https://p.scdn.co/mp3-preview/6b3525ec2c6515eb65bf18841778cb6adb0e4e22?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Whoever You Turn Out to Be",
+        "preview_url": "https://p.scdn.co/mp3-preview/0204de2583162bab6778ae432e390bf23b69e850?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Remember Him That Way",
+        "preview_url": "https://p.scdn.co/mp3-preview/4fb5193c5ed6f9d01f2b8b9316af0c8a12034de4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Man He Sees in Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/ae593be5c2ebd5a576773cc13771a44b94ab1097?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "All I Ever Do Is Leave",
+        "preview_url": "https://p.scdn.co/mp3-preview/20731b861fbb3b55b63fa5e1051f27c9a1d09af6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Plant a Seed",
+        "preview_url": "https://p.scdn.co/mp3-preview/221113dab4838acce6f8999c85c1925ebb9b7934?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Ride Around Heaven",
+        "preview_url": "https://p.scdn.co/mp3-preview/06a06c9802ff12603bd1dc5a555c08f3630162fe?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "My Old Man Was Right",
+        "preview_url": "https://p.scdn.co/mp3-preview/0f45d798bdc9d76c90f0f0b69436aa1c90d6ccab?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Take Me Out to the Ballgame",
+        "preview_url": "https://p.scdn.co/mp3-preview/9661823ce603a77a7b28fafa63eaf834c144889e?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Raveena",
-    "title": "Where the Butterflies Go in the Rain"
+    "albumTitle": "Where the Butterflies Go in the Rain",
+    "postDate": "2024-06-14",
+    "url": "https://www.npr.org/2024/06/14/1197962203/new-music-friday-june-14-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273df0546aea27b6ffcace5714e",
+      "width": 640
+    },
+    "totalTracks": 14,
+    "releaseDate": "2024-06-14",
+    "spotifyAlbumId": "4vbhdsO89cvNkFlHoQ9D9p",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4vbhdsO89cvNkFlHoQ9D9p",
+    "tracks": [
+      {
+        "name": "Pluto",
+        "preview_url": "https://p.scdn.co/mp3-preview/ed7e28a21df2952f65def0978c8cc67c06e94ec3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lucky",
+        "preview_url": "https://p.scdn.co/mp3-preview/463e495f548d4bfb7508b80125adf5bc209fa9c4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rise",
+        "preview_url": "https://p.scdn.co/mp3-preview/7e2581ff6f3680dda4f76ed4a3266caa24e3e555?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Every Color",
+        "preview_url": "https://p.scdn.co/mp3-preview/bcebad627ddd64aaa1352229fc8e48bd5463b539?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Baby Mama",
+        "preview_url": "https://p.scdn.co/mp3-preview/6092f5b8533bcec9c5b28006d8bdcb5f39720f4a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Junebug (feat. JPEGMAFIA)",
+        "preview_url": "https://p.scdn.co/mp3-preview/c45a9f3c9c01bab52a211f8f7b63023094dd1de9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lose My Focus",
+        "preview_url": "https://p.scdn.co/mp3-preview/4d412a75ea78e977f2bafb57dc8aecd42682101a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "We Should Move Somewhere Beautiful (feat. Arima Ederra)",
+        "preview_url": "https://p.scdn.co/mp3-preview/b834bf6b84b5e86ca3d99252eec8ce3c75ce6cfe?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Kid",
+        "preview_url": "https://p.scdn.co/mp3-preview/912bc76311babbf5c6a485b2274915b55ff02776?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "16 Candles (feat. Ganavya)",
+        "preview_url": "https://p.scdn.co/mp3-preview/a8cc7d995ada1363aa7f824d4c4ee3c694325ca0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Smile For Me",
+        "preview_url": "https://p.scdn.co/mp3-preview/cfd08114cb61e09450c936128b5efb577df0565b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Afternoon Tea with the Auroras (Interlude)",
+        "preview_url": "https://p.scdn.co/mp3-preview/0de2523ef58f5175bd2d9088ac327762fa1731ba?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Little Bird",
+        "preview_url": "https://p.scdn.co/mp3-preview/aeb871718a2ba7f553608b21bf58948afc9f4b93?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Water",
+        "preview_url": "https://p.scdn.co/mp3-preview/76e3161ea9b29b36a2a01570c18a8defd7c7386c?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Paul McCartney & Wings",
-    "title": "One Hand Clapping"
+    "albumTitle": "One Hand Clapping",
+    "postDate": "2024-06-14",
+    "url": "https://www.npr.org/2024/06/14/1197962203/new-music-friday-june-14-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273d51215d4f67b91e1cc20148c",
+      "width": 640
+    },
+    "totalTracks": 26,
+    "releaseDate": "2024-06-14",
+    "spotifyAlbumId": "5bo520v8a72MrqnQNCPh5Y",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/5bo520v8a72MrqnQNCPh5Y",
+    "tracks": [
+      {
+        "name": "One Hand Clapping - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Jet - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Soily - One Hand Clapping Sessions"
+      },
+      {
+        "name": "C Moon/Little Woman Love - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Maybe I’m Amazed - One Hand Clapping Sessions"
+      },
+      {
+        "name": "My Love - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Bluebird - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Let’s Love - One Hand Clapping Sessions"
+      },
+      {
+        "name": "All Of You - One Hand Clapping Sessions"
+      },
+      {
+        "name": "I’ll Give You A Ring - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Band On The Run - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Live And Let Die - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Nineteen Hundred And Eighty Five - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Baby Face - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Let Me Roll It - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Blue Moon Of Kentucky - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Power Cut - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Love My Baby - One Hand Clapping Sessions"
+      },
+      {
+        "name": "Let It Be - One Hand Clapping Sessions"
+      },
+      {
+        "name": "The Long and Winding Road/Lady Madonna - One Hand Clapping Sessions"
+      }
+    ]
   },
   {
     "artist": "Carlos Niño & Friends",
-    "title": "Placenta"
+    "albumTitle": "Placenta",
+    "postDate": "2024-05-24",
+    "url": "https://www.npr.org/2024/05/24/1197961812/new-music-friday-best-albums-may-24-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2731fde42dee88bde117cd986d0",
+      "width": 640
+    },
+    "totalTracks": 13,
+    "releaseDate": "2024-06-12",
+    "spotifyAlbumId": "7DeEHr0n3yZGJPBGv2NrgP",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7DeEHr0n3yZGJPBGv2NrgP",
+    "tracks": [
+      {
+        "name": "Love to all Doulas!",
+        "preview_url": "https://p.scdn.co/mp3-preview/ea7857f0b196214432b555d01a8858291bbc6054?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Some rest for the Midwives . . .",
+        "preview_url": "https://p.scdn.co/mp3-preview/bbea08f60837eea136494a5d629b48070d1e7589?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Real Vital Organs",
+        "preview_url": "https://p.scdn.co/mp3-preview/29b41a91290aaf78f31fe0e4e51231144bb94a85?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Surges, Expansions",
+        "preview_url": "https://p.scdn.co/mp3-preview/5bcfd2b08e89717a551f95f05afdb367605de9ce?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "In Appreciation of Chico Hamilton’s Vast Influence on the West Coast Sound",
+        "preview_url": "https://p.scdn.co/mp3-preview/fa739c42027acaa2f193808be30b2d702f435b8f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Birthworkers Magic, and how we get hear . . .",
+        "preview_url": "https://p.scdn.co/mp3-preview/dbdaf85980424c62097fbd184962bd3ca794c3a7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "This “I” was not",
+        "preview_url": "https://p.scdn.co/mp3-preview/34ae3f2312544a28470dd49e9f0fa56570898fe1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Placenta, Nourishment, New Home, The Galaxy",
+        "preview_url": "https://p.scdn.co/mp3-preview/4c95e45f06bb8a0a78c59daea31233c806b207e5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Carla's Beads",
+        "preview_url": "https://p.scdn.co/mp3-preview/c350c66b051df50ba1ae915156ef233160eccd31?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Moonlight Watsu in Dub",
+        "preview_url": "https://p.scdn.co/mp3-preview/acadb3652d6f2d2849f3701f08ed1074fdf03e3f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Generous Pelvis",
+        "preview_url": "https://p.scdn.co/mp3-preview/bcaa73d1cc1b3cc095f17a7edee5af5eee38c2a0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bi-Location",
+        "preview_url": "https://p.scdn.co/mp3-preview/87ebfa35a67f09b49a9bc61c126a2507c0565884?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "“Play Kerri Chandler’s RAIN”",
+        "preview_url": "https://p.scdn.co/mp3-preview/1afd22c71fc9911defc222fc8ab47589076f3bc8?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "DIIV",
-    "title": "Frog in Boiling Water"
+    "albumTitle": "Frog in Boiling Water",
+    "postDate": "2024-05-24",
+    "url": "https://www.npr.org/2024/05/24/1197961812/new-music-friday-best-albums-may-24-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2739596206161bf5d0fcfc66a28",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-05-24",
+    "spotifyAlbumId": "7xLRw5DsWnAMmNBp8I67UD",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7xLRw5DsWnAMmNBp8I67UD",
+    "tracks": [
+      {
+        "name": "In Amber"
+      },
+      {
+        "name": "Brown Paper Bag"
+      },
+      {
+        "name": "Raining On Your Pillow"
+      },
+      {
+        "name": "Frog In Boiling Water"
+      },
+      {
+        "name": "Everyone Out"
+      },
+      {
+        "name": "Reflected"
+      },
+      {
+        "name": "Somber The Drums"
+      },
+      {
+        "name": "Little Birds"
+      },
+      {
+        "name": "Soul-net"
+      },
+      {
+        "name": "Fender On The Freeway"
+      }
+    ]
   },
   {
     "artist": "Andrew Bird Trio",
-    "title": "Sunday Morning Put-On"
+    "albumTitle": "Sunday Morning Put-On",
+    "postDate": "2024-05-24",
+    "url": "https://www.npr.org/2024/05/24/1197961812/new-music-friday-best-albums-may-24-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27374ffdd29cc4898e8ed01d747",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2019-03-22",
+    "spotifyAlbumId": "2xQ1WHVV0MdVSRkpND5P51",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2xQ1WHVV0MdVSRkpND5P51",
+    "tracks": [
+      {
+        "name": "Sisyphus"
+      },
+      {
+        "name": "Bloodless"
+      },
+      {
+        "name": "Olympians"
+      },
+      {
+        "name": "Cracking Codes"
+      },
+      {
+        "name": "Fallorun"
+      },
+      {
+        "name": "Archipelago"
+      },
+      {
+        "name": "Proxy War"
+      },
+      {
+        "name": "Manifest"
+      },
+      {
+        "name": "Don The Struggle"
+      },
+      {
+        "name": "Bellevue Bridge Club"
+      }
+    ]
   },
   {
     "artist": "Billie Eilish",
-    "title": "Hit Me Hard and Soft"
+    "albumTitle": "Hit Me Hard and Soft",
+    "postDate": "2024-05-17",
+    "url": "https://www.npr.org/2024/05/17/1197961689/new-music-friday-best-albums-may-17-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-05-17",
+    "spotifyAlbumId": "7aJuG4TFXa2hmE4z1yxc3n",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7aJuG4TFXa2hmE4z1yxc3n",
+    "tracks": [
+      {
+        "name": "SKINNY"
+      },
+      {
+        "name": "LUNCH"
+      },
+      {
+        "name": "CHIHIRO"
+      },
+      {
+        "name": "BIRDS OF A FEATHER"
+      },
+      {
+        "name": "WILDFLOWER"
+      },
+      {
+        "name": "THE GREATEST"
+      },
+      {
+        "name": "L’AMOUR DE MA VIE"
+      },
+      {
+        "name": "THE DINER"
+      },
+      {
+        "name": "BITTERSUITE"
+      },
+      {
+        "name": "BLUE"
+      }
+    ]
   },
   {
     "artist": "Rapsody",
-    "title": "Please Don't Cry"
+    "albumTitle": "Please Don't Cry",
+    "postDate": "2024-05-17",
+    "url": "https://www.npr.org/2024/05/17/1197961689/new-music-friday-best-albums-may-17-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b2734a6951c62cc01153fdd22052",
+      "width": 640
+    },
+    "totalTracks": 22,
+    "releaseDate": "2024-05-17",
+    "spotifyAlbumId": "2r3oxZgkGG3wDHGRGt7ytr",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/2r3oxZgkGG3wDHGRGt7ytr",
+    "tracks": [
+      {
+        "name": "She’s Expecting You (feat. Phylicia Rashad)"
+      },
+      {
+        "name": "Marlanna"
+      },
+      {
+        "name": "Asteroids"
+      },
+      {
+        "name": "Look What You’ve Done"
+      },
+      {
+        "name": "DND (It’s Not Personal) (feat. Bee-B)"
+      },
+      {
+        "name": "Black Popstar (feat. DIXSON)"
+      },
+      {
+        "name": "Stand Tall"
+      },
+      {
+        "name": "That One Time"
+      },
+      {
+        "name": "3:AM (feat. Erykah Badu)"
+      },
+      {
+        "name": "Loose Rocks (feat. Alex Isley)"
+      },
+      {
+        "name": "Diary of a Mad Bitch (feat. Bibi Bourelly)"
+      },
+      {
+        "name": "Never Enough (feat. Keznamdi & Nicole Bus)"
+      },
+      {
+        "name": "He Shot Me"
+      },
+      {
+        "name": "God’s Light"
+      },
+      {
+        "name": "Back In My Bag"
+      },
+      {
+        "name": "Niko’s Interlude (feat. Niko Brim)"
+      },
+      {
+        "name": "Raw (feat. Lil Wayne & Niko Brim)"
+      },
+      {
+        "name": "Lonely Women"
+      },
+      {
+        "name": "A Ballad for Homegirls (feat. Baby Tate)"
+      },
+      {
+        "name": "Please Don’t Cry Interlude (feat. Phylicia Rashad)"
+      }
+    ]
   },
   {
     "artist": "Beth Gibbons",
-    "title": "Lives Outgrown"
+    "albumTitle": "Lives Outgrown",
+    "postDate": "2024-05-17",
+    "url": "https://www.npr.org/2024/05/17/1197961689/new-music-friday-best-albums-may-17-2024",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27316997b4a53ae6b42a4b803be",
+      "width": 640
+    },
+    "totalTracks": 10,
+    "releaseDate": "2024-05-17",
+    "spotifyAlbumId": "0YC5MWwUmsTpJrRumtBdZA",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0YC5MWwUmsTpJrRumtBdZA",
+    "tracks": [
+      {
+        "name": "Tell Me Who You Are Today",
+        "preview_url": "https://p.scdn.co/mp3-preview/095044ef5939704652dd2ff881c8287386581d27?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Floating On A Moment",
+        "preview_url": "https://p.scdn.co/mp3-preview/8a8624652740f4420446a71f500b95c8e63bc819?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Burden Of Life",
+        "preview_url": "https://p.scdn.co/mp3-preview/313fddd42df3ca80831114d837dd809e07315ab4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lost Changes",
+        "preview_url": "https://p.scdn.co/mp3-preview/ca82e7ad4bc26be7eb1f28d4c3f02dcd06e10f6e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Rewind",
+        "preview_url": "https://p.scdn.co/mp3-preview/48cbe1096da8438b14351467d11179ec6d7b9096?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Reaching Out",
+        "preview_url": "https://p.scdn.co/mp3-preview/b31c1bd3795df5048236d5c0604349c61ee905df?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Oceans",
+        "preview_url": "https://p.scdn.co/mp3-preview/8f37842c39d6c7e8053d5d34f5c25ece39030bab?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "For Sale",
+        "preview_url": "https://p.scdn.co/mp3-preview/91328ce3796b685f8c9f0f8a0cdeb58eb38f6d76?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Beyond The Sun",
+        "preview_url": "https://p.scdn.co/mp3-preview/087bfa85d228fec6409aea0e9651626898a220b4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Whispering Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/5997524c615471606009503d800c68ea49beed08?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Grupo Frontera",
-    "title": "Jugando a Que No Pasa Nada"
+    "albumTitle": "Jugando a Que No Pasa Nada",
+    "postDate": "2024-05-10",
+    "url": "https://www.npr.org/2024/05/10/1197961647/new-music-friday-may-10-grupo-frontera",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273301d43e4ae9fd97c560ccb83",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-05-10",
+    "spotifyAlbumId": "4j58S9wNTTLgllMslsSMhk",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4j58S9wNTTLgllMslsSMhk",
+    "tracks": [
+      {
+        "name": "F*CKIN AMOR",
+        "preview_url": "https://p.scdn.co/mp3-preview/47e705a9b4ade2e4e52c393471e10ba98d39061f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "POR QUÉ SERÁ",
+        "preview_url": "https://p.scdn.co/mp3-preview/03404e4267d6eae8074324be84af3e0ee8a316cb?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "DESQUITE",
+        "preview_url": "https://p.scdn.co/mp3-preview/ade5912498a0edcf358f2cc69039a00339185574?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "ME HIZO UN FAVOR",
+        "preview_url": "https://p.scdn.co/mp3-preview/be7f3ebb745bc12a55df3f90ebae19212882a4f0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "LOS DOS",
+        "preview_url": "https://p.scdn.co/mp3-preview/90a5df30269a31b0429a7492be8e66004bd9be86?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "YA PEDO QUIÉN SABE",
+        "preview_url": "https://p.scdn.co/mp3-preview/fcc5adc86b626c9be45d399070771943dff4723a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "NO HAY VATO PERFECTO",
+        "preview_url": "https://p.scdn.co/mp3-preview/9df366415ba1e72bc378fbcf1b2c2a4de811441a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "ECHÁNDOTE DE MENOS",
+        "preview_url": "https://p.scdn.co/mp3-preview/a7513a4614f947370a6d68123bcc6ed628727fd8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "NUNCA LA OLVIDÉ",
+        "preview_url": "https://p.scdn.co/mp3-preview/3382b7d1d0e7b30c28b8762505966e32f0be73dc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "NO SÉ QUÉ PASÓ",
+        "preview_url": "https://p.scdn.co/mp3-preview/a633ef1a298a54812bcc01d2f877b9759c8005fd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "IBIZA",
+        "preview_url": "https://p.scdn.co/mp3-preview/f22cbc1def25c89a22e09bb21ea22ad869388e8b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "QUÉDATE BEBÉ",
+        "preview_url": "https://p.scdn.co/mp3-preview/d8f0c5078b8c774746265b055702661282144afa?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Andra Day",
-    "title": "Cassandra (cherith)"
+    "albumTitle": "Cassandra (cherith)",
+    "postDate": "2024-05-10",
+    "url": "https://www.npr.org/2024/05/10/1197961647/new-music-friday-may-10-grupo-frontera",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b27318dd73d3314ecde6af6eeaf2",
+      "width": 640
+    },
+    "totalTracks": 16,
+    "releaseDate": "2024-05-10",
+    "spotifyAlbumId": "6MRsw1r6L9uMldU3TPS9Q3",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/6MRsw1r6L9uMldU3TPS9Q3",
+    "tracks": [
+      {
+        "name": "Maybe Next Time",
+        "preview_url": "https://p.scdn.co/mp3-preview/f5b25e5d2a24be8a0b6573462048d88e4490b155?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Probably",
+        "preview_url": "https://p.scdn.co/mp3-preview/f9599d67ac306823eec681449639fcfaaf5296be?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Narcos (H.C.D)",
+        "preview_url": "https://p.scdn.co/mp3-preview/e138001956688cecf45d6e7f69d8c3ae72ecaaf7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Midnight",
+        "preview_url": "https://p.scdn.co/mp3-preview/60ee7027f25992d17fc583c6dd3ce6eaf6cbbf54?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bottom Of The Bottle",
+        "preview_url": "https://p.scdn.co/mp3-preview/5b7a23a37083a74bcdf736c9c5008116c63cd095?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "In The Meantime",
+        "preview_url": "https://p.scdn.co/mp3-preview/2959fdc2bb6dc166e534bd3ece2fc650d7151fe3?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "More",
+        "preview_url": "https://p.scdn.co/mp3-preview/0884d04d077b7111d40165e7edb08d710d3112bc?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Heavy On My Mind",
+        "preview_url": "https://p.scdn.co/mp3-preview/fc1ab613d15d335fc4557832e6f4ed8513efd926?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Where Do We Go",
+        "preview_url": "https://p.scdn.co/mp3-preview/0f1bc7dac09869fdf3bc7a0668e0b8ac3c4be919?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Chasing",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ad0765bc6fb90dab05674bed5e376284ce38fc1?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nervous",
+        "preview_url": "https://p.scdn.co/mp3-preview/d07539ff30348b462404da77927e8abb98cb2d7b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Champagne Flutes",
+        "preview_url": "https://p.scdn.co/mp3-preview/ec1b51b6515c83e964420805235f976a085b5f0c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "About It",
+        "preview_url": "https://p.scdn.co/mp3-preview/0b26c05c075da087145041e26cae2a044b749157?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Empty",
+        "preview_url": "https://p.scdn.co/mp3-preview/df9a0df5bb5b444898622f16f3906592b7c068ba?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Still",
+        "preview_url": "https://p.scdn.co/mp3-preview/7ff3b02d3b7f05f2282a33c93ebe9ec64e2a8d10?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Thank You God (Mom Reading Psalm 62)",
+        "preview_url": "https://p.scdn.co/mp3-preview/b67c744fb9d950f99d237d151ac78b88bfcb85d0?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Various Artists",
-    "title": "I Saw the TV Glow Original Soundtrack"
+    "albumTitle": "I Saw the TV Glow Original Soundtrack",
+    "postDate": "2024-05-10",
+    "url": "https://www.npr.org/2024/05/10/1197961647/new-music-friday-may-10-grupo-frontera",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273636a3c1d528b8038eba6b289",
+      "width": 640
+    },
+    "totalTracks": 15,
+    "releaseDate": "2024-05-10",
+    "spotifyAlbumId": "4QtWb6EEnq9EvtI9FVocUY",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/4QtWb6EEnq9EvtI9FVocUY",
+    "tracks": [
+      {
+        "name": "Anthems For A Seventeen Year-Old Girl",
+        "preview_url": "https://p.scdn.co/mp3-preview/5090849565e70b6cc591041b292c0bee567f0e2b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Another Season",
+        "preview_url": "https://p.scdn.co/mp3-preview/ea1abc0157aabcccb7c81627d0c535fb65557268?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Starburned and Unkissed",
+        "preview_url": "https://p.scdn.co/mp3-preview/88caac2a229d7b28027a46be0e29686397f60c15?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Riding Around In The Dark",
+        "preview_url": "https://p.scdn.co/mp3-preview/b83e10f6ab1da2098c8a6885aa85e3b0c3616fed?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Big Glow",
+        "preview_url": "https://p.scdn.co/mp3-preview/2d928104aae57f38dec436c933252d75ba0f2b03?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Taper",
+        "preview_url": "https://p.scdn.co/mp3-preview/ea8d23dec4eb4727cacfa94201076522935a460e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Psychic Wound",
+        "preview_url": "https://p.scdn.co/mp3-preview/4fe19174cd205d7af96a7a451c5e49d4d66a374a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "If I Could",
+        "preview_url": "https://p.scdn.co/mp3-preview/e39968cdde8b3d9d950809fc8f76accab514711a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Green",
+        "preview_url": "https://p.scdn.co/mp3-preview/083eea004d5eba38358c8183cf4c938d10550818?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Moonlight",
+        "preview_url": "https://p.scdn.co/mp3-preview/d6b606df59aa9dfce2cc5c61fa27e1c73999e04b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Photograph",
+        "preview_url": "https://p.scdn.co/mp3-preview/5797170a0aa044a37fc93d91281bee4a35e98db0?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The 90s",
+        "preview_url": "https://p.scdn.co/mp3-preview/ee97c28af3b37f08038064b1dfec6c8d7a249a8b?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "How Can I Get Out?",
+        "preview_url": "https://p.scdn.co/mp3-preview/835dddd11c62fecd6db64ae62eea403955aeb228?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Bury",
+        "preview_url": "https://p.scdn.co/mp3-preview/06817ab11f206bd61fe12c86a7cabdefc98d09bd?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Claw Machine",
+        "preview_url": "https://p.scdn.co/mp3-preview/66ff9a10879a1f8aa5d98ed0bba26ea830ffe58a?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Dua Lipa",
-    "title": "Radical Optimism"
+    "albumTitle": "Radical Optimism",
+    "postDate": "2024-05-03",
+    "url": "https://www.npr.org/2024/05/03/1197961505/new-music-friday-may-3-dua-lipa-radical-optimism",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273778c1e4660aa23f6728b32a1",
+      "width": 640
+    },
+    "totalTracks": 11,
+    "releaseDate": "2024-05-03",
+    "spotifyAlbumId": "1Mo92916G2mmG7ajpmSVrc",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/1Mo92916G2mmG7ajpmSVrc",
+    "tracks": [
+      {
+        "name": "End Of An Era",
+        "preview_url": "https://p.scdn.co/mp3-preview/f56c5bc3a509f0cfcb88dc68607db869a3d5c0e6?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Houdini",
+        "preview_url": "https://p.scdn.co/mp3-preview/df4af86970ffb1a7042d1d228bcea7b4aabfdba4?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Training Season",
+        "preview_url": "https://p.scdn.co/mp3-preview/5608f578347ae26c20bfebbad47a057eca7b3d5a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "These Walls",
+        "preview_url": "https://p.scdn.co/mp3-preview/5d920c58e98799d4492c903f849c631ea26b5d2a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Whatcha Doing",
+        "preview_url": "https://p.scdn.co/mp3-preview/96d11a6904d7f10a244425290696c3b85930d3bf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "French Exit",
+        "preview_url": "https://p.scdn.co/mp3-preview/0cc6130ebdfa86fb685dc7396cf5098d46263ed5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Illusion",
+        "preview_url": "https://p.scdn.co/mp3-preview/6b05342e38bc2061ae57abc45c1a3832bf3d7ac7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Falling Forever",
+        "preview_url": "https://p.scdn.co/mp3-preview/9ff7fecd8e2ea82550dfb1a3c4d9a8c1f520ed13?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Anything For Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/7f46e2b4beea104400e0894479e8fe9a1eb61a9c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Maria",
+        "preview_url": "https://p.scdn.co/mp3-preview/6f73f10dabb3a8df6197e3ec3d375ca092c0f2bf?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Happy For You",
+        "preview_url": "https://p.scdn.co/mp3-preview/d9771214240f38eb450f1ee97715a7a76fe7ad29?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Jessica Pratt",
-    "title": "Here in the Pitch"
+    "albumTitle": "Here in the Pitch",
+    "postDate": "2024-05-03",
+    "url": "https://www.npr.org/2024/05/03/1197961505/new-music-friday-may-3-dua-lipa-radical-optimism",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273a92f6519da012f1efdb40475",
+      "width": 640
+    },
+    "totalTracks": 9,
+    "releaseDate": "2024-05-03",
+    "spotifyAlbumId": "7hUAyfpXkSE2JT5gOORZO0",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/7hUAyfpXkSE2JT5gOORZO0",
+    "tracks": [
+      {
+        "name": "Life Is",
+        "preview_url": "https://p.scdn.co/mp3-preview/c3de78a9e2c2bfc2555ce97f213e314c52a35106?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Better Hate",
+        "preview_url": "https://p.scdn.co/mp3-preview/92ebbc98d43c585decc0c99df32a1c0da02af693?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "World on a String",
+        "preview_url": "https://p.scdn.co/mp3-preview/057b06e26c8d38bc8b6115518244a72b685f5f8f?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Get Your Head Out",
+        "preview_url": "https://p.scdn.co/mp3-preview/c48f2d2a97b6131ada8548397a787b16008079d8?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "By Hook or by Crook",
+        "preview_url": "https://p.scdn.co/mp3-preview/2062eb1ae5e77d07774da24cb9dcd77758f64b2c?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Nowhere It Was",
+        "preview_url": "https://p.scdn.co/mp3-preview/383d16818c0364972f9827705699c1b572be8df5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Empires Never Know",
+        "preview_url": "https://p.scdn.co/mp3-preview/ee7cfa49b7a4cc5ba7ae4d166ed977cce604b064?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Glances",
+        "preview_url": "https://p.scdn.co/mp3-preview/cfd153c2beaee647942031363d8b744192d9bd18?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Last Year",
+        "preview_url": "https://p.scdn.co/mp3-preview/fefd46e26f59dcd7c64f4f56392c0d5516ab626a?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   },
   {
     "artist": "Kamasi Washington",
-    "title": "Fearless Movement"
-  },
-  {
-    "artist": "Taylor Swift",
-    "title": "The Tortured Poets Department"
-  },
-  {
-    "artist": "Bbymutha",
-    "title": "Sleep Paralysis"
-  },
-  {
-    "artist": "claire rousay",
-    "title": "sentiment"
-  },
-  {
-    "artist": "Pearl Jam",
-    "title": "Dark Matter"
+    "albumTitle": "Fearless Movement",
+    "postDate": "2024-05-03",
+    "url": "https://www.npr.org/2024/05/03/1197961505/new-music-friday-may-3-dua-lipa-radical-optimism",
+    "image": {
+      "height": 640,
+      "url": "https://i.scdn.co/image/ab67616d0000b273e5bd8e6421836818cddeb2d6",
+      "width": 640
+    },
+    "totalTracks": 12,
+    "releaseDate": "2024-05-03",
+    "spotifyAlbumId": "0Jy18n9qpKS4RyDYmaPpdL",
+    "spotifyAlbumUrl": "https://open.spotify.com/album/0Jy18n9qpKS4RyDYmaPpdL",
+    "tracks": [
+      {
+        "name": "Lesanu",
+        "preview_url": "https://p.scdn.co/mp3-preview/ed51ffe7861387af4c5f4dc41af155d82bd7e8b5?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Asha The First",
+        "preview_url": "https://p.scdn.co/mp3-preview/070ebd097f758e045f002dc43da5e81159cdb613?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Computer Love",
+        "preview_url": "https://p.scdn.co/mp3-preview/38b761e23f8e13c5ec1eb4e8112834293f85af75?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Visionary",
+        "preview_url": "https://p.scdn.co/mp3-preview/f20a87cba1faf11be0e570c3d24466679bc7c90e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Get Lit",
+        "preview_url": "https://p.scdn.co/mp3-preview/58766f48cb2a3bcd85bf4257ef7fdf427df54777?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Dream State",
+        "preview_url": "https://p.scdn.co/mp3-preview/1af6b659ca6b708c30375e53a9018c4738be9e27?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Together",
+        "preview_url": "https://p.scdn.co/mp3-preview/8304b80d4c22193853d053494c471109daa78638?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "The Garden Path",
+        "preview_url": "https://p.scdn.co/mp3-preview/ab2bf1b96dbc70550a27adb7e876bb3ea0e1341a?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Road to Self (KO)",
+        "preview_url": "https://p.scdn.co/mp3-preview/1912e90e7d2f966fed11e1ab648478bfd42048f7?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Interstellar Peace (The Last Stance)",
+        "preview_url": "https://p.scdn.co/mp3-preview/468a1cf4371bed82d34a3e644d0197e4abc0aef9?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Lines in the Sand",
+        "preview_url": "https://p.scdn.co/mp3-preview/5a1a26373995e8cdbf2216cf040e2cc0d397503e?cid=6431a5b9511d410384a437ba92cd36a3"
+      },
+      {
+        "name": "Prologue",
+        "preview_url": "https://p.scdn.co/mp3-preview/4814f4a565c2e5dbfbdaeb5630e3afc885d28e97?cid=6431a5b9511d410384a437ba92cd36a3"
+      }
+    ]
   }
 ]
