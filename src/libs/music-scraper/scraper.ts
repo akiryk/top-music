@@ -6,6 +6,7 @@ import fs from "fs";
 import he from "he";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
+import type { Album, AlbumAndTracks, Track, TrackPreview } from "@/types";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -21,29 +22,7 @@ const SPOTIFY_SEARCH_URL =
 const SPOTIFY_ALBUMS_URL =
   process.env.SPOTIFY_URL || "https://api.spotify.com/v1/albums/";
 
-type Album = {
-  artist: string;
-  albumTitle: string;
-  postDate: string;
-  image: Image;
-  totalTracks: number;
-  releaseDate: string;
-  spotifyAlbumId: string;
-  spotifyAlbumUrl: string;
-};
-
-type Image = {
-  height: number;
-  width: number;
-  url: string;
-};
-
 type AlbumList = Album[];
-
-type TrackPreview = {
-  name: string;
-  preview_url: string | null; // preview URL might be null if not available
-};
 
 const removeZeroWidthChars = (text: string) => {
   return text.replace(/[\u200B-\u200D\uFEFF]/g, ""); // Removes zero-width space, zero-width non-joiner, zero-width joiner, and zero-width no-break space
@@ -75,9 +54,9 @@ async function scrapeAlbumDetails(url: string): Promise<AlbumList> {
     if (featuredAlbumsElement.is("h3")) {
       const nextParagraph = featuredAlbumsElement.next("p"); // Get the next <p> sibling
       if (nextParagraph.length) {
-        albumsContent
-          ? (albumsContent += nextParagraph.html())
-          : (albumsContent = nextParagraph.html()); // Append the HTML of the next <p> tag
+        albumsContent = albumsContent
+          ? albumsContent + nextParagraph.html()
+          : nextParagraph.html(); // Append the HTML of the next <p> tag
       }
     }
 
@@ -111,7 +90,7 @@ async function scrapeAlbumDetails(url: string): Promise<AlbumList> {
 
         return {
           artist: he.decode(safeArtistName),
-          albumTitle: he.decode(safeAlbumalbumTitle),
+          title: he.decode(safeAlbumalbumTitle),
           postDate: postDate.toISOString().split("T")[0],
           url,
         };
@@ -173,7 +152,7 @@ async function searchSpotifyAlbum(
   artist: string,
   albumTitle: string,
   token: string
-): Promise<Record<string, string | Object> | null> {
+): Promise<(AlbumAndTracks & { id: string }) | null> {
   const searchQuery = `${albumTitle}%20artist:${artist}&type=album`;
   // TODO: consider batch requests
   const url = `${SPOTIFY_SEARCH_URL}${encodeURIComponent(
@@ -194,7 +173,6 @@ async function searchSpotifyAlbum(
       console.log(`No album found for ${artist} - ${albumTitle}`);
       return null;
     }
-    l;
   } catch (error) {
     console.error(`Error searching album ${albumTitle} by ${artist}:`, error);
     return null;
@@ -214,7 +192,7 @@ async function getAlbumTracks(
       },
     });
 
-    return response.data.items.map((track: any) => ({
+    return response.data.items.map((track: Track) => ({
       name: track.name,
       preview_url: track.preview_url,
     }));
@@ -264,24 +242,21 @@ async function getSpotifyToken() {
 // - title
 // - preview_url
 
-async function getAlbumPreviews(
-  albums: Album[],
-  token: string
-): Promise<any[]> {
+async function getAlbumPreviews(albums: Album[], token: string) {
   const albumPreviews = [];
 
-  for (const { artist, albumTitle, postDate, url } of albums) {
+  for (const { artist, title, postDate, url } of albums) {
     // Search for the album
-    const spotifyAlbum = await searchSpotifyAlbum(artist, albumTitle, token);
+    const spotifyAlbum = await searchSpotifyAlbum(artist, title, token);
     if (spotifyAlbum) {
       // Get tracks and previews
       const tracks = await getAlbumTracks(spotifyAlbum.id, token);
       if (tracks.length === 0) {
-        console.log(`no tracks for ${albumTitle}`);
+        console.log(`no tracks for ${title}`);
       }
       albumPreviews.push({
         artist,
-        albumTitle,
+        title,
         postDate,
         url,
         image: spotifyAlbum.images[0],
@@ -316,7 +291,7 @@ async function getAlbumsWithSongs() {
     const token = await getSpotifyToken();
     const albumsWithSongs = await fetchAllPreviews(albums, token);
     // console.log(albumsWithSongs);
-    // saveAlbumsToJSON(albumsWithSongs);
+    saveAlbumsToJSON(albumsWithSongs);
   }
 }
 
