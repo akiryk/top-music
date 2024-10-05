@@ -6,7 +6,41 @@ import fs from "fs";
 import he from "he";
 import { fileURLToPath } from "url";
 import dotenv from "dotenv";
-import type { Album, AlbumAndTracks, Track, TrackPreview } from "@/types";
+
+export type Track = {
+  name: string;
+  preview_url?: string; // Optional property
+  title: string;
+};
+
+export type TrackPreview = {
+  name: string;
+  preview_url: string | null; // preview URL might be null if not available
+};
+
+export interface BasicAlbum {
+  artist: string;
+  title: string;
+  postDate: string;
+  url: string;
+}
+
+export interface AlbumAndTracks {
+  artist: string;
+  title: string;
+  postDate: string;
+  url: string;
+  tracks: Track[];
+  releaseDate: string;
+  listingUrl: string;
+  imageUrl: string;
+  albumUrl: string;
+  hasPreviewTracks: boolean;
+  images: Array<Record<string, string>>;
+  total_tracks: number;
+  release_date: Date;
+  external_urls: Record<string, string>;
+}
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -22,7 +56,7 @@ const SPOTIFY_SEARCH_URL =
 const SPOTIFY_ALBUMS_URL =
   process.env.SPOTIFY_URL || "https://api.spotify.com/v1/albums/";
 
-type AlbumList = Album[];
+type AlbumList = BasicAlbum[];
 
 const removeZeroWidthChars = (text: string) => {
   return text.replace(/[\u200B-\u200D\uFEFF]/g, ""); // Removes zero-width space, zero-width non-joiner, zero-width joiner, and zero-width no-break space
@@ -134,7 +168,7 @@ async function getAlbums() {
   }
 }
 
-async function saveAlbumsToJSON(albums: Album[]) {
+async function saveAlbumsToJSON(albums: BasicAlbum[]) {
   const assetsPath = process.env.ASSETS_PATH || "src/assets";
   const savePath = path.join(
     process.cwd(),
@@ -242,7 +276,7 @@ async function getSpotifyToken() {
 // - title
 // - preview_url
 
-async function getAlbumPreviews(albums: Album[], token: string) {
+async function getAlbumPreviews(albums: AlbumList, token: string) {
   const albumPreviews = [];
 
   for (const { artist, title, postDate, url } of albums) {
@@ -278,7 +312,7 @@ async function getAlbumPreviews(albums: Album[], token: string) {
   return albumPreviews;
 }
 
-async function fetchAllPreviews(albums: Album[], token: string) {
+async function fetchAllPreviews(albums: AlbumList, token: string) {
   const albumPreviews = await getAlbumPreviews(albums, token);
   return albumPreviews;
 }

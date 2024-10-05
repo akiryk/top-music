@@ -1,5 +1,5 @@
 import { sql } from "@vercel/postgres";
-import type { DBAlbum, Track } from "@/types";
+import type { DisplayAlbum, Track } from "@/types";
 
 // Create an album with artist, title, release date, and image id
 export async function createAlbum(
@@ -74,7 +74,7 @@ export async function associateAlbumWithListing(
 export async function getAlbums(
   limit = 5,
   offset = 0
-): Promise<Array<DBAlbum>> {
+): Promise<Array<DisplayAlbum>> {
   const { rows: albums } = await sql`
     SELECT
       a.id,
