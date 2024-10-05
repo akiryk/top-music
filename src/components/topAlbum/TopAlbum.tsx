@@ -1,10 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-import type { Album } from "@/types";
+import type { DBAlbum } from "@/types";
 import styles from "./TopAlbum.module.css";
 
 type Props = {
-  album: Album;
+  album: DBAlbum;
 };
 
 export default function TopAlbum({ album }: Props) {

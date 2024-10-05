@@ -1,5 +1,5 @@
 import { sql } from "@vercel/postgres";
-import type { Album } from "@/types";
+import type { DBAlbum, Track } from "@/types";
 
 // Create an album with artist, title, release date, and image id
 export async function createAlbum(
@@ -71,7 +71,10 @@ export async function associateAlbumWithListing(
 
 // Fetch all albums with details, including pagination
 // Fetch all albums with details, including pagination
-export async function getAlbums(limit = 5, offset = 0): Promise<Array<Album>> {
+export async function getAlbums(
+  limit = 5,
+  offset = 0
+): Promise<Array<DBAlbum>> {
   const { rows: albums } = await sql`
     SELECT
       a.id,
@@ -117,7 +120,7 @@ export async function getAlbums(limit = 5, offset = 0): Promise<Array<Album>> {
     postDate: album.post_date,
     listingUrl: album.listing_url,
     tracks: album.tracks || [], // Will be an empty array if no tracks
-    hasPreviewTracks: album.tracks?.every((track) => track.preview_url),
+    hasPreviewTracks: album.tracks?.every((track: Track) => track.preview_url),
     albumUrl: album.spotify_album_url,
   }));
 }

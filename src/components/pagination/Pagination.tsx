@@ -1,7 +1,11 @@
 import Link from "next/link";
 import styles from "./Pagination.module.css";
 
-export default function Pagination({ page }) {
+type Props = {
+  page: number;
+};
+
+export default function Pagination({ page }: Props) {
   const isDisabled = page === 1;
   return (
     <div className={styles.pagination}>

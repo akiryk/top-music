@@ -8,9 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "type-check": "tsc --noEmit",
     "scrape": "tsx src/libs/music-scraper/scraper.ts",
     "seed": "tsx src/libs/music-scraper/seed-database.ts",
-    "temp": "tsx src/libs/music-scraper/temp-add-ids.ts",
     "spotify": "tsx src/libs/spotify/getPreviewURL.ts"
   },
   "dependencies": {
