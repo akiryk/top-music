@@ -1,5 +1,5 @@
-.topAlbumLayout {
-  max-width: 650px;
+.wrapper {
+  margin-bottom: 4rem;
 }
 
 .albumDetails {
@@ -7,36 +7,9 @@
   max-width: 300px;
 }
 
-@media screen and (min-width: 750px) {
-  .albumWrapper {
-    display: flex;
-    gap: 2rem;
-  }
-  .albumDetails {
-    /* display: flex; */
-    width: 33.33%;
-    font-size: 1rem;
-  }
-}
-
-.sampleWrapper {
-  width: 100%;
-}
-
-.trackDetails {
-  margin: 1rem 0;
-}
-
-.tracksWrapper {
-  width: 66.66%;
-}
-
-.trackList {
-  list-style: none;
-}
-
-.trackItem {
-  margin: 1rem 0;
+.albumMeta {
+  padding: 0 0.125rem;
+  margin-bottom: 1rem;
 }
 
 .artistName,
@@ -44,11 +17,90 @@
   margin: 1rem 0 0;
 }
 
+.artistName {
+  font-weight: bold;
+}
+
 .albumName {
   margin-top: 0;
   color: #888;
 }
 
+.releaseDate {
+  margin-top: 1rem;
+  font-size: 0.925rem;
+}
+.nprLink {
+  font-size: 0.925rem;
+  color: var(--link-color);
+}
+
+.wrapper {
+  display: block;
+  max-width: 30rem;
+  margin: auto;
+}
+
+.sampleWrapper {
+  width: 100%;
+}
+
+.trackList {
+  list-style: none;
+}
+
 .link {
-  color: rgb(0, 89, 184);
+  color: var(--link-color);
+}
+
+.tracksWrapper {
+  margin-top: 1rem;
+}
+
+.audio {
+  width: 100%;
+}
+
+.trackItem {
+  margin-bottom: 1.5rem;
+}
+.trackName {
+  margin-bottom: 0.25rem;
+  text-transform: capitalize;
+}
+
+.bioWrapper {
+}
+
+@media screen and (min-width: 900px) {
+  .wrapper {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    grid-template-areas:
+      "albumWrapper bioWrapper"
+      "albumWrapper tracksWrapper"; /* Bio (C) comes before tracks (B) */
+  }
+
+  .albumWrapper {
+    grid-area: albumWrapper;
+  }
+
+  .tracksWrapper {
+    grid-area: tracksWrapper;
+    margin: 0;
+  }
+
+  .bioWrapper {
+    grid-area: bioWrapper;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .wrapper {
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: "albumWrapper tracksWrapper bioWrapper";
+  }
 }
