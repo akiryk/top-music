@@ -1,5 +1,5 @@
 import { getAlbums } from "@/db/index";
-import Pagination from "@/components/pagination";
+import Pagination from "@/components/Pagination";
 import TopAlbum from "@/components/topAlbum";
 
 import styles from "./page.module.css";
