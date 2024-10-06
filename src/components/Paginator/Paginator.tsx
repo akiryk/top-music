@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./Pagination.module.css";
+import styles from "./Paginator.module.css";
 
 type Props = {
   page: number;
@@ -18,7 +18,7 @@ export default function Pagination({ page }: Props) {
         Back
       </Link>
       <Link className={styles.link} href={`/?page=${page + 1}`}>
-        Next
+        Next 5
       </Link>
     </div>
   );
