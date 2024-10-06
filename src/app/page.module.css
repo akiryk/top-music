@@ -39,9 +39,3 @@
 .link {
   color: rgb(0, 89, 184);
 }
-
-.pagination {
-  display: flex;
-  justify-content: space-between;
-  max-width: 700px;
-}

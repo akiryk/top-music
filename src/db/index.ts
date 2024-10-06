@@ -70,7 +70,6 @@ export async function associateAlbumWithListing(
 // }
 
 // Fetch all albums with details, including pagination
-// Fetch all albums with details, including pagination
 export async function getAlbums(
   limit = 5,
   offset = 0
