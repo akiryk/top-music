@@ -15,11 +15,11 @@ export async function GET(req: Request) {
   const isDryRun = url.searchParams.get("dryRun") === "true";
 
   // Check the Authorization header to verify the cron secret
-  if (
-    req.headers.get("authorization") !==
-    `Bearer ${process.env.VERCEL_CRON_SECRET}`
-  ) {
-    return new Response(`Unauthorized`, { status: 401 });
+  const authHeader = req.headers.get("authorization");
+  if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
+    return new Response("Unauthorized", {
+      status: 401,
+    });
   }
 
   try {
