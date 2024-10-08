@@ -19,13 +19,7 @@ export async function GET(req: Request) {
     req.headers.get("Authorization") !==
     `Bearer ${process.env.VERCEL_CRON_SECRET}`
   ) {
-    console.log(
-      `Console log: VERCEL_CRON_SECRET is ${process.env.VERCEL_CRON_SECRET}`
-    );
-    return new Response(
-      `Not authorized, the secret ${process.env.VERCEL_CRON_SECRET} is wrong`,
-      { status: 400 }
-    );
+    return new Response(`Unauthorized`, { status: 401 });
   }
 
   try {
