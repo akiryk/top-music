@@ -16,7 +16,7 @@ export async function GET(req: Request) {
 
   // Check the Authorization header to verify the cron secret
   if (
-    req.headers.get("Authorization") !==
+    req.headers.get("authorization") !==
     `Bearer ${process.env.VERCEL_CRON_SECRET}`
   ) {
     return new Response(`Unauthorized`, { status: 401 });
