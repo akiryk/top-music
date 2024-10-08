@@ -62,13 +62,6 @@ export async function associateAlbumWithListing(
   await sql`INSERT INTO listing_albums(listing_id, album_id) VALUES (${listingId}, ${albumId})`;
 }
 
-// Fetch album by ID
-// export async function getAlbum(albumId: number) {
-//   const { rows: albums } =
-//     await sql`SELECT * FROM albums WHERE id = ${albumId}`;
-//   return albums[0] || null;
-// }
-
 // Fetch all albums with details, including pagination
 export async function getAlbums(
   limit = 5,
@@ -122,4 +115,14 @@ export async function getAlbums(
     hasPreviewTracks: album.tracks?.every((track: Track) => track.preview_url),
     albumUrl: album.spotify_album_url,
   }));
+}
+
+export async function insertScrapedPost(postUrl: string) {
+  await sql`INSERT INTO scraped_posts (post_url) VALUES (${postUrl})`;
+}
+
+export async function postAlreadyScraped(postUrl: string): Promise<boolean> {
+  const result =
+    await sql`SELECT post_url FROM scraped_posts WHERE post_url = ${postUrl}`;
+  return result.rows.length > 0; // If the result has rows, the post has already been scraped
 }
