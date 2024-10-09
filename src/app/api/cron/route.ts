@@ -27,7 +27,7 @@ export async function GET(req: Request) {
     const data = await scrapeAlbumsFromLatestPost();
 
     if (!data) {
-      console.error("no albums were retrieved by cron job");
+      console.log("no albums were retrieved by cron job");
       return new Response(null, { status: 204 }); // No content, valid response
     }
 
@@ -77,7 +77,7 @@ export async function GET(req: Request) {
     if (!isDryRun) {
       await insertScrapedPost(latestPostURL);
     }
-
+    console.log(`Success inserting albums from ${latestPostURL}`);
     return NextResponse.json({ message: "Albums processed successfully" });
   } catch (error) {
     console.error("Error processing albums:", error);
