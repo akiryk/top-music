@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { scrapeAlbumsFromLatestPost } from "@/libs/music-scraper"; // Custom functions for scraping
+import { getAlbumsFromMostRecentPost } from "@/libs/music-scraper"; // Custom functions for scraping
 import {
   createAlbum,
   createImage,
@@ -24,7 +24,7 @@ export async function GET(req: Request) {
 
   try {
     // 1. Scrape NPR New Music Friday for the latest post
-    const data = await scrapeAlbumsFromLatestPost();
+    const data = await getAlbumsFromMostRecentPost();
 
     if (!data) {
       console.log("no albums were retrieved by cron job");

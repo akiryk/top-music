@@ -9,14 +9,13 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "scrape": "tsx src/libs/music-scraper/scraper.ts",
+    "scrape": "tsx src/scripts/scraper.ts",
     "seed": "tsx src/libs/music-scraper/seed-database.ts",
     "spotify": "tsx src/libs/spotify/getPreviewURL.ts"
   },
   "dependencies": {
     "@types/spotify-web-api-node": "^5.0.11",
     "@vercel/postgres": "^0.10.0",
-    "dotenv": "^16.4.5",
     "he": "^1.2.0",
     "next": "14.2.13",
     "react": "^18",
@@ -26,6 +25,7 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
+    "@types/cheerio": "^0.22.35",
     "@types/he": "^1.2.3",
     "@types/node": "^20.16.10",
     "@types/react": "^18",
@@ -33,6 +33,7 @@
     "@types/sanitize-html": "^2.13.0",
     "axios": "1.7.7",
     "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.13",
     "postcss": "^8",

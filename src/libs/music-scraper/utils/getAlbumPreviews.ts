@@ -1,6 +1,6 @@
 import { searchSpotifyAlbum } from "./searchSpotifyAlbum";
 import { getAlbumTracks } from "./getAlbumTracks";
-import type { AlbumList } from "./types";
+import type { AlbumList } from "../types";
 
 // this is the type that gets pushed to albumPreviews based on console.log
 export type AlbumPreviews = {

@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Track, TrackPreview } from "./types";
+import type { Track, TrackPreview } from "../types";
 
 const SPOTIFY_ALBUMS_URL =
   process.env.SPOTIFY_URL || "https://api.spotify.com/v1/albums/";

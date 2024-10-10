@@ -1,10 +1,19 @@
 import axios from "axios";
+import { fileURLToPath } from "url";
+import path from "path";
+import dotenv from "dotenv";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+dotenv.config({ path: path.resolve(__dirname, "../../../../.env.local") });
 
 export async function getSpotifyToken() {
   const tokenUrl =
     process.env.SPOTIFY_TOKEN_URL || "https://accounts.spotify.com/api/token";
   const client_id = process.env.SPOTIFY_CLIENT_ID;
   const client_secret = process.env.SPOTIFY_CLIENT_SECRET;
+
   if (!client_id || !client_secret) {
     throw new Error("Missing spotify credentials: no secret or id");
   }
