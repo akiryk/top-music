@@ -13,7 +13,7 @@ import {
 export async function GET(req: Request) {
   const url = new URL(req.url);
   const isDryRun = url.searchParams.get("dryRun") === "true";
-
+  console.log(`isDryRun=${isDryRun}`);
   // Check the Authorization header to verify the cron secret
   const authHeader = req.headers.get("authorization");
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
@@ -36,10 +36,21 @@ export async function GET(req: Request) {
     // 2. Check if the post has already been scraped
     const isScraped = await postAlreadyScraped(latestPostURL);
     if (isScraped) {
+      console.log("");
       console.log(
-        `Post from ${latestPostURL} was already scraped. Not scraping again.`
+        `\x1b[1m\x1b[31m Post from ${latestPostURL.split("/").pop()} was already scraped.`
       );
-      return new Response(null, { status: 204 }); // No content, valid response
+      console.log(
+        `${!isDryRun ? "\x1b[1m\x1b[31m Not scraping again." : "\x1b[1m\x1b[32m Scaping anyway for dry run..."}`
+      );
+      console.log("");
+      if (!isDryRun) {
+        return new Response(null, { status: 204 }); // No content, valid response
+      }
+    } else if (isDryRun) {
+      console.log(`
+\x1b[37m\x1b[1m Scrape first time for ${latestPostURL.split("/").pop()}
+`);
     }
 
     for (const album of albums) {
@@ -53,7 +64,10 @@ export async function GET(req: Request) {
       } = album;
 
       if (isDryRun) {
-        console.log(`Dry run: would insert album ${title} by ${artist}`);
+        console.log(`\x1b[37m \x1b[1m🚀 Dry run would insert:\x1b[22m`);
+        console.log(`\x1b[32m  album:  ${title}\x1b[39m`);
+        console.log(`\x1b[32m  artist: ${artist}\x1b[39m`);
+        console.log(`\x1b[32m  tracks: ${tracks[0].name}\x1b[39m`);
         continue; // Skip DB operations
       }
 
@@ -76,8 +90,14 @@ export async function GET(req: Request) {
 
     if (!isDryRun) {
       await insertScrapedPost(latestPostURL);
+      console.log(`Success inserting albums from ${latestPostURL}`);
+    } else {
+      console.log("");
+      console.log(
+        `\x1b[1m\x1b[32m✔ Would have inserted albums from ${latestPostURL.split("/").pop()}!\x1b[22m\x1b[37m`
+      );
+      console.log("");
     }
-    console.log(`Success inserting albums from ${latestPostURL}`);
     return NextResponse.json({ message: "Albums processed successfully" });
   } catch (error) {
     console.error("Error processing albums:", error);
