@@ -1,17 +1,19 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
 import { extractAlbumInformationFromHTML } from "./utils";
+import { type BasicAlbum } from "../../types";
 
-export async function scrapeNamesOfAlbumsFromPost(url: string) {
+export async function scrapeAlbumDataFromPost(url: string): Promise<{
+  cleanAlbums: BasicAlbum[];
+  postDate: string;
+} | null> {
   try {
     const { data } = await axios.get(url);
     const $ = cheerio.load(data);
     const dateMetaTag = $('meta[name="date"]');
-    const dateString = dateMetaTag.attr("content") || "";
-    const postDate = new Date(dateString);
+    const postDate = dateMetaTag.attr("content") || "";
 
     // Load HTML into Cheerio
-
     const featuredAlbumsElement = $("main p, h3").filter((i, element) => {
       // return /feature?d albums/i.test($(element).text());
       return /feature?d albums/i.test($(element).text());
@@ -19,7 +21,7 @@ export async function scrapeNamesOfAlbumsFromPost(url: string) {
 
     if (!featuredAlbumsElement) {
       console.error(`missing albums at ${url}`);
-      return "";
+      return null;
     }
 
     let rawHtmlContent = featuredAlbumsElement.html();
@@ -34,18 +36,17 @@ export async function scrapeNamesOfAlbumsFromPost(url: string) {
     }
 
     if (!rawHtmlContent) {
-      return [];
+      return null;
     }
 
-    const cleanAlbums = extractAlbumInformationFromHTML({
-      rawHtmlContent,
-      postDate: postDate || new Date(),
-      url,
-    });
+    const cleanAlbums =
+      extractAlbumInformationFromHTML({
+        rawHtmlContent,
+      }) || [];
 
-    return cleanAlbums || [];
+    return { cleanAlbums, postDate };
   } catch (error) {
     console.error("Error scraping NPR Music:", error);
-    return [];
+    return null;
   }
 }

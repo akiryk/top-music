@@ -26,15 +26,15 @@ async function getArtistInfo(artist: string, album: string) {
 }
 
 export default async function TopAlbum({ album }: Props) {
-  const bio = await getArtistInfo(album.artist, album.title);
+  const bio = await getArtistInfo(album.artist, album.albumTitle);
   return (
     <div className={styles.wrapper}>
       <div className={styles.albumWrapper}>
         <div className={styles.imageWrapper}>
-          <Link href={album.albumUrl} className={styles.link}>
+          <Link href={album.spotifyAlbumUrl} className={styles.link}>
             <Image
               src={album.imageUrl}
-              alt={`${album.title} cover art`}
+              alt={`${album.albumTitle} cover art`}
               width={640}
               height={640}
               className={styles.albumImage}
@@ -44,25 +44,29 @@ export default async function TopAlbum({ album }: Props) {
 
         <div className={styles.albumMeta}>
           <div className={styles.artistName}>{album.artist}</div>
-          <div className={styles.albumName}>{album.title}</div>
+          <div className={styles.albumName}>{album.albumTitle}</div>
 
           <div className={styles.releaseDate}>
             Release: {album.releaseDate},{" "}
-            <Link className={styles.nprLink} href={album.listingUrl}>
-              see NPR Post
-            </Link>
+            {album.postUrl && (
+              <Link className={styles.nprLink} href={album.postUrl}>
+                See NPR Post
+              </Link>
+            )}
           </div>
         </div>
       </div>
       <div className={styles.bioWrapper}>{bio}</div>
       <div className={styles.tracksWrapper}>
-        {album.hasPreviewTracks ? (
+        {album.tracks.length ? (
           <ul className={styles.trackList}>
             {album.tracks.map((track, trackIndex) => (
               <li key={trackIndex} className={styles.trackItem}>
-                <div className={styles.trackName}>
-                  <span>{track.title.toLowerCase()}</span>
-                </div>
+                {track.name && (
+                  <div className={styles.trackName}>
+                    <span>{track.name.toLowerCase()}</span>
+                  </div>
+                )}
                 {track.preview_url && (
                   <div className={styles.sampleWrapper}>
                     <audio controls className={styles.audio}>
@@ -77,9 +81,11 @@ export default async function TopAlbum({ album }: Props) {
         ) : (
           <p>
             No tracks.{" "}
-            <Link href={album.albumUrl} className={styles.link}>
-              See {album.title}
-            </Link>
+            {album.spotifyAlbumUrl && (
+              <Link href={album.spotifyAlbumUrl} className={styles.link}>
+                See {album.albumTitle}
+              </Link>
+            )}
           </p>
         )}
       </div>

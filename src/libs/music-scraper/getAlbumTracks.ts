@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Track, TrackPreview } from "../types";
+import type { Track } from "../../types";
 
 const SPOTIFY_ALBUMS_URL =
   process.env.SPOTIFY_URL || "https://api.spotify.com/v1/albums/";
@@ -7,9 +7,8 @@ const SPOTIFY_ALBUMS_URL =
 export async function getAlbumTracks(
   albumId: string,
   token: string
-): Promise<TrackPreview[]> {
+): Promise<Track[]> {
   const url = `${SPOTIFY_ALBUMS_URL}${albumId}/tracks`;
-
   try {
     const response = await axios.get(url, {
       headers: {
@@ -18,7 +17,7 @@ export async function getAlbumTracks(
     });
 
     return response.data.items.map((track: Track) => ({
-      title: track.title,
+      name: track.name,
       preview_url: track.preview_url,
     }));
   } catch (error) {

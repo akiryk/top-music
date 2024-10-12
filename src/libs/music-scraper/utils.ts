@@ -56,12 +56,8 @@ export function getFeaturedAlbumsElement($: cheerio.CheerioAPI, url: string) {
 
 export function extractAlbumInformationFromHTML({
   rawHtmlContent,
-  postDate,
-  url,
 }: {
   rawHtmlContent: string;
-  postDate: Date;
-  url: string;
 }) {
   return rawHtmlContent
     .split("•")
@@ -92,8 +88,6 @@ export function extractAlbumInformationFromHTML({
       return {
         artist: he.decode(safeArtistName),
         title: he.decode(safeAlbumalbumTitle),
-        postDate: postDate.toISOString().split("T")[0],
-        url,
       };
     });
 }

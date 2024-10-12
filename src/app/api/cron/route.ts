@@ -31,14 +31,14 @@ export async function GET(req: Request) {
       return new Response(null, { status: 204 }); // No content, valid response
     }
 
-    const { albumsWithSongs: albums, latestPostURL } = data;
+    const { albumsWithSongs: albums, postUrl, postDate } = data;
 
     // 2. Check if the post has already been scraped
-    const isScraped = await postAlreadyScraped(latestPostURL);
+    const isScraped = await postAlreadyScraped(postUrl);
     if (isScraped) {
       console.log("");
       console.log(
-        `\x1b[1m\x1b[31m Post from ${latestPostURL.split("/").pop()} was already scraped.`
+        `\x1b[1m\x1b[31m Post from ${postUrl.split("/").pop()} was already scraped.`
       );
       console.log(
         `${!isDryRun ? "\x1b[1m\x1b[31m Not scraping again." : "\x1b[1m\x1b[32m Scaping anyway for dry run..."}`
@@ -49,7 +49,7 @@ export async function GET(req: Request) {
       }
     } else if (isDryRun) {
       console.log(`
-\x1b[37m\x1b[1m Scrape first time for ${latestPostURL.split("/").pop()}
+\x1b[37m\x1b[1m Scrape first time for ${postUrl.split("/").pop()}
 `);
     }
 
@@ -57,13 +57,13 @@ export async function GET(req: Request) {
       const {
         artist,
         title,
-        postDate,
-        image: { url: imageUrl },
+        imageUrl,
+        imageHeight,
+        imageWidth,
         releaseDate,
         tracks,
         spotifyAlbumUrl,
         spotifyAlbumId,
-        url: nprPostUrl,
       } = album;
 
       if (isDryRun) {
@@ -73,18 +73,21 @@ export async function GET(req: Request) {
         console.log(`\x1b[32m  album:  ${title}\x1b[39m`);
         console.log(`\x1b[32m  artist: ${artist}\x1b[39m`);
         console.log(`\x1b[32m  releaseDate: ${releaseDate}\x1b[39m`);
-        console.log(`\x1b[32m  tracks: ${tracks[0].name}\x1b[39m`);
+        console.log(`\x1b[32m  track name: ${tracks[0].name}\x1b[39m`);
+        console.log(`\x1b[32m  track url: ${tracks[0].preview_url}\x1b[39m`);
         console.log(`\x1b[32m  image url: ${imageUrl}\x1b[39m`);
+        console.log(`\x1b[32m  image height: ${imageHeight}\x1b[39m`);
+        console.log(`\x1b[32m  image width: ${imageWidth}\x1b[39m`);
         console.log(`\x1b[32m  spotifyAlbumUrl: ${spotifyAlbumUrl}\x1b[39m`);
         console.log(`\x1b[32m  spotifyAlbumId: ${spotifyAlbumId}\x1b[39m`);
         console.log(`\x1b[37m  Create listing:\x1b[22m`);
         console.log(`\x1b[32m  postDate: ${postDate}\x1b[39m`);
-        console.log(`\x1b[32m  nprPostUrl: ${nprPostUrl}\x1b[39m`);
+        console.log(`\x1b[32m  nprPostUrl: ${postUrl}\x1b[39m`);
         continue; // Skip DB operations
       }
 
       // 3. Insert image
-      const imageId = await createImage(imageUrl);
+      const imageId = await createImage({ imageUrl, imageHeight, imageWidth });
 
       // 4. Insert album with imageId
       const albumId = await createAlbum(
@@ -97,7 +100,7 @@ export async function GET(req: Request) {
       );
 
       // 5. Insert listing (blog post) and associate album with listing
-      const listingId = await createListing(postDate, nprPostUrl);
+      const listingId = await createListing(postDate, postUrl);
       await associateAlbumWithListing(listingId, albumId);
 
       // 6. Insert tracks for the album
@@ -108,12 +111,12 @@ export async function GET(req: Request) {
     }
 
     if (!isDryRun) {
-      await insertScrapedPost(latestPostURL);
-      console.log(`Success inserting albums from ${latestPostURL}`);
+      await insertScrapedPost(postUrl);
+      console.log(`Success inserting albums from ${postUrl}`);
     } else {
       console.log("");
       console.log(
-        `\x1b[1m\x1b[32m✔ Would have inserted albums from ${latestPostURL.split("/").pop()}!\x1b[22m\x1b[37m`
+        `\x1b[1m\x1b[32m✔ Would have inserted albums from ${postUrl.split("/").pop()}!\x1b[22m\x1b[37m`
       );
       console.log("");
     }

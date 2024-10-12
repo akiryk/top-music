@@ -2,9 +2,9 @@ import axios from "axios";
 import {
   getSpotifyToken,
   getAlbumPreviews,
-  scrapeNamesOfAlbumsFromPost,
+  scrapeAlbumDataFromPost,
   getLatestPostFromNPRNewMusicFridayHTML,
-} from "../index";
+} from "./index";
 
 const NEW_MUSIC_URL: string =
   process.env.NPR_NEW_MUSIC_URL ||
@@ -13,17 +13,20 @@ const NEW_MUSIC_URL: string =
 export async function getAlbumsFromMostRecentPost() {
   try {
     const { data } = await axios.get(NEW_MUSIC_URL);
-    const latestPostURL = getLatestPostFromNPRNewMusicFridayHTML(data);
-    if (!latestPostURL) {
+    const postUrl = getLatestPostFromNPRNewMusicFridayHTML(data);
+    if (!postUrl) {
       return null;
     }
 
-    const albumDetails = await scrapeNamesOfAlbumsFromPost(latestPostURL);
+    const albumData = await scrapeAlbumDataFromPost(postUrl);
 
-    if (albumDetails) {
+    if (albumData?.cleanAlbums) {
       const token = await getSpotifyToken();
-      const albumsWithSongs = await getAlbumPreviews(albumDetails, token);
-      return { albumsWithSongs, latestPostURL };
+      const albumsWithSongs = await getAlbumPreviews(
+        albumData.cleanAlbums,
+        token
+      );
+      return { albumsWithSongs, postUrl, postDate: albumData.postDate };
     }
   } catch (error) {
     console.error("Error scraping the New Music Friday post:", error);
