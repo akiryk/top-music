@@ -1,5 +1,21 @@
 import { sql } from "@vercel/postgres";
-import type { DisplayAlbum, Track, ISODateString } from "@/types";
+import type { DisplayAlbum, ISODateString } from "@/types";
+
+type AlbumFromDB = {
+  id: number;
+  artist: string;
+  title: string;
+  release_date: Date;
+  spotify_album_id: string;
+  spotify_album_url: string;
+  image_url: string;
+  post_date: Date;
+  listing_url: string;
+  tracks?: Array<{
+    title: string;
+    preview_url: string | undefined;
+  }>;
+};
 
 // Create an album with artist, title, release date, and image id
 export async function createAlbum(
@@ -50,7 +66,7 @@ export async function createImage(url: string) {
 // Create a track and associate it with an album
 export async function createTrack(
   title: string,
-  preview_url: string | null,
+  preview_url: string | undefined,
   albumId: number
 ) {
   await sql`INSERT INTO tracks(title, preview_url, album_id) VALUES (${title}, ${preview_url}, ${albumId})`;
@@ -115,23 +131,28 @@ export async function getAlbums(
     LIMIT ${limit} OFFSET ${offset};
   `;
 
-  const formattedReleaseDate = (releaseDate: Date) =>
-    new Date(releaseDate).toLocaleDateString("en-US", {
-      year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
+  function getValidReleaseDate(date: Date, albumId: string | undefined) {
+    return date.toISOString().slice(0, 10) as `${number}-${number}-${number}`;
+  }
 
-  return albums.map((album) => ({
-    id: album.id,
+  console.log("album 0 .....", albums[0]);
+
+  return albums.map((album: AlbumFromDB) => ({
+    id: album.id.toString(),
     artist: album.artist,
     title: album.title,
-    releaseDate: formattedReleaseDate(album.release_date),
+    releaseDate: getValidReleaseDate(
+      album.release_date,
+      album.spotify_album_id
+    ),
     imageUrl: album.image_url,
     postDate: album.post_date,
     listingUrl: album.listing_url,
     tracks: album.tracks || [], // Will be an empty array if no tracks
-    hasPreviewTracks: album.tracks?.every((track: Track) => track.preview_url),
+    hasPreviewTracks: album.tracks?.every(
+      (track: { title: string; preview_url: string | undefined }) =>
+        track.preview_url
+    ),
     albumUrl: album.spotify_album_url,
   }));
 }

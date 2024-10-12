@@ -18,7 +18,7 @@ export async function getAlbumTracks(
     });
 
     return response.data.items.map((track: Track) => ({
-      name: track.name,
+      title: track.title,
       preview_url: track.preview_url,
     }));
   } catch (error) {

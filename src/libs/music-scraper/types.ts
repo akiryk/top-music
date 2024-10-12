@@ -1,5 +1,4 @@
 export type Track = {
-  name: string;
   preview_url?: string; // Optional property
   title: string;
 };
@@ -8,7 +7,7 @@ export type ISODateString = `${number}-${number}-${number}`;
 
 export type TrackPreview = {
   name: string;
-  preview_url: string | null; // preview URL might be null if not available
+  preview_url: string | undefined; // preview URL might be null if not available
 };
 
 export interface BasicAlbum {
@@ -27,7 +26,7 @@ export interface AlbumAndTracks {
   releaseDate: string;
   listingUrl: string;
   imageUrl: string;
-  albumUrl: string;
+  albumUrl: string | undefined;
   hasPreviewTracks: boolean;
   images: Array<Record<string, string>>;
   total_tracks: number;

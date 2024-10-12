@@ -43,7 +43,7 @@ function getValidReleaseDate(
   } else {
     validReleaseDate = "10-10-3000";
     console.error(
-      `Invalid release date for spotify album id ${spotifyAlbum.id}`
+      `AlbumPreview: Invalid release date for spotify album id ${spotifyAlbum.id}`
     );
   }
   return validReleaseDate;

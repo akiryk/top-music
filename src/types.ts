@@ -12,7 +12,7 @@
 export type ISODateString = `${number}-${number}-${number}`;
 
 export type DisplayAlbum = {
-  id: string;
+  id: string | number;
   artist: string;
   title: string;
   releaseDate: ISODateString;
@@ -21,11 +21,10 @@ export type DisplayAlbum = {
   listingUrl: string;
   tracks: Track[];
   hasPreviewTracks: boolean;
-  albumUrl: string;
+  albumUrl: string | undefined;
 };
 
 export type Track = {
-  name: string;
   preview_url?: string; // Optional property
   title: string;
 };
