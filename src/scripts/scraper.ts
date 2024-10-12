@@ -22,7 +22,7 @@ postDate: ${postDate}
 url: ${url}
 releaseDate: ${releaseDate}`);
     for (const track of tracks) {
-      const { name, preview_url } = track;
+      const { name } = track;
       console.log(`  trackName: ${name}`);
     }
   }

@@ -1,9 +1,6 @@
 import axios from "axios";
 import * as cheerio from "cheerio";
-import {
-  getFeaturedAlbumsElement,
-  extractAlbumInformationFromHTML,
-} from "./utils";
+import { extractAlbumInformationFromHTML } from "./utils";
 
 export async function scrapeNamesOfAlbumsFromPost(url: string) {
   try {
