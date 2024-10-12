@@ -46,6 +46,16 @@ export default async function TopAlbum({ album }: Props) {
           <div className={styles.artistName}>{album.artist}</div>
           <div className={styles.albumName}>{album.albumTitle}</div>
 
+          {!album.hasPreviewTracks && (
+            <p>
+              No preview tracks available, check out{" "}
+              {album.spotifyAlbumUrl && (
+                <Link href={album.spotifyAlbumUrl} className={styles.link}>
+                  {album.albumTitle} on Spotify.
+                </Link>
+              )}
+            </p>
+          )}
           <div className={styles.releaseDate}>
             Release: {album.releaseDate},{" "}
             {album.postUrl && (
@@ -58,7 +68,7 @@ export default async function TopAlbum({ album }: Props) {
       </div>
       <div className={styles.bioWrapper}>{bio}</div>
       <div className={styles.tracksWrapper}>
-        {album.tracks.length ? (
+        {album.hasPreviewTracks && (
           <ul className={styles.trackList}>
             {album.tracks.map((track, trackIndex) => (
               <li key={trackIndex} className={styles.trackItem}>
@@ -78,15 +88,6 @@ export default async function TopAlbum({ album }: Props) {
               </li>
             ))}
           </ul>
-        ) : (
-          <p>
-            No tracks.{" "}
-            {album.spotifyAlbumUrl && (
-              <Link href={album.spotifyAlbumUrl} className={styles.link}>
-                See {album.albumTitle}
-              </Link>
-            )}
-          </p>
         )}
       </div>
     </div>
