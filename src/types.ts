@@ -9,11 +9,13 @@
 //   title: string;
 // };
 
+export type ISODateString = `${number}-${number}-${number}`;
+
 export type DisplayAlbum = {
   id: string;
   artist: string;
   title: string;
-  releaseDate: string;
+  releaseDate: ISODateString;
   imageUrl: string;
   postDate: string;
   listingUrl: string;

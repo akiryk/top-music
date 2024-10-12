@@ -4,6 +4,8 @@ export type Track = {
   title: string;
 };
 
+export type ISODateString = `${number}-${number}-${number}`;
+
 export type TrackPreview = {
   name: string;
   preview_url: string | null; // preview URL might be null if not available

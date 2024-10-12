@@ -1,6 +1,9 @@
-import { searchSpotifyAlbum } from "./searchSpotifyAlbum";
+import {
+  searchSpotifyAlbum,
+  type SpotifyReturnAlbum,
+} from "./searchSpotifyAlbum";
 import { getAlbumTracks } from "./getAlbumTracks";
-import type { AlbumList } from "../types";
+import type { AlbumList, ISODateString } from "../types";
 
 // this is the type that gets pushed to albumPreviews based on console.log
 export type AlbumPreviews = {
@@ -14,7 +17,7 @@ export type AlbumPreviews = {
     width: number;
   };
   totalTracks: number;
-  releaseDate: string;
+  releaseDate: ISODateString;
   spotifyAlbumId: string;
   spotifyAlbumUrl: string;
   tracks: {
@@ -22,6 +25,29 @@ export type AlbumPreviews = {
     preview_url: string;
   }[];
 };
+
+function isISODateString(dateString: string): dateString is ISODateString {
+  // This regex checks for a pattern like 'YYYY-MM-DD'
+  const regex = /^\d{4}-\d{2}-\d{2}$/;
+  return regex.test(dateString);
+}
+
+function getValidReleaseDate(
+  initialReleaseDate: string,
+  spotifyAlbum: SpotifyReturnAlbum
+) {
+  let validReleaseDate: ISODateString;
+  if (isISODateString(initialReleaseDate)) {
+    // Now TypeScript knows this is a valid ISODateString
+    validReleaseDate = initialReleaseDate;
+  } else {
+    validReleaseDate = "10-10-3000";
+    console.error(
+      `Invalid release date for spotify album id ${spotifyAlbum.id}`
+    );
+  }
+  return validReleaseDate;
+}
 
 export async function getAlbumPreviews(albums: AlbumList, token: string) {
   const albumPreviews: AlbumPreviews[] = [];
@@ -35,6 +61,12 @@ export async function getAlbumPreviews(albums: AlbumList, token: string) {
       if (tracks.length === 0) {
         console.log(`no tracks for ${title}`);
       }
+      const initialReleaseDate: string = spotifyAlbum.release_date;
+      const validReleaseDate: ISODateString = getValidReleaseDate(
+        initialReleaseDate,
+        spotifyAlbum
+      );
+
       albumPreviews.push({
         artist,
         title,
@@ -42,7 +74,7 @@ export async function getAlbumPreviews(albums: AlbumList, token: string) {
         url,
         image: spotifyAlbum.images[0],
         totalTracks: spotifyAlbum.total_tracks,
-        releaseDate: spotifyAlbum.release_date,
+        releaseDate: validReleaseDate,
         spotifyAlbumId: spotifyAlbum.id,
         spotifyAlbumUrl: spotifyAlbum.external_urls.spotify,
         // Only keep tracks with previews

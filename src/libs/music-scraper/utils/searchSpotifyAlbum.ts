@@ -19,7 +19,7 @@ type Image = {
   width: number;
 };
 
-type SpotifyReturnAlbum = {
+export type SpotifyReturnAlbum = {
   album_type: "album";
   artists: Artist[];
   available_markets: string[]; // List of country codes where the album is available

@@ -1,14 +1,33 @@
 import { sql } from "@vercel/postgres";
-import type { DisplayAlbum, Track } from "@/types";
+import type { DisplayAlbum, Track, ISODateString } from "@/types";
 
 // Create an album with artist, title, release date, and image id
 export async function createAlbum(
   artist: string,
   title: string,
-  releaseDate: string,
-  imageId: number
+  releaseDate: ISODateString, // the database can handle converting YYYY-MM-DD to DATE format
+  imageId: number,
+  spotifyAlbumId: string,
+  spotifyAlbumUrl: string
 ) {
-  await sql`INSERT INTO albums(artist, title, release_date, image_id) VALUES (${artist}, ${title}, ${releaseDate}, ${imageId})`;
+  await sql`
+    INSERT INTO albums (
+      artist,
+      title,
+      release_date,
+      image_id,
+      spotify_album_id,
+      spotify_album_url
+    )
+    VALUES (
+      ${artist},
+      ${title},
+      ${releaseDate},
+      ${imageId},
+      ${spotifyAlbumId},
+      ${spotifyAlbumUrl}
+    )
+  `;
 
   const { rows: lastInsertId } =
     await sql`SELECT currval(pg_get_serial_sequence('albums','id'))`;
@@ -92,7 +111,7 @@ export async function getAlbums(
     GROUP BY
       a.id, i.url, l.post_date, l.url
     ORDER BY
-      a.id
+      a.release_date DESC
     LIMIT ${limit} OFFSET ${offset};
   `;
 

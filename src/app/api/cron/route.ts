@@ -58,27 +58,46 @@ export async function GET(req: Request) {
         artist,
         title,
         postDate,
-        image: { url },
+        image: { url: imageUrl },
         releaseDate,
         tracks,
+        spotifyAlbumUrl,
+        spotifyAlbumId,
+        url: nprPostUrl,
       } = album;
 
       if (isDryRun) {
-        console.log(`\x1b[37m \x1b[1m🚀 Dry run would insert:\x1b[22m`);
+        console.log("");
+        console.log(`\x1b[37m \x1b[1m🚀 Dry run!\x1b[22m`);
+        console.log(`\x1b[37m  Create album:\x1b[22m`);
         console.log(`\x1b[32m  album:  ${title}\x1b[39m`);
         console.log(`\x1b[32m  artist: ${artist}\x1b[39m`);
+        console.log(`\x1b[32m  releaseDate: ${releaseDate}\x1b[39m`);
         console.log(`\x1b[32m  tracks: ${tracks[0].name}\x1b[39m`);
+        console.log(`\x1b[32m  image url: ${imageUrl}\x1b[39m`);
+        console.log(`\x1b[32m  spotifyAlbumUrl: ${spotifyAlbumUrl}\x1b[39m`);
+        console.log(`\x1b[32m  spotifyAlbumId: ${spotifyAlbumId}\x1b[39m`);
+        console.log(`\x1b[37m  Create listing:\x1b[22m`);
+        console.log(`\x1b[32m  postDate: ${postDate}\x1b[39m`);
+        console.log(`\x1b[32m  nprPostUrl: ${nprPostUrl}\x1b[39m`);
         continue; // Skip DB operations
       }
 
       // 3. Insert image
-      const imageId = await createImage(url);
+      const imageId = await createImage(imageUrl);
 
       // 4. Insert album with imageId
-      const albumId = await createAlbum(artist, title, releaseDate, imageId);
+      const albumId = await createAlbum(
+        artist,
+        title,
+        releaseDate,
+        imageId,
+        spotifyAlbumId,
+        spotifyAlbumUrl
+      );
 
       // 5. Insert listing (blog post) and associate album with listing
-      const listingId = await createListing(postDate, url);
+      const listingId = await createListing(postDate, nprPostUrl);
       await associateAlbumWithListing(listingId, albumId);
 
       // 6. Insert tracks for the album
