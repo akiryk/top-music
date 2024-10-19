@@ -52,7 +52,7 @@ export type DisplayAlbum = {
 
 export type Track = {
   preview_url?: string; // Optional property
-  name: string;
+  title: string;
 };
 
 export type Image = {

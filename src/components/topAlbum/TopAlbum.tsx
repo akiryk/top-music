@@ -44,18 +44,15 @@ export default async function TopAlbum({ album }: Props) {
 
         <div className={styles.albumMeta}>
           <div className={styles.artistName}>{album.artist}</div>
-          <div className={styles.albumName}>{album.albumTitle}</div>
-
-          {!album.hasPreviewTracks && (
-            <p>
-              No preview tracks available, check out{" "}
-              {album.spotifyAlbumUrl && (
-                <Link href={album.spotifyAlbumUrl} className={styles.link}>
-                  {album.albumTitle} on Spotify.
-                </Link>
-              )}
-            </p>
+          {album.spotifyAlbumUrl ? (
+            <Link href={album.spotifyAlbumUrl} className={styles.albumNameLink}>
+              {album.albumTitle}.
+            </Link>
+          ) : (
+            <span className={styles.albumName}>{album.albumTitle}.</span>
           )}
+
+          {!album.hasPreviewTracks && <p>No preview tracks available</p>}
           <div className={styles.releaseDate}>
             Release: {album.releaseDate},{" "}
             {album.postUrl && (
@@ -67,14 +64,14 @@ export default async function TopAlbum({ album }: Props) {
         </div>
       </div>
       <div className={styles.bioWrapper}>{bio}</div>
-      <div className={styles.tracksWrapper}>
-        {album.hasPreviewTracks && (
+      {album.hasPreviewTracks && (
+        <div className={styles.tracksWrapper}>
           <ul className={styles.trackList}>
             {album.tracks.map((track, trackIndex) => (
               <li key={trackIndex} className={styles.trackItem}>
-                {track.name && (
+                {track.title && (
                   <div className={styles.trackName}>
-                    <span>{track.name.toLowerCase()}</span>
+                    <span>{track.title.toLowerCase()}</span>
                   </div>
                 )}
                 {track.preview_url && (
@@ -88,8 +85,8 @@ export default async function TopAlbum({ album }: Props) {
               </li>
             ))}
           </ul>
-        )}
-      </div>
+        </div>
+      )}
     </div>
   );
 }
