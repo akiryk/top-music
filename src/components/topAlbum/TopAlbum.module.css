@@ -21,9 +21,15 @@
   font-weight: bold;
 }
 
-.albumName {
+.albumName,
+.albumNameLink {
   margin-top: 0;
   color: #888;
+  font-weight: bold;
+}
+
+.albumNameLink {
+  color: var(--link-color);
 }
 
 .releaseDate {
@@ -67,6 +73,7 @@
 .trackName {
   margin-bottom: 0.25rem;
   text-transform: capitalize;
+  font-size: 0.875rem;
 }
 
 .bioWrapper {
