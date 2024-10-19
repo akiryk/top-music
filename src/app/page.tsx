@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { getAlbums } from "@/db/index";
+import Link from "next/link";
 import Pagination from "@/components/Paginator";
 import TopAlbum from "@/components/topAlbum";
 
@@ -10,33 +10,41 @@ type PageProps = {
 };
 
 export default async function Home({ searchParams }: PageProps) {
-  const page = parseInt(searchParams.page) || 1; // Default to page 1
-  const limit = 5;
-  const offset = (page - 1) * limit;
-  const albums = await getAlbums(limit, offset);
-
-  return (
-    <main className="mx-8 my-8">
-      <h1 className={styles.pageTitle}>
-        New Music Albums from{" "}
-        <Link
-          className={styles.link}
-          href="https://www.npr.org/sections/allsongs/606254804/new-music-friday"
-        >
-          NPR New Music Friday
-        </Link>
-      </h1>
-      <div className={styles.pagination}>
-        <Pagination page={page} />
-      </div>
-      <ul>
-        {albums.map((album) => (
-          <li key={album.id} className={styles.listing}>
-            <TopAlbum album={album} />
-          </li>
-        ))}
-      </ul>
-      <Pagination page={page} />
-    </main>
-  );
+  try {
+    const page = parseInt(searchParams.page) || 1;
+    const limit = 5;
+    const offset = (page - 1) * limit;
+    const { displayAlbums: albums, total } = await getAlbums(limit, offset);
+    const isAnotherPage = offset + limit < total;
+    if (albums.length === 0) {
+      throw Error();
+    }
+    return (
+      <>
+        <div className={styles.pagination}>
+          <Pagination page={page} isAnotherPage={isAnotherPage} />
+        </div>
+        <ul>
+          {albums.map((album) => (
+            <li key={album.id} className={styles.listing}>
+              <TopAlbum album={album} />
+            </li>
+          ))}
+        </ul>
+        <Pagination page={page} isAnotherPage={isAnotherPage} />
+      </>
+    );
+  } catch {
+    return (
+      <>
+        <p>Oops, unable to load albums on this page.</p>
+        <p>
+          Maybe try again? Or{" "}
+          <Link href="/" className={styles.link}>
+            return home?
+          </Link>
+        </p>
+      </>
+    );
+  }
 }

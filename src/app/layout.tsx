@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import styles from "./page.module.css";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -28,7 +29,18 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <main className="mx-8 my-8">
+          <h1 className={styles.pageTitle}>
+            New Music Albums from{" "}
+            <a
+              className={styles.link}
+              href="https://www.npr.org/sections/allsongs/606254804/new-music-friday"
+            >
+              NPR New Music Friday
+            </a>
+          </h1>
+          {children}
+        </main>
       </body>
     </html>
   );

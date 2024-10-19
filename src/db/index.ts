@@ -92,12 +92,21 @@ export async function associateAlbumWithListing(
   await sql`INSERT INTO listing_albums(listing_id, album_id) VALUES (${listingId}, ${albumId})`;
 }
 
+export type ReturnGetAlbums = {
+  displayAlbums: Array<DisplayAlbum>;
+  total: number;
+};
+
 // Fetch all albums with details, including pagination
 export async function getAlbums(
   limit = 5,
   offset = 0
-): Promise<Array<DisplayAlbum>> {
-  const result = await sql`
+): Promise<ReturnGetAlbums> {
+  try {
+    const countResult = await sql`SELECT COUNT(*) AS total FROM albums;`;
+    const total = countResult.rows[0].total;
+
+    const result = await sql`
     SELECT
       a.id,
       a.artist,
@@ -105,6 +114,7 @@ export async function getAlbums(
       a.release_date,
       a.spotify_album_id,
       a.spotify_album_url,
+      a.count,
       i.url AS image_url,
       i.height AS image_height,
       i.width AS image_width,
@@ -128,27 +138,30 @@ export async function getAlbums(
     LIMIT ${limit} OFFSET ${offset};
 `;
 
-  const albums: AlbumFromDatabase[] = result.rows as AlbumFromDatabase[];
+    const albums: AlbumFromDatabase[] = result.rows as AlbumFromDatabase[];
 
-  const displayAlbums: DisplayAlbum[] = albums.map(
-    (album: AlbumFromDatabase): DisplayAlbum => ({
-      albumTitle: album.album_title,
-      artist: album.artist,
-      id: album.id.toString(),
-      imageHeight: album.image_height,
-      imageUrl: album.image_url,
-      imageWidth: album.image_width,
-      postDate: album.post_date.toISOString().split("T")[0],
-      postUrl: album.listing_url,
-      releaseDate: album.release_date.toISOString().split("T")[0],
-      spotifyAlbumUrl: album.spotify_album_url,
-      spotifyAlbumId: album.spotify_album_id,
-      tracks: album.tracks || [], // Will be an empty array if no tracks
-      hasPreviewTracks: album.tracks?.every((track) => track.preview_url),
-    })
-  );
+    const displayAlbums: DisplayAlbum[] = albums.map(
+      (album: AlbumFromDatabase): DisplayAlbum => ({
+        albumTitle: album.album_title,
+        artist: album.artist,
+        id: album.id.toString(),
+        imageHeight: album.image_height,
+        imageUrl: album.image_url,
+        imageWidth: album.image_width,
+        postDate: album.post_date.toISOString().split("T")[0],
+        postUrl: album.listing_url,
+        releaseDate: album.release_date.toISOString().split("T")[0],
+        spotifyAlbumUrl: album.spotify_album_url,
+        spotifyAlbumId: album.spotify_album_id,
+        tracks: album.tracks || [], // Will be an empty array if no tracks
+        hasPreviewTracks: album.tracks?.every((track) => track.preview_url),
+      })
+    );
 
-  return displayAlbums;
+    return { displayAlbums, total };
+  } catch {
+    return { displayAlbums: [], total: 0 };
+  }
 }
 
 export async function insertScrapedPost(postUrl: string) {

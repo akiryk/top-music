@@ -3,9 +3,10 @@ import styles from "./Paginator.module.css";
 
 type Props = {
   page: number;
+  isAnotherPage: boolean;
 };
 
-export default function Pagination({ page }: Props) {
+export default function Pagination({ page, isAnotherPage }: Props) {
   const isPageOne = page === 1;
   const isDisabled = isPageOne;
   return (
@@ -28,7 +29,10 @@ export default function Pagination({ page }: Props) {
           Return to 1
         </Link>
       )}
-      <Link className={styles.link} href={`/?page=${page + 1}`}>
+      <Link
+        className={isAnotherPage ? styles.link : styles.linkDisabled}
+        href={`/?page=${page + 1}`}
+      >
         Next 5
       </Link>
     </div>

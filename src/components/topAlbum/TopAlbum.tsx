@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import type { DisplayAlbum } from "@/types";
 import styles from "./TopAlbum.module.css";
@@ -18,7 +17,6 @@ async function getArtistInfo(artist: string, album: string) {
     }
 
     const data = await response.json();
-    console.log(data.artist.bio);
     return {
       bio: data.artist?.bio?.summary?.replace(/<a\b[^>]*>(.*?)<\/a>/gi, ""),
       link: data.artist?.bio?.links?.link?.href,
@@ -35,7 +33,7 @@ export default async function TopAlbum({ album }: Props) {
     <div className={styles.wrapper}>
       <div className={styles.albumWrapper}>
         <div className={styles.imageWrapper}>
-          <Link href={album.spotifyAlbumUrl} className={styles.link}>
+          <a href={album.spotifyAlbumUrl} className={styles.link}>
             <Image
               src={album.imageUrl}
               alt={`${album.albumTitle} cover art`}
@@ -43,19 +41,16 @@ export default async function TopAlbum({ album }: Props) {
               height={640}
               className={styles.albumImage}
             />
-          </Link>
+          </a>
         </div>
 
         <div className={styles.albumMeta}>
           <div className={styles.artistName}>{album.artist}</div>
           {album.spotifyAlbumUrl ? (
             <span>
-              <Link
-                href={album.spotifyAlbumUrl}
-                className={styles.albumNameLink}
-              >
+              <a href={album.spotifyAlbumUrl} className={styles.albumNameLink}>
                 {album.albumTitle}
-              </Link>{" "}
+              </a>{" "}
               <span className={styles.citation}>(spotify).</span>
             </span>
           ) : (
@@ -66,9 +61,9 @@ export default async function TopAlbum({ album }: Props) {
           <div className={styles.releaseDate}>
             Release: {album.releaseDate},{" "}
             {album.postUrl && (
-              <Link className={styles.nprLink} href={album.postUrl}>
+              <a className={styles.nprLink} href={album.postUrl}>
                 See NPR Post
-              </Link>
+              </a>
             )}
           </div>
         </div>
@@ -79,9 +74,9 @@ export default async function TopAlbum({ album }: Props) {
           {link ? (
             <span>
               (See{" "}
-              <Link href={link} className={styles.linkCitation}>
+              <a href={link} className={styles.linkCitation}>
                 last.fm
-              </Link>{" "}
+              </a>{" "}
               for more.)
             </span>
           ) : (
