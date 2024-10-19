@@ -21,6 +21,14 @@
   font-weight: bold;
 }
 
+.citation,
+.linkCitation {
+  color: #444;
+}
+.linkCitation {
+  color: var(--link-color);
+}
+
 .albumName,
 .albumNameLink {
   margin-top: 0;

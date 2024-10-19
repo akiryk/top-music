@@ -11,4 +11,5 @@
 .linkDisabled {
   cursor: none;
   pointer-events: none;
+  visibility: hidden;
 }

@@ -98,34 +98,34 @@ export async function getAlbums(
   offset = 0
 ): Promise<Array<DisplayAlbum>> {
   const result = await sql`
-  SELECT
-    a.id,
-    a.artist,
-    a.title AS album_title,
-    a.release_date,
-    a.spotify_album_id,
-    a.spotify_album_url,
-    i.url AS image_url,
-    i.height AS image_height,
-    i.width AS image_width,
-    l.post_date,
-    l.url AS listing_url,
-    array_agg(json_build_object('title', t.title, 'preview_url', t.preview_url)) AS tracks
-  FROM
-    albums AS a
-  LEFT JOIN
-    images AS i ON a.image_id = i.id
-  LEFT JOIN
-    listing_albums AS la ON a.id = la.album_id
-  LEFT JOIN
-    listings AS l ON la.listing_id = l.id
-  LEFT JOIN
-    tracks AS t ON a.id = t.album_id
-  GROUP BY
-    a.id, i.url, i.height, i.width, l.post_date, l.url
-  ORDER BY
-    a.release_date DESC
-  LIMIT ${limit} OFFSET ${offset};
+    SELECT
+      a.id,
+      a.artist,
+      a.title AS album_title,
+      a.release_date,
+      a.spotify_album_id,
+      a.spotify_album_url,
+      i.url AS image_url,
+      i.height AS image_height,
+      i.width AS image_width,
+      l.post_date,
+      l.url AS listing_url,
+      array_agg(json_build_object('title', t.title, 'preview_url', t.preview_url)) AS tracks
+    FROM
+      albums AS a
+    LEFT JOIN
+      images AS i ON a.image_id = i.id
+    LEFT JOIN
+      listing_albums AS la ON a.id = la.album_id
+    LEFT JOIN
+      listings AS l ON la.listing_id = l.id
+    LEFT JOIN
+      tracks AS t ON a.id = t.album_id
+    GROUP BY
+      a.id, i.url, i.height, i.width, l.post_date, l.url
+    ORDER BY
+      a.release_date DESC
+    LIMIT ${limit} OFFSET ${offset};
 `;
 
   const albums: AlbumFromDatabase[] = result.rows as AlbumFromDatabase[];

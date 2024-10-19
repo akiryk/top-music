@@ -18,15 +18,19 @@ async function getArtistInfo(artist: string, album: string) {
     }
 
     const data = await response.json();
-    return data.artist?.bio?.summary?.replace(/<a\b[^>]*>(.*?)<\/a>/gi, "");
+    console.log(data.artist.bio);
+    return {
+      bio: data.artist?.bio?.summary?.replace(/<a\b[^>]*>(.*?)<\/a>/gi, ""),
+      link: data.artist?.bio?.links?.link?.href,
+    };
   } catch (error) {
     console.error("Error fetching artist info:", error);
-    return;
+    return {};
   }
 }
 
 export default async function TopAlbum({ album }: Props) {
-  const bio = await getArtistInfo(album.artist, album.albumTitle);
+  const { bio, link } = await getArtistInfo(album.artist, album.albumTitle);
   return (
     <div className={styles.wrapper}>
       <div className={styles.albumWrapper}>
@@ -45,9 +49,15 @@ export default async function TopAlbum({ album }: Props) {
         <div className={styles.albumMeta}>
           <div className={styles.artistName}>{album.artist}</div>
           {album.spotifyAlbumUrl ? (
-            <Link href={album.spotifyAlbumUrl} className={styles.albumNameLink}>
-              {album.albumTitle}.
-            </Link>
+            <span>
+              <Link
+                href={album.spotifyAlbumUrl}
+                className={styles.albumNameLink}
+              >
+                {album.albumTitle}
+              </Link>{" "}
+              <span className={styles.citation}>(spotify).</span>
+            </span>
           ) : (
             <span className={styles.albumName}>{album.albumTitle}.</span>
           )}
@@ -63,7 +73,22 @@ export default async function TopAlbum({ album }: Props) {
           </div>
         </div>
       </div>
-      <div className={styles.bioWrapper}>{bio}</div>
+      {bio && (
+        <div className={styles.bioWrapper}>
+          {bio}{" "}
+          {link ? (
+            <span>
+              (See{" "}
+              <Link href={link} className={styles.linkCitation}>
+                last.fm
+              </Link>{" "}
+              for more.)
+            </span>
+          ) : (
+            <span className={styles.citation}>last.fm.</span>
+          )}
+        </div>
+      )}
       {album.hasPreviewTracks && (
         <div className={styles.tracksWrapper}>
           <ul className={styles.trackList}>

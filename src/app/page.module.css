@@ -1,41 +1,14 @@
-.listing {
-  margin: 1rem 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.albumWrapper {
-  display: flex;
-  gap: 1rem;
-}
-
-.sampleWrapper {
-  width: 300px;
-}
-
-.details {
-  /* display: flex; */
-  width: 100%;
-  font-weight: bold;
+.pageTitle {
   font-size: 1.5rem;
-}
-
-.trackDetails {
-  margin: 1rem 0;
-}
-
-.trackList {
-  list-style: none;
-}
-
-.trackItem {
-  margin: 1rem 0;
-}
-
-.artistName {
-  margin-right: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .link {
-  color: rgb(0, 89, 184);
+  color: var(--link-color);
+}
+
+.pagination {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
 }
