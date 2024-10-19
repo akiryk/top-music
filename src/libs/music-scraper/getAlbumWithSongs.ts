@@ -2,7 +2,7 @@ import { searchSpotifyAlbum } from "./searchSpotifyAlbum";
 import { getAlbumTracks } from "./getAlbumTracks";
 import type { BasicAlbum } from "../../types";
 
-export async function getAlbumPreviews(albums: BasicAlbum[], token: string) {
+export async function getAlbumWithSongs(albums: BasicAlbum[], token: string) {
   const albumPreviews = [];
 
   for (const { artist, title } of albums) {

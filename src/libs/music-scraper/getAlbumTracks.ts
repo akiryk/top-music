@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Track } from "../../types";
+import type { SpotifyTrack, Track } from "../../types";
 
 const SPOTIFY_ALBUMS_URL =
   process.env.SPOTIFY_URL || "https://api.spotify.com/v1/albums/";
@@ -16,8 +16,8 @@ export async function getAlbumTracks(
       },
     });
 
-    return response.data.items.map((track: Track) => ({
-      name: track.name,
+    return response.data.items.map((track: SpotifyTrack) => ({
+      title: track.name,
       preview_url: track.preview_url,
     }));
   } catch (error) {

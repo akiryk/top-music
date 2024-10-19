@@ -1,7 +1,7 @@
 import axios from "axios";
 import {
   getSpotifyToken,
-  getAlbumPreviews,
+  getAlbumWithSongs,
   scrapeAlbumDataFromPost,
   getLatestPostFromNPRNewMusicFridayHTML,
 } from "./index";
@@ -22,7 +22,7 @@ export async function getAlbumsFromMostRecentPost() {
 
     if (albumData?.cleanAlbums) {
       const token = await getSpotifyToken();
-      const albumsWithSongs = await getAlbumPreviews(
+      const albumsWithSongs = await getAlbumWithSongs(
         albumData.cleanAlbums,
         token
       );

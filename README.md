@@ -27,14 +27,16 @@ The scraping is triggered by a cron job, which is enabled on Vercel and which us
 options set in a `vercel.json` file in this repo.
 
 **Testing the cron job**
+Use the dry run command to test what content will be scraped and potentially added to
+the database. The dry-run will show the content whether or not it would be added; in
+prod, the cron-job checks if the album has already been scraped and doesn't add it if so.
+
+Easy way: `pnpm dry-run`
+
+Hard way:
 
 1. Start running the local server
 2. Use the curl command below
-
-This command will do a dry run and will get all data except for
-the artist bio and it will log out the name of the artist and album but will not save it
-to the database. Note that it won't get the data if the latest albums have already
-been scraped.
 
 ```sh
 # replace cron-secret-here with CRON_SECRET

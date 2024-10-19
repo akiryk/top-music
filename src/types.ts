@@ -55,6 +55,11 @@ export type Track = {
   title: string;
 };
 
+export type SpotifyTrack = {
+  preview_url?: string;
+  name: string;
+};
+
 export type Image = {
   height: number;
   width: number;

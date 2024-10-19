@@ -73,7 +73,7 @@ export async function GET(req: Request) {
         console.log(`\x1b[32m  album:  ${title}\x1b[39m`);
         console.log(`\x1b[32m  artist: ${artist}\x1b[39m`);
         console.log(`\x1b[32m  releaseDate: ${releaseDate}\x1b[39m`);
-        console.log(`\x1b[32m  track name: ${tracks[0].name}\x1b[39m`);
+        console.log(`\x1b[32m  track title: ${tracks[0].title}\x1b[39m`);
         console.log(`\x1b[32m  track url: ${tracks[0].preview_url}\x1b[39m`);
         console.log(`\x1b[32m  image url: ${imageUrl}\x1b[39m`);
         console.log(`\x1b[32m  image height: ${imageHeight}\x1b[39m`);
@@ -105,8 +105,8 @@ export async function GET(req: Request) {
 
       // 6. Insert tracks for the album
       for (const track of tracks) {
-        const { name, preview_url } = track;
-        await createTrack(name, preview_url || "", albumId);
+        const { title, preview_url } = track;
+        await createTrack(title, preview_url || "", albumId);
       }
     }
 

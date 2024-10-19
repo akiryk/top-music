@@ -9,8 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
-    "scrape": "tsx src/scripts/scraper.ts",
-    "seed": "tsx src/libs/music-scraper/seed-database.ts",
+    "dry-run": "tsx src/scripts/dry-run.ts",
     "spotify": "tsx src/libs/spotify/getPreviewURL.ts"
   },
   "dependencies": {
