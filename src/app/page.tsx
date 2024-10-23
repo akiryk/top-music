@@ -5,6 +5,9 @@ import TopAlbum from "@/components/topAlbum";
 
 import styles from "./page.module.css";
 
+export const revalidate = 60;
+// export const revalidate = 3600;
+
 type PageProps = {
   searchParams: { page: string };
 };
